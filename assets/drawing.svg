@@ -1,0 +1,855 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="100"
+   height="200"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.2 r9819"
+   sodipodi:docname="drawing.svg">
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="TriangleInL"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="TriangleInL"
+       style="overflow:visible">
+      <path
+         id="path4702"
+         d="M 5.77,0.0 L -2.88,5.0 L -2.88,-5.0 L 5.77,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none"
+         transform="scale(-0.8)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lstart"
+       style="overflow:visible">
+      <path
+         id="path4568"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.75914401"
+     inkscape:cx="58.719303"
+     inkscape:cy="-57.484897"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="706"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-852.36218)">
+    <g
+       id="g4201"
+       transform="matrix(0.90814306,0,0,0.90616192,-56.3104,42.653128)"
+       inkscape:export-filename="C:\Users\Owner\Desktop\PaperGrader\src\assets\comma.png"
+       inkscape:export-xdpi="535.64001"
+       inkscape:export-ydpi="535.64001">
+      <path
+         transform="matrix(1,0,0,1.3019287,65.349534,850.19299)"
+         d="m 55.705997,28.626692 c 0,10.896139 -11.431028,19.729206 -25.531915,19.729206 -14.100888,0 -25.5319159,-8.833067 -25.5319159,-19.729206 0,-10.89614 11.4310279,-19.7292063 25.5319159,-19.7292063 14.100887,0 25.531915,8.8330663 25.531915,19.7292063 z"
+         sodipodi:ry="19.729206"
+         sodipodi:rx="25.531916"
+         sodipodi:cy="28.626692"
+         sodipodi:cx="30.174082"
+         id="path3941"
+         style="fill:#ffffff;stroke:#ff0000;stroke-width:3.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="arc" />
+      <text
+         xml:space="preserve"
+         style="font-size:155.3526001px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         x="56.269466"
+         y="1102.8153"
+         id="text3803"
+         sodipodi:linespacing="125%"
+         transform="scale(1.2445317,0.80351509)"><tspan
+           sodipodi:role="line"
+           id="tspan3805"
+           x="56.269466"
+           y="1102.8153">,</tspan></text>
+    </g>
+    <g
+       id="g4206"
+       transform="matrix(0.90814306,0,0,0.90616192,-107.59815,96.1835)"
+       inkscape:export-filename="C:\Users\Owner\Desktop\PaperGrader\src\assets\dash.png"
+       inkscape:export-xdpi="535.64001"
+       inkscape:export-ydpi="535.64001">
+      <path
+         sodipodi:type="arc"
+         style="fill:#ffffff;stroke:#ff0000;stroke-width:3.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         id="path3943"
+         sodipodi:cx="30.174082"
+         sodipodi:cy="28.626692"
+         sodipodi:rx="25.531916"
+         sodipodi:ry="19.729206"
+         d="m 55.705997,28.626692 c 0,10.896139 -11.431028,19.729206 -25.531915,19.729206 -14.100888,0 -25.5319159,-8.833067 -25.5319159,-19.729206 0,-10.89614 11.4310279,-19.7292063 25.5319159,-19.7292063 14.100887,0 25.531915,8.8330663 25.531915,19.7292063 z"
+         transform="matrix(1,0,0,1.3019287,121.82494,848.96726)" />
+      <path
+         id="path3907"
+         d="m 135.99386,889.56698 0,-8.65922 32.84809,0 0,8.65922 z"
+         style="font-size:155.3526001px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g4210"
+       transform="matrix(0.90814306,0,0,0.90616192,-56.3104,303.77123)"
+       inkscape:export-filename="C:\Users\Owner\Desktop\PaperGrader\src\assets\quote.png"
+       inkscape:export-xdpi="535.64001"
+       inkscape:export-ydpi="535.64001">
+      <path
+         sodipodi:type="arc"
+         style="fill:#ffffff;stroke:#ff0000;stroke-width:3.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         id="path3957"
+         sodipodi:cx="30.174082"
+         sodipodi:cy="28.626692"
+         sodipodi:rx="25.531916"
+         sodipodi:ry="19.729206"
+         d="m 55.705997,28.626692 c 0,10.896139 -11.431028,19.729206 -25.531915,19.729206 -14.100888,0 -25.5319159,-8.833067 -25.5319159,-19.729206 0,-10.89614 11.4310279,-19.7292063 25.5319159,-19.7292063 14.100887,0 25.531915,8.8330663 25.531915,19.7292063 z"
+         transform="matrix(1,0,0,1.3019287,65.349534,909.12272)" />
+      <text
+         transform="scale(0.97542705,1.025192)"
+         sodipodi:linespacing="125%"
+         id="text3937"
+         y="984.60083"
+         x="79.547195"
+         style="font-size:104.53340149px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           y="984.60083"
+           x="79.547195"
+           id="tspan3939"
+           sodipodi:role="line">&quot;</tspan></text>
+    </g>
+    <g
+       id="g4215"
+       transform="matrix(0.90814306,0,0,0.90616192,-107.59815,94.735896)"
+       inkscape:export-filename="C:\Users\Owner\Desktop\PaperGrader\src\assets\colon.png"
+       inkscape:export-xdpi="535.64001"
+       inkscape:export-ydpi="535.64001">
+      <path
+         transform="matrix(1,0,0,1.3019287,121.82494,908.41278)"
+         d="m 55.705997,28.626692 c 0,10.896139 -11.431028,19.729206 -25.531915,19.729206 -14.100888,0 -25.5319159,-8.833067 -25.5319159,-19.729206 0,-10.89614 11.4310279,-19.7292063 25.5319159,-19.7292063 14.100887,0 25.531915,8.8330663 25.531915,19.7292063 z"
+         sodipodi:ry="19.729206"
+         sodipodi:rx="25.531916"
+         sodipodi:cy="28.626692"
+         sodipodi:cx="30.174082"
+         id="path3959"
+         style="fill:#ffffff;stroke:#ff0000;stroke-width:3.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="arc" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3971"
+         d="m 144.96806,940.16411 0,-11.49375 14.06193,0 0,11.49375 z"
+         style="font-size:140.47181702px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3966"
+         d="m 144.96806,962.80518 0,-11.49376 14.06193,0 0,11.49376 z"
+         style="font-size:140.47181702px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans" />
+    </g>
+    <g
+       id="g4220"
+       transform="matrix(0.90814306,0,0,0.90616192,-56.310403,197.9517)"
+       inkscape:export-filename="C:\Users\Owner\Desktop\PaperGrader\src\assets\semi.png"
+       inkscape:export-xdpi="535.64001"
+       inkscape:export-ydpi="535.64001">
+      <path
+         sodipodi:type="arc"
+         style="fill:#ffffff;stroke:#ff0000;stroke-width:3.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         id="path3977"
+         sodipodi:cx="30.174082"
+         sodipodi:cy="28.626692"
+         sodipodi:rx="25.531916"
+         sodipodi:ry="19.729206"
+         d="m 55.705997,28.626692 c 0,10.896139 -11.431028,19.729206 -25.531915,19.729206 -14.100888,0 -25.5319159,-8.833067 -25.5319159,-19.729206 0,-10.89614 11.4310279,-19.7292063 25.5319159,-19.7292063 14.100887,0 25.531915,8.8330663 25.531915,19.7292063 z"
+         transform="matrix(1,0,0,1.3019287,65.349538,968.05244)" />
+      <path
+         style="font-size:140.47181702px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         d="m 88.692027,997.86953 0,-11.49375 14.061933,0 0,11.49375 z"
+         id="path3979"
+         inkscape:connector-curvature="0" />
+      <text
+         transform="scale(1.2114828,0.82543474)"
+         sodipodi:linespacing="125%"
+         id="text3973"
+         y="1225.7493"
+         x="63.153423"
+         style="font-size:114.38586426px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           y="1225.7493"
+           x="63.153423"
+           id="tspan3975"
+           sodipodi:role="line">,</tspan></text>
+    </g>
+    <g
+       id="g4226"
+       transform="matrix(0.90814306,0,0,0.90616192,-107.59815,93.288283)"
+       inkscape:export-filename="C:\Users\Owner\Desktop\PaperGrader\src\assets\paren.png"
+       inkscape:export-xdpi="535.64001"
+       inkscape:export-ydpi="535.64001">
+      <path
+         sodipodi:type="arc"
+         style="fill:#ffffff;stroke:#ff0000;stroke-width:3.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         id="path3997"
+         sodipodi:cx="30.174082"
+         sodipodi:cy="28.626692"
+         sodipodi:rx="25.531916"
+         sodipodi:ry="19.729206"
+         d="m 55.705997,28.626692 c 0,10.896139 -11.431028,19.729206 -25.531915,19.729206 -14.100888,0 -25.5319159,-8.833067 -25.5319159,-19.729206 0,-10.89614 11.4310279,-19.7292063 25.5319159,-19.7292063 14.100887,0 25.531915,8.8330663 25.531915,19.7292063 z"
+         transform="matrix(1,0,0,1.3019287,121.82494,967.85831)" />
+      <text
+         transform="scale(1.0618405,0.94176103)"
+         sodipodi:linespacing="125%"
+         id="text3999"
+         y="1076.0355"
+         x="126.99774"
+         style="font-size:34.85322571px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:3.55900002;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="stroke-width:3.55900002;stroke-miterlimit:4;stroke-dasharray:none"
+           y="1076.0355"
+           x="126.99774"
+           id="tspan4001"
+           sodipodi:role="line">( )</tspan></text>
+    </g>
+    <g
+       id="g4235"
+       transform="matrix(0.90814304,0,0,0.90616192,-56.310401,92.132128)"
+       inkscape:export-filename="C:\Users\Owner\Desktop\PaperGrader\src\assets\period.png"
+       inkscape:export-xdpi="535.64001"
+       inkscape:export-ydpi="535.64001">
+      <path
+         transform="matrix(1,0,0,1.3019287,65.349537,1026.9822)"
+         d="m 55.705997,28.626692 c 0,10.896139 -11.431028,19.729206 -25.531915,19.729206 -14.100888,0 -25.5319159,-8.833067 -25.5319159,-19.729206 0,-10.89614 11.4310279,-19.7292063 25.5319159,-19.7292063 14.100887,0 25.531915,8.8330663 25.531915,19.7292063 z"
+         sodipodi:ry="19.729206"
+         sodipodi:rx="25.531916"
+         sodipodi:cy="28.626692"
+         sodipodi:cx="30.174082"
+         id="path4003"
+         style="fill:#ffffff;stroke:#ff0000;stroke-width:3.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="arc" />
+      <path
+         style="font-size:140.47181702px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         d="m 88.305178,1069.3823 0,-11.4938 14.061932,0 0,11.4938 z"
+         id="path4005"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g4231"
+       transform="matrix(0.90814306,0,0,0.90616192,-107.59816,301.51936)"
+       inkscape:export-filename="C:\Users\Owner\Desktop\PaperGrader\src\assets\hyphen.png"
+       inkscape:export-xdpi="535.64001"
+       inkscape:export-ydpi="535.64001">
+      <path
+         sodipodi:type="arc"
+         style="fill:#ffffff;stroke:#ff0000;stroke-width:3.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         id="path4007"
+         sodipodi:cx="30.174082"
+         sodipodi:cy="28.626692"
+         sodipodi:rx="25.531916"
+         sodipodi:ry="19.729206"
+         d="m 55.705997,28.626692 c 0,10.896139 -11.431028,19.729206 -25.531915,19.729206 -14.100888,0 -25.5319159,-8.833067 -25.5319159,-19.729206 0,-10.89614 11.4310279,-19.7292063 25.5319159,-19.7292063 14.100887,0 25.531915,8.8330663 25.531915,19.7292063 z"
+         transform="matrix(1,0,0,1.3019287,121.82495,1027.3038)" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4009"
+         d="m 142.84635,1068.9302 0,-9.1727 19.47779,0 0,9.1727 z"
+         style="font-size:140.47181702px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans" />
+    </g>
+    <g
+       id="g4273"
+       transform="translate(-138.97668,211.96629)"
+       inkscape:export-filename="C:\Users\Owner\Desktop\PaperGrader\src\assets\subverb.png"
+       inkscape:export-xdpi="535.64001"
+       inkscape:export-ydpi="535.64001">
+      <path
+         transform="matrix(1,0,0,1.3019287,193.27548,915.73809)"
+         d="m 55.705997,28.626692 c 0,10.896139 -11.431028,19.729206 -25.531915,19.729206 -14.100888,0 -25.5319159,-8.833067 -25.5319159,-19.729206 0,-10.89614 11.4310279,-19.7292063 25.5319159,-19.7292063 14.100887,0 25.531915,8.8330663 25.531915,19.7292063 z"
+         sodipodi:ry="19.729206"
+         sodipodi:rx="25.531916"
+         sodipodi:cy="28.626692"
+         sodipodi:cx="30.174082"
+         id="path4066"
+         style="fill:#ffffff;stroke:#0000ff;stroke-width:3.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="arc" />
+      <text
+         transform="scale(0.94143361,1.0622098)"
+         sodipodi:linespacing="125%"
+         id="text4068"
+         y="907.86401"
+         x="219.12711"
+         style="font-size:27.88403702px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-weight:bold;-inkscape-font-specification:Sans Bold"
+           y="907.86401"
+           x="219.12711"
+           id="tspan4070"
+           sodipodi:role="line">SV</tspan></text>
+    </g>
+    <g
+       id="g4268"
+       transform="matrix(0.90814306,0,0,0.90616192,-118.92742,43.956548)"
+       inkscape:export-filename="C:\Users\Owner\Desktop\PaperGrader\src\assets\awk.png"
+       inkscape:export-xdpi="535.64001"
+       inkscape:export-ydpi="535.64001">
+      <path
+         sodipodi:type="arc"
+         style="fill:#ffffff;stroke:#0000ff;stroke-width:3.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         id="path4053"
+         sodipodi:cx="30.174082"
+         sodipodi:cy="28.626692"
+         sodipodi:rx="25.531916"
+         sodipodi:ry="19.729206"
+         d="m 55.705997,28.626692 c 0,10.896139 -11.431028,19.729206 -25.531915,19.729206 -14.100888,0 -25.5319159,-8.833067 -25.5319159,-19.729206 0,-10.89614 11.4310279,-19.7292063 25.5319159,-19.7292063 14.100887,0 25.531915,8.8330663 25.531915,19.7292063 z"
+         transform="matrix(1,0,0,1.3019287,191.0153,849.74096)" />
+      <text
+         xml:space="preserve"
+         style="font-size:19.78501701px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         x="255.23186"
+         y="702.87274"
+         id="text4072"
+         sodipodi:linespacing="125%"
+         transform="scale(0.78517422,1.2736027)"><tspan
+           style="font-size:22px;font-weight:bold;-inkscape-font-specification:Sans Bold"
+           sodipodi:role="line"
+           id="tspan4074"
+           x="255.23186"
+           y="702.87274">AWK</tspan></text>
+    </g>
+    <g
+       id="g4278"
+       transform="matrix(0.90814306,0,0,0.90616192,-124.67461,353.48233)"
+       inkscape:export-filename="C:\Users\Owner\Desktop\PaperGrader\src\assets\fact.png"
+       inkscape:export-xdpi="535.64001"
+       inkscape:export-ydpi="535.64001">
+      <path
+         sodipodi:type="arc"
+         style="fill:#ffffff;stroke:#008000;stroke-width:3.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         id="path4081"
+         sodipodi:cx="30.174082"
+         sodipodi:cy="28.626692"
+         sodipodi:rx="25.531916"
+         sodipodi:ry="19.729206"
+         d="m 55.705997,28.626692 c 0,10.896139 -11.431028,19.729206 -25.531915,19.729206 -14.100888,0 -25.5319159,-8.833067 -25.5319159,-19.729206 0,-10.89614 11.4310279,-19.7292063 25.5319159,-19.7292063 14.100887,0 25.531915,8.8330663 25.531915,19.7292063 z"
+         transform="matrix(1,0,0,1.3019287,197.3438,974.95469)" />
+      <text
+         transform="scale(0.8993066,1.1119678)"
+         sodipodi:linespacing="125%"
+         id="text4083"
+         y="918.41858"
+         x="228.32849"
+         style="font-size:23.57896996px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           style="font-weight:bold;-inkscape-font-specification:Sans Bold"
+           y="918.41858"
+           x="228.32849"
+           id="tspan4085"
+           sodipodi:role="line">Fact</tspan></text>
+    </g>
+    <g
+       id="g4288"
+       transform="matrix(0.90814306,0,0,0.90616192,-178.45176,381.30042)"
+       inkscape:export-filename="C:\Users\Owner\Desktop\PaperGrader\src\assets\org.png"
+       inkscape:export-xdpi="535.64001"
+       inkscape:export-ydpi="535.64001">
+      <path
+         transform="matrix(1,0,0,1.3019287,256.56041,1001.1727)"
+         d="m 55.705997,28.626692 c 0,10.896139 -11.431028,19.729206 -25.531915,19.729206 -14.100888,0 -25.5319159,-8.833067 -25.5319159,-19.729206 0,-10.89614 11.4310279,-19.7292063 25.5319159,-19.7292063 14.100887,0 25.531915,8.8330663 25.531915,19.7292063 z"
+         sodipodi:ry="19.729206"
+         sodipodi:rx="25.531916"
+         sodipodi:cy="28.626692"
+         sodipodi:cx="30.174082"
+         id="path4087"
+         style="fill:#ffffff;stroke:#008000;stroke-width:3.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="arc" />
+      <text
+         transform="scale(0.81285435,1.2302327)"
+         sodipodi:linespacing="125%"
+         id="text4089"
+         y="850.94452"
+         x="333.85172"
+         style="font-size:22.33977127px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+         xml:space="preserve"><tspan
+           y="850.94452"
+           x="333.85172"
+           id="tspan4091"
+           sodipodi:role="line">Org</tspan></text>
+    </g>
+    <g
+       id="g4293"
+       transform="matrix(0.90814306,0,0,0.90616192,-237.56556,296.17184)"
+       inkscape:export-filename="C:\Users\Owner\Desktop\PaperGrader\src\assets\para.png"
+       inkscape:export-xdpi="535.64001"
+       inkscape:export-ydpi="535.64001">
+      <path
+         transform="matrix(1,0,0,1.3019287,321.65346,981.28319)"
+         d="m 55.705997,28.626692 c 0,10.896139 -11.431028,19.729206 -25.531915,19.729206 -14.100888,0 -25.5319159,-8.833067 -25.5319159,-19.729206 0,-10.89614 11.4310279,-19.7292063 25.5319159,-19.7292063 14.100887,0 25.531915,8.8330663 25.531915,19.7292063 z"
+         sodipodi:ry="19.729206"
+         sodipodi:rx="25.531916"
+         sodipodi:cy="28.626692"
+         sodipodi:cx="30.174082"
+         id="path4105"
+         style="fill:#ffffff;stroke:#0000ff;stroke-width:3.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="arc" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4103"
+         d="m 337.51186,1032.7342 14.53278,0.3489 0,-28.9624 13.18715,0.349"
+         style="fill:none;stroke:#000000;stroke-width:6.12958479;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+    <g
+       id="g4244"
+       transform="matrix(0.90814306,0,0,0.90616192,-234.28146,207.25015)"
+       inkscape:export-filename="C:\Users\Owner\Desktop\PaperGrader\src\assets\pov.png"
+       inkscape:export-xdpi="535.64001"
+       inkscape:export-ydpi="535.64001">
+      <path
+         transform="matrix(1,0,0,1.3019287,318.03718,897.20465)"
+         d="m 55.705997,28.626692 c 0,10.896139 -11.431028,19.729206 -25.531915,19.729206 -14.100888,0 -25.5319159,-8.833067 -25.5319159,-19.729206 0,-10.89614 11.4310279,-19.7292063 25.5319159,-19.7292063 14.100887,0 25.531915,8.8330663 25.531915,19.7292063 z"
+         sodipodi:ry="19.729206"
+         sodipodi:rx="25.531916"
+         sodipodi:cy="28.626692"
+         sodipodi:cx="30.174082"
+         id="path4107"
+         style="fill:#ffffff;stroke:#0000ff;stroke-width:3.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="arc" />
+      <text
+         transform="scale(0.91040485,1.0984124)"
+         sodipodi:linespacing="125%"
+         id="text4109"
+         y="858.25568"
+         x="360.2171"
+         style="font-size:21.41537666px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+         xml:space="preserve"><tspan
+           y="858.25568"
+           x="360.2171"
+           id="tspan4111"
+           sodipodi:role="line">POV</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="275.2894"
+       y="131.74269"
+       id="text4113"
+       sodipodi:linespacing="125%"
+       transform="translate(0,852.36218)"><tspan
+         sodipodi:role="line"
+         id="tspan4115"></tspan></text>
+    <g
+       id="g4302"
+       transform="matrix(0.90814306,0,0,0.90616192,-179.6833,14.018606)"
+       inkscape:export-filename="C:\Users\Owner\Desktop\PaperGrader\src\assets\spell.png"
+       inkscape:export-xdpi="535.64001"
+       inkscape:export-ydpi="535.64001">
+      <path
+         sodipodi:type="arc"
+         style="fill:#ffffff;stroke:#0000ff;stroke-width:3.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         id="path4117"
+         sodipodi:cx="30.174082"
+         sodipodi:cy="28.626692"
+         sodipodi:rx="25.531916"
+         sodipodi:ry="19.729206"
+         d="m 55.705997,28.626692 c 0,10.896139 -11.431028,19.729206 -25.531915,19.729206 -14.100888,0 -25.5319159,-8.833067 -25.5319159,-19.729206 0,-10.89614 11.4310279,-19.7292063 25.5319159,-19.7292063 14.100887,0 25.531915,8.8330663 25.531915,19.7292063 z"
+         transform="matrix(1,0,0,1.3019287,257.91651,939.69595)" />
+      <text
+         xml:space="preserve"
+         style="font-size:27.88403702px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         x="287.78943"
+         y="929.99316"
+         id="text4119"
+         sodipodi:linespacing="125%"
+         transform="scale(0.94143361,1.0622098)"><tspan
+           sodipodi:role="line"
+           id="tspan4121"
+           x="287.78943"
+           y="929.99316"
+           style="font-weight:bold;-inkscape-font-specification:Sans Bold">Sp</tspan></text>
+    </g>
+    <g
+       id="g4249"
+       transform="matrix(0.90814306,0,0,0.90616192,-244.13378,156.93906)"
+       inkscape:export-filename="C:\Users\Owner\Desktop\PaperGrader\src\assets\frag.png"
+       inkscape:export-xdpi="535.64001"
+       inkscape:export-ydpi="535.64001">
+      <g
+         id="g5401">
+        <path
+           sodipodi:type="arc"
+           style="fill:#ffffff;stroke:#0000ff;stroke-width:3.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+           id="path4123"
+           sodipodi:cx="30.174082"
+           sodipodi:cy="28.626692"
+           sodipodi:rx="25.531916"
+           sodipodi:ry="19.729206"
+           d="m 55.705997,28.626692 c 0,10.896139 -11.431028,19.729206 -25.531915,19.729206 -14.100888,0 -25.5319159,-8.833067 -25.5319159,-19.729206 0,-10.89614 11.4310279,-19.7292063 25.5319159,-19.7292063 14.100887,0 25.531915,8.8330663 25.531915,19.7292063 z"
+           transform="matrix(1,0,0,1.3019287,328.88603,838.89211)" />
+        <text
+           xml:space="preserve"
+           style="font-size:23.8458004px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           x="449.28076"
+           y="669.34381"
+           id="text4125"
+           sodipodi:linespacing="125%"
+           transform="scale(0.75531267,1.323955)"><tspan
+             sodipodi:role="line"
+             id="tspan4127"
+             x="449.28076"
+             y="669.34381"
+             style="font-weight:bold;-inkscape-font-specification:Sans Bold">Frag</tspan></text>
+      </g>
+    </g>
+    <g
+       id="g4297"
+       transform="matrix(0.90814306,0,0,0.90616192,-233.84729,29.921909)"
+       inkscape:export-filename="C:\Users\Owner\Desktop\PaperGrader\src\assets\runon.png"
+       inkscape:export-xdpi="535.64001"
+       inkscape:export-ydpi="535.64001">
+      <path
+         sodipodi:type="arc"
+         style="fill:#ffffff;stroke:#0000ff;stroke-width:3.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         id="path4133"
+         sodipodi:cx="30.174082"
+         sodipodi:cy="28.626692"
+         sodipodi:rx="25.531916"
+         sodipodi:ry="19.729206"
+         d="m 55.705997,28.626692 c 0,10.896139 -11.431028,19.729206 -25.531915,19.729206 -14.100888,0 -25.5319159,-8.833067 -25.5319159,-19.729206 0,-10.89614 11.4310279,-19.7292063 25.5319159,-19.7292063 14.100887,0 25.531915,8.8330663 25.531915,19.7292063 z"
+         transform="matrix(1,0,0,1.3019287,317.13311,1035.9794)" />
+      <text
+         xml:space="preserve"
+         style="font-size:27.88403702px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         x="349.24942"
+         y="1019.3611"
+         id="text4129"
+         sodipodi:linespacing="125%"
+         transform="scale(0.94143361,1.0622098)"><tspan
+           sodipodi:role="line"
+           id="tspan4131"
+           x="349.24942"
+           y="1019.3611"
+           style="font-weight:bold;-inkscape-font-specification:Sans Bold">RO</tspan></text>
+    </g>
+    <g
+       id="g4283"
+       transform="matrix(0.90814304,0,0,0.90616192,-123.03257,402.97419)"
+       inkscape:export-filename="C:\Users\Owner\Desktop\PaperGrader\src\assets\what.png"
+       inkscape:export-xdpi="535.64001"
+       inkscape:export-ydpi="535.64001">
+      <path
+         transform="matrix(1,0,0,1.3019287,195.53566,1034.1713)"
+         d="m 55.705997,28.626692 c 0,10.896139 -11.431028,19.729206 -25.531915,19.729206 -14.100888,0 -25.5319159,-8.833067 -25.5319159,-19.729206 0,-10.89614 11.4310279,-19.7292063 25.5319159,-19.7292063 14.100887,0 25.531915,8.8330663 25.531915,19.7292063 z"
+         sodipodi:ry="19.729206"
+         sodipodi:rx="25.531916"
+         sodipodi:cy="28.626692"
+         sodipodi:cx="30.174082"
+         id="path4135"
+         style="fill:#ffffff;stroke:#008000;stroke-width:3.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="arc" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text4137"
+         y="1085.3607"
+         x="214.26466"
+         style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           y="1085.3607"
+           x="214.26466"
+           id="tspan4139"
+           sodipodi:role="line">?</tspan></text>
+    </g>
+    <g
+       id="g4239"
+       transform="matrix(0.90814306,0,0,0.90616192,-0.8648801,380.5641)"
+       inkscape:export-filename="C:\Users\Owner\Desktop\PaperGrader\src\assets\qmark.png"
+       inkscape:export-xdpi="535.64001"
+       inkscape:export-ydpi="535.64001">
+      <path
+         transform="matrix(1,0,0,1.3019287,4.295806,997.92154)"
+         d="m 55.705997,28.626692 c 0,10.896139 -11.431028,19.729206 -25.531915,19.729206 -14.100888,0 -25.5319159,-8.833067 -25.5319159,-19.729206 0,-10.89614 11.4310279,-19.7292063 25.5319159,-19.7292063 14.100887,0 25.531915,8.8330663 25.531915,19.7292063 z"
+         sodipodi:ry="19.729206"
+         sodipodi:rx="25.531916"
+         sodipodi:cy="28.626692"
+         sodipodi:cx="30.174082"
+         id="path4143"
+         style="fill:#ffffff;stroke:#ff0000;stroke-width:3.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="arc" />
+      <text
+         transform="scale(0.97977194,1.0206457)"
+         xml:space="preserve"
+         style="font-size:58.78934479px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+         x="17.524956"
+         y="1035.5038"
+         id="text4149"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan4151"
+           x="17.524956"
+           y="1035.5038">?</tspan></text>
+    </g>
+    <g
+       id="g4196"
+       transform="matrix(0.90814306,0,0,0.90616192,-2.0964174,411.30802)"
+       inkscape:export-filename="C:\Users\Owner\Desktop\PaperGrader\src\assets\apost.png"
+       inkscape:export-xdpi="535.64001"
+       inkscape:export-ydpi="535.64001">
+      <path
+         sodipodi:type="arc"
+         style="fill:#ffffff;stroke:#ff0000;stroke-width:3.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         id="path4153"
+         sodipodi:cx="30.174082"
+         sodipodi:cy="28.626692"
+         sodipodi:rx="25.531916"
+         sodipodi:ry="19.729206"
+         d="m 55.705997,28.626692 c 0,10.896139 -11.431028,19.729206 -25.531915,19.729206 -14.100888,0 -25.5319159,-8.833067 -25.5319159,-19.729206 0,-10.89614 11.4310279,-19.7292063 25.5319159,-19.7292063 14.100887,0 25.531915,8.8330663 25.531915,19.7292063 z"
+         transform="matrix(1,0,0,1.3019287,5.6519115,848.2979)" />
+      <text
+         transform="scale(1.0146416,0.98556967)"
+         sodipodi:linespacing="125%"
+         id="text4155"
+         y="976.98352"
+         x="22.623322"
+         style="font-size:132.88905334px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           y="976.98352"
+           x="22.623322"
+           id="tspan4157"
+           sodipodi:role="line">'</tspan></text>
+    </g>
+    <g
+       id="g4192"
+       transform="matrix(0.90490349,0,0,0.90627364,0.3844317,-61.814412)"
+       inkscape:export-filename="C:\Users\Owner\Desktop\PaperGrader\src\assets\crossout.png"
+       inkscape:export-xdpi="535.64001"
+       inkscape:export-ydpi="535.64001">
+      <path
+         transform="matrix(1,0,0,1.3019287,2.9397006,907.51451)"
+         d="m 55.705997,28.626692 c 0,10.896139 -11.431028,19.729206 -25.531915,19.729206 -14.100888,0 -25.5319159,-8.833067 -25.5319159,-19.729206 0,-10.89614 11.4310279,-19.7292063 25.5319159,-19.7292063 14.100887,0 25.531915,8.8330663 25.531915,19.7292063 z"
+         sodipodi:ry="19.729206"
+         sodipodi:rx="25.531916"
+         sodipodi:cy="28.626692"
+         sodipodi:cx="30.174082"
+         id="path4159"
+         style="fill:none;stroke:#ff0000;stroke-width:3.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="arc" />
+      <path
+         transform="translate(0,852.36218)"
+         inkscape:connector-curvature="0"
+         id="path4161"
+         d="M 18.081406,71.622015 47.463692,113.66128"
+         style="fill:#ff0000;stroke:#ff0000;stroke-width:4.4000001;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+    <g
+       id="g4260"
+       transform="translate(-204.06974,191.3618)"
+       inkscape:export-filename="C:\Users\Owner\Desktop\PaperGrader\src\assets\cap.png"
+       inkscape:export-xdpi="535.64001"
+       inkscape:export-ydpi="535.64001">
+      <path
+         transform="matrix(1,0,0,1.3019287,258.36854,879.57528)"
+         d="m 55.705997,28.626692 c 0,10.896139 -11.431028,19.729206 -25.531915,19.729206 -14.100888,0 -25.5319159,-8.833067 -25.5319159,-19.729206 0,-10.89614 11.4310279,-19.7292063 25.5319159,-19.7292063 14.100887,0 25.531915,8.8330663 25.531915,19.7292063 z"
+         sodipodi:ry="19.729206"
+         sodipodi:rx="25.531916"
+         sodipodi:cy="28.626692"
+         sodipodi:cx="30.174082"
+         id="path4254"
+         style="fill:#ffffff;stroke:#0000ff;stroke-width:3.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="arc" />
+      <text
+         xml:space="preserve"
+         style="font-size:27.62746429px;font-style:normal;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold"
+         x="371.78479"
+         y="673.81494"
+         id="text4256"
+         sodipodi:linespacing="125%"
+         transform="scale(0.72610293,1.3772152)"><tspan
+           sodipodi:role="line"
+           id="tspan4258"
+           x="371.78479"
+           y="673.81494">Cap</tspan></text>
+    </g>
+    <g
+       id="g4313"
+       transform="matrix(0.87966158,0,0,0.78661696,-44.498071,36.933948)"
+       inkscape:export-filename="C:\Users\Owner\Desktop\PaperGrader\src\assets\insert.png"
+       inkscape:export-xdpi="535.64001"
+       inkscape:export-ydpi="535.64001">
+      <path
+         transform="matrix(0.84835882,0,0,1.3818117,22.412149,806.37634)"
+         d="m 178,115 c 0,12.70255 -14.99846,23 -33.5,23 -18.50154,0 -33.5,-10.29745 -33.5,-23 0,-12.70255 14.99846,-23 33.5,-23 18.50154,0 33.5,10.29745 33.5,23 z"
+         sodipodi:ry="23"
+         sodipodi:rx="33.5"
+         sodipodi:cy="115"
+         sodipodi:cx="144.5"
+         id="path4311"
+         style="fill:#000000;stroke:none"
+         sodipodi:type="arc" />
+      <path
+         sodipodi:nodetypes="ccc"
+         inkscape:connector-curvature="0"
+         id="path4309"
+         d="m 129.79859,978.27077 15.86234,-27.53591 16.75853,27.02044"
+         style="fill:none;stroke:#ff0000;stroke-width:9.65868568;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:27.88403702px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="219.65982"
+       y="1094.6758"
+       id="text4321"
+       sodipodi:linespacing="125%"
+       transform="scale(0.94143361,1.0622098)"><tspan
+         sodipodi:role="line"
+         id="tspan4323"
+         x="219.65982"
+         y="1094.6758"
+         style="font-weight:bold;-inkscape-font-specification:Sans Bold" /></text>
+    <g
+       id="g4336"
+       transform="matrix(0.90909091,0,0,0.92592593,-90.299847,352.8046)"
+       inkscape:export-filename="C:\Users\Owner\Desktop\PaperGrader\src\assets\note.png"
+       inkscape:export-xdpi="535.64001"
+       inkscape:export-ydpi="535.64001">
+      <rect
+         transform="translate(0,852.36218)"
+         y="279"
+         x="162"
+         height="54"
+         width="55"
+         id="rect4328"
+         style="fill:#ffda00;fill-opacity:1;stroke:none" />
+      <rect
+         style="fill:#ffb300;fill-opacity:1;stroke:none"
+         id="rect4330"
+         width="55"
+         height="12"
+         x="162"
+         y="1131.3622" />
+      <text
+         transform="scale(0.85504396,1.1695305)"
+         sodipodi:linespacing="125%"
+         id="text4332"
+         y="1001.742"
+         x="192.99036"
+         style="font-size:20.34970856px;font-style:oblique;font-weight:bold;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans Bold Oblique"
+         xml:space="preserve"><tspan
+           y="1001.742"
+           x="192.99036"
+           id="tspan4334"
+           sodipodi:role="line">NOTE</tspan></text>
+    </g>
+    <g
+       id="g5382"
+       transform="matrix(0.90814306,0,0,0.90616192,85.566416,185.76017)"
+       inkscape:export-filename="C:\Users\Owner\Desktop\PaperGrader\src\assets\closeleft.png"
+       inkscape:export-xdpi="535.64001"
+       inkscape:export-ydpi="535.64001">
+      <path
+         sodipodi:type="arc"
+         style="fill:#ffffff;stroke:#ff0000;stroke-width:3.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         id="path4349"
+         sodipodi:cx="30.174082"
+         sodipodi:cy="28.626692"
+         sodipodi:rx="25.531916"
+         sodipodi:ry="19.729206"
+         d="m 55.705997,28.626692 c 0,10.896139 -11.431028,19.729206 -25.531915,19.729206 -14.100888,0 -25.5319159,-8.833067 -25.5319159,-19.729206 0,-10.89614 11.4310279,-19.7292063 25.5319159,-19.7292063 14.100887,0 25.531915,8.8330663 25.531915,19.7292063 z"
+         transform="matrix(1,0,0,1.3019287,-90.87785,1328.5945)" />
+      <g
+         transform="translate(115,171)"
+         id="g5377">
+        <text
+           xml:space="preserve"
+           style="font-size:27.08986473px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           x="-219.63719"
+           y="1063.6611"
+           id="text4379"
+           sodipodi:linespacing="125%"
+           transform="scale(0.88532987,1.1295225)"><tspan
+             sodipodi:role="line"
+             id="tspan4381"
+             x="-219.63719"
+             y="1063.6611">|    |</tspan></text>
+        <path
+           style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:1.3666836;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#TriangleInL);marker-end:none"
+           d="m -183.38365,1194.162 24.63231,0"
+           id="path4383"
+           inkscape:connector-curvature="0" />
+      </g>
+    </g>
+    <g
+       id="g5389"
+       transform="matrix(-0.90814306,0,0,0.90616192,-24.688996,133.34051)"
+       inkscape:export-xdpi="535.64001"
+       inkscape:export-ydpi="535.64001"
+       inkscape:export-filename="C:\Users\Owner\Desktop\PaperGrader\src\assets\closeright.png">
+      <path
+         transform="matrix(1,0,0,1.3019287,-90.87785,1328.5945)"
+         d="m 55.705997,28.626692 c 0,10.896139 -11.431028,19.729206 -25.531915,19.729206 -14.100888,0 -25.5319159,-8.833067 -25.5319159,-19.729206 0,-10.89614 11.4310279,-19.7292063 25.5319159,-19.7292063 14.100887,0 25.531915,8.8330663 25.531915,19.7292063 z"
+         sodipodi:ry="19.729206"
+         sodipodi:rx="25.531916"
+         sodipodi:cy="28.626692"
+         sodipodi:cx="30.174082"
+         id="path5391"
+         style="fill:#ffffff;stroke:#ff0000;stroke-width:3.5;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         sodipodi:type="arc" />
+      <g
+         id="g5393"
+         transform="translate(115,171)">
+        <text
+           transform="scale(0.88532987,1.1295225)"
+           sodipodi:linespacing="125%"
+           id="text5395"
+           y="1063.6611"
+           x="-219.63719"
+           style="font-size:27.08986473px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+           xml:space="preserve"><tspan
+             y="1063.6611"
+             x="-219.63719"
+             id="tspan5397"
+             sodipodi:role="line">|    |</tspan></text>
+        <path
+           inkscape:connector-curvature="0"
+           id="path5399"
+           d="m -183.38365,1194.162 24.63231,0"
+           style="fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:1.3666836;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#TriangleInL);marker-end:none" />
+      </g>
+    </g>
+  </g>
+</svg>

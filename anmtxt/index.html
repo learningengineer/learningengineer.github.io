@@ -1,0 +1,84 @@
+<html> 
+<head>
+<meta charset="utf-8">
+<title>PracticeEngineer.com - Piano Player</title>
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Special+Elite" >
+<link href='https://fonts.googleapis.com/css?family=Raleway:900,400' rel='stylesheet' type='text/css'>
+<script src="../jquery.js"></script>
+<script src="assets/jquery.lettering.js"></script>
+<script src="assets/jquery.fittext.js"></script>
+<script src="jquery.textillate.js"></script>
+<link href="assets/animate.css" rel="stylesheet"> 
+<link rel="stylesheet" type="text/css" href="assets/styles.css">
+<script>
+$(function () { 
+    $('.tlt').textillate({ 
+		selector: '.texts',
+		initialDelay: 1000, 
+		minDisplayTime: 300, 
+		type: 'char', 
+		out: {
+			delayScale: 1.5,
+			delay: 50,
+			shuffle: true
+			},
+		in: {
+			sequence: true
+		}, 
+		loop: true
+	 });
+	$('.header').textillate({
+		selector: '.mytitle',
+		initialDelay: 0, 
+		type: 'char',
+		in: {
+			shuffle: true
+		},
+		out: {
+			shuffle: true
+		},
+		loop: false
+		 
+	}); 
+	
+	 
+}) 
+</script> 
+</head>  
+<body> 
+	<div id="header" class="header">
+    	<p>Animate Text </p>
+		<ul class="mytitle" >
+			<li data-in-effect="flipInX" data-out-effect="rollOut">LearningEngineer.org</li>   
+			<li data-in-effect="flipInX" data-out-effect="rollOut">We engineer learning for efficiency.</li>
+			<li data-in-effect="flipInX" data-out-effect="rollOut">LearningEngineer.org</li>   
+		</ul>
+    </div> 
+<div id="container" class="tlt">
+    <ul class="texts">
+		<li id="rtxt" data-in-effect="fadeInLeft" data-out-effect="fadeOutRight">How do you write a sentence?</li>
+		<li data-in-effect="fadeInLeft" data-out-effect="fadeOutRight"><hlm>Start with</hlm> something simple, such as...</li>
+		<li data-in-effect="fadeInLeft" data-out-effect="fadeOutRight">That is beautiful.</li>
+		<li data-in-effect="fadeInLeft" data-out-effect="fadeOutRight">What do you mean by "that"?</li>
+		<li data-in-effect="fadeInLeft" data-out-effect="fadeOutRight">The mountains.</li>
+		<li data-in-effect="fadeInLeft" data-out-effect="fadeOutRight">Which mountains?</li>
+		<li data-in-effect="fadeInLeft" data-out-effect="fadeOutRight">The Smokey Mountains.</li>
+		<li data-in-effect="fadeInLeft" data-out-effect="fadeOutRight">Where exactly?</li>
+		<li data-in-effect="fadeInLeft" data-out-effect="fadeOutRight">The Smokey Mountains of West Virginia.</li>
+		<li data-in-effect="fadeInLeft" data-out-effect="fadeOutRight">So, now we have...</li>
+		<li data-in-effect="fadeInLeft" data-out-effect="fadeOutRight">The Smokey Mountains of West Virginia are beautiful.</li>
+		<li data-in-effect="fadeInLeft" data-out-effect="fadeOutRight">What do you mean by "beautiful"?</li>
+		
+		<li data-in-effect="fadeInLeft" data-out-effect="fadeOutRight" data-out-reverse="true"></li>
+    </ul>
+</div>
+
+    
+    <div id="footer">
+    	
+    </div>
+   
+
+	
+</body>
+</html>

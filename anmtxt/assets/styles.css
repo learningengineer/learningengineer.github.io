@@ -1,0 +1,76 @@
+/*
+Primary Color:
+7FA917	68812C	527008	B1D850	BCD878
+
+Complementary Color:
+8B1361	692451	5C073E	CA4B9D	CA71AB
+*/
+body {
+	background:#666666;
+	
+}
+
+	#redtxt {
+		background:#222;
+		width:100%;
+		top:0;
+		left:0;
+		position:absolute;	
+		font:18px/30px 'Special Elite', Arial, Serif;
+		color:#FFFF00;
+		text-align:center;
+		
+	}
+	
+	#header {
+		background:#222;
+		width:100%;
+		top:0;
+		left:0;
+		position:absolute;	
+		font:18px/30px 'Special Elite', Arial, Serif;
+		color:#FFFF00;
+		text-align:center;
+	}
+		#header p {
+			padding:5px 10px;	
+			margin:0;
+		}
+		#header a {
+			text-decoration:none;
+			color:#7FA917;
+			font-weight:400;
+		}
+	#footer {
+		font:14px/30px 'Special Elite', Arial, Serif;
+        width:640px;
+		margin:0px auto;
+		position:relative; 
+		padding:0;
+	}
+		#footer a {
+			text-decoration:none;
+			color:#000;
+		}
+		
+    #container {
+		visibility:hidden; 
+        width:800px;
+		height:550px;
+		margin:40px auto 0 auto;
+		position:relative;
+		padding:50px 0 0 0;
+		font:3em 'Raleway', sans-serif;
+		font-weight: 700;
+		color:#FFFF00;
+		text-shadow: 4px 4px #000000;
+		line-height: 110%;
+		
+    }	
+	
+.texts hlm{
+	visibility: hidden; 
+	background-color:#FF0000; 
+
+
+}	

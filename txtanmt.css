@@ -1,0 +1,89 @@
+
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+  font-family: "Special Elite", sans-serif;
+  font-size: 100%;
+  font-weight: 500; 
+  background-image: url("assets/paper.jpg");
+  color: #FFF000; }
+
+a {
+  text-decoration: none;
+  color: #666; }
+  a:hover {
+    color: #999; }
+
+p {
+  line-height: 2em;
+  margin: 0 0 20px; }
+
+.typed-type {
+  margin: 0 auto 20px;
+  padding: 20px;
+  font-family: "Special Elite";
+  font-size: 1.9em;
+  border-radius: 10px;
+  height: 500px;
+  width: 85%;
+  text-shadow: 0 2px 3px rgba(255, 255, 255, 0.3), 0 -1px 2px rgba(0, 0, 0, 0.2);
+  color: #000000;
+  overflow: auto; }
+
+.typed-cursor {
+  opacity: 0; 
+  font-weight: 700;
+  padding: 5px;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  -ms-animation: blink 0.7s infinite;
+  -o-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite; }
+
+@-keyframes blink {
+  0% {
+    opacity: 0; }
+
+  50% {
+    opacity: 0; }
+
+  100% {
+    opacity: 0; } }
+@-webkit-keyframes blink {
+  0% {
+    opacity: 0; }
+
+  50% {
+    opacity: 0; }
+
+  100% {
+    opacity: 0; } }
+@-moz-keyframes blink {
+  0% {
+    opacity: 0; }
+
+  50% {
+    opacity: 0; }
+
+  100% {
+    opacity: 0; } }
+@-ms-keyframes blink {
+  0% {
+    opacity: 0; }
+
+  50% {
+    opacity: 0; }
+
+  100% {
+    opacity: 0; } }
+@-o-keyframes blink {
+  0% {
+    opacity: 0; }
+
+  50% {
+    opacity: 0; }
+
+  100% {
+    opacity: 0; } }

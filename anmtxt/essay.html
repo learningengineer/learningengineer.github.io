@@ -1,0 +1,35 @@
+<html> 
+<head>
+<meta charset="utf-8">
+<title>PracticeEngineer.com - Text Animation</title>
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Special+Elite" >
+<link href='https://fonts.googleapis.com/css?family=Raleway:900,400' rel='stylesheet' type='text/css'>
+<script src="../jquery.js"></script>
+<script src="vivus.js"></script>
+
+
+</head>  
+<body> 
+	<div id="my-div"></div>
+	<div id="new-div"></div>
+<script>
+
+  var brainviv = new Vivus('my-div', {type: 'oneByOne', duration: 500, file: 'essay.svg'}, mycallback);
+  
+  function mycallback(){
+	brainviv
+		.stop()
+		.reset()
+		.destroy();
+	//code below lets you play another svg file after the first. 	
+	var element = document.getElementById("my-div");
+	element.parentNode.removeChild(element);	
+	var handw = new Vivus('new-div', {type: 'oneByOne', duration: 200, file: 'hand.svg'});
+	handw.play(0);
+  
+  
+  }
+</script>
+	
+</body>
+</html>
