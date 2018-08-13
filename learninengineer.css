@@ -4,13 +4,6 @@
 <!--
 
 
-@font-face {
-    font-family: 'LE';
-	font-weight: 400;
-	src: url('assets/Praeng-Regular.ttf');
-	src: url('assets/Praeng-Regular.otf');
-}
-
 
 
 @font-face {
@@ -86,7 +79,7 @@
 
 body {
 	color: #000;
-	font-family: LE;
+	font-family: "Special Elite";
 	font-size: 20pt;
 	font-weight:600;
 	margin: 0;
