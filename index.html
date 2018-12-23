@@ -12,11 +12,11 @@
 
 	<script>
 	$(function(){
-		var mySound = new buzz.sound( "typewriter.mp3"); //sound of the typewriter
+		var mySound = new buzz.sound( "assets/typewriter.mp3"); //sound of the typewriter
 		mySound.load(); //loads the mp3 file
 		mySound.loop().play(); //plays and loops the file
 
-		var ndRtrnSnd = new buzz.sound ("carriagereturn.mp3"); //sound of the carriage return
+		var ndRtrnSnd = new buzz.sound ("assets/carriagereturn.mp3"); //sound of the carriage return
 		ndRtrnSnd.load(); //loads the sound of the carriage return
 
 		$( '#typers' ).click( function() { //mutes the sound if you click on the page
