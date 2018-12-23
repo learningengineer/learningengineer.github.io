@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Accordion</title>
+    <style>
+        #accordion
+        {
+            width:400px;
+            margin:0px auto;
+            border-bottom:1px solid #940773;
+        }
+        #accordion h4
+        {
+            background-color: #E6BCDC;
+            border:1px solid #940773;
+            border-bottom: none;
+            margin:0;
+            padding:5px;
+            cursor:pointer;
+        }
+        #accordion h4:hover
+        {
+           background-color:#DB5CBD; 
+        }
+        #accordion h4.current
+        {
+            background-position: right -5px;
+        }
+        #accordion p
+        {
+            background-color:#F0E1EC;
+            border:1px solid #940773;
+            border-bottom: none;
+            border-top:none;
+            margin:0;
+            padding:15px;
+           
+        }
+    </style>
+    <!-- Add reference to latest jQuery file -->
+    <script type="text/javascript">
+       $(document).ready(function(){
+           $("#accordion h4:first").addClass("current");
+           $("#accordion p:not(:first)").hide();
+           $("#accordion h4").click(function(){
+              
+            $(this).toggleClass("current");
+            $(this).next().slideToggle(2000).siblings("p:visible").slideUp(2000);
+         });
+        });      
+    </script>
+</head>
+<body>
+    <div id="accordion">
+        <h4>First Section</h4>
+        <p>This is the first paragraph. This is the first paragraph. This is the first paragraph. This is the first paragraph. </p>
+        <h4>Second Section</h4>
+        <p>This is the second paragraph. This is the second paragraph. This is the second paragraph. This is the second paragraph. </p>
+        <h4>Third Section</h4>
+        <p>This is the third paragraph. This is the third paragraph. This is the third paragraph. This is the third paragraph. </p>
+        <h4>Fourth Section</h4>
+        <p>This is the fourth paragraph. This is the fourth paragraph. This is the fourth paragraph. This is the fourth paragraph. </p>
+        <h4>Fifth Section</h4>
+        <p>This is the fifth paragraph. This is the fifth paragraph. This is the fifth paragraph. This is the fifth paragraph. </p>
+    </div>
+</body>
+</html>
+
+
+
