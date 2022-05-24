@@ -1,0 +1,55 @@
+<meta charset="utf-8">
+<title>Easy Essay Writer</title>
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Special+Elite" >
+<link href='https://fonts.googleapis.com/css?family=Raleway:900,400' rel='stylesheet' type='text/css'>
+<script src="https://code.jquery.com/jquery.min.js"></script>
+<script src='https://code.responsivevoice.org/responsivevoice.js'></script>
+<script src="assets/ui.jquery.js"></script>
+<script src="assets/sweetalert.min.js"></script> 
+<script src='assets/pdfmake.min.js'></script>
+<script src='assets/vfs_fonts.js'></script>
+<link rel="stylesheet" type="text/css" href="assets/sweetalert.css">
+<link rel="stylesheet" type="text/css" href="assets/styles.css">
+<script src="assets/essaywriter.js"></script>   
+<script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
+  <script type="text/javascript"> 
+  tinymce.init({  
+  selector: '.editor', 
+  plugins: [ 
+    'advlist autolink lists link image charmap print preview anchor',
+    'searchreplace visualblocks code fullscreen fullpage',
+    'insertdatetime media table contextmenu paste code wordcount pagebreak'
+  ], 
+  toolbar: 'charmap | undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image | pagebreak | fontsizeselect fontselect | fullpage fullscreen',
+  setup : function(ed) {
+		ed.on('init', function(ed) {
+		this.getDoc().body.style.fontSize = '12pt';
+		this.getDoc().body.style.fontFamily = 'Georgia';
+		this.getDoc().body.style.lineHeight = '2';
+		});
+}
+  });
+  </script>
+</head>   
+  
+<body>  
+<div id="header" class="header">  
+PracticeEngineer.com - Easy Essay Writer
+</div><div id="leftmenu" class="leftmenu"><br>
+</div> 
+<div id="container"> 
+<form id="formcont" name="form1" method="post" action="" autocomplete="on">
+<button onclick="store()" type="button">Store</button>
+<button onclick="retrieve()" type="button">Retrieve</button>
+<input id="plybttn" name='play' onclick='spktxt()' type='button' value='Read' />
+<input id="stpbttn" onclick='stopspk()' type='button' value='Stop Reading' />
+<a onclick='bphelp("helpmenu")'>Click for writing help</a>
+  <p>Writer<br> 
+    <textarea id="essay" class="editor" rows="15"></textarea>
+</p>
+</form> 
+ </div>
+<p>&nbsp;</p> 
+ 
+</body>
+</html>

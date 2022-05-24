@@ -1,0 +1,144 @@
+/*
+Primary Color:
+7FA917	68812C	527008	B1D850	BCD878
+
+Complementary Color:
+8B1361	692451	5C073E	CA4B9D	CA71AB
+*/
+body {
+	background-color: #80bbff;  
+	   
+} 
+	#leftmenu {
+		display: none;
+		font:1.1em "Special Elite", sans-serif;
+		float: left; 
+		 
+
+		
+	}
+	
+ 
+	.btn {
+		font:0.6em 'Alegreya Sans', sans-serif;
+		-webkit-text-stroke: 0px black;
+		font-weight: 700;
+		background:black;
+		padding: 5px 5px 5px 5px;
+		float: right;
+		right: 85; 
+		color: red; 
+	} 
+	
+
+	#header { 
+		background:#222;
+		width:100%;
+		top:0;
+		left:0; 
+		position:absolute;	
+		font:18px/30px 'Special Elite', Arial, Serif;
+		color:#FFFF00;
+		text-align:center;
+	}
+		#header p {
+			padding:5px 10px;	
+			margin:0;
+		}
+
+	#footer {
+		font:14px/30px 'Special Elite', Arial, Serif;
+        width:640px;
+		margin:0px auto;
+		position:relative; 
+		padding:0;
+	}
+		#footer a {
+			text-decoration:none;
+			color:#000;
+		}
+		
+    #container { 
+		color:#FFFF00;
+		font:1.2em 'Alegreya Sans', sans-serif;
+		text-shadow: 2px 2px #000000; 
+		font-weight: 900;
+		-webkit-text-stroke: 1px black;
+        width:650px;
+		height:100%;
+		margin:25px auto 0 auto;
+		position:relative;
+		padding:50 0 0 0; 
+		line-height: 110%;
+		float: center; 
+		
+    }	
+	
+
+	a {
+		font:1em 'Alegreya Sans', sans-serif;
+		-webkit-text-stroke: 0px black;
+		font-weight: 700;
+		background:black;
+		padding: 5px 5px 5px 5px;
+		float: right;
+		right: -100; 
+		color: red; 
+		
+
+		
+	}
+	
+	a:link {
+    color: red;
+	
+}
+
+/* visited link */
+a:visited {
+    color: yellow;
+}
+
+/* mouse over link */
+a:hover {
+    color: red;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
+
+textarea {
+    padding: 5px 5px;
+    box-sizing: border-box;
+	-webkit-text-stroke: 0px black !important;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+	font-family: Georgia, "Times New Roman", Times, serif !important;
+	font-size: 12pt !important;
+	float: center; 
+	line-height:150% !important;
+}
+
+.editor {
+	padding: 5px 5px; 
+	text-shadow: 0px 0px #000000 !important; 
+	color: black !important; 
+    box-sizing: border-box;
+	-webkit-text-stroke: 0px black !important;
+    border: 2px solid #ccc;  
+    border-radius: 4px;
+    background-color: #f8f8f8;
+	font-family: Georgia, "Times New Roman", Times, serif !important;
+	font-size: 12pt !important;
+	font-weight: 400 !important; 
+	float: center; 
+	line-height:150% !important; 
+	height: 200px;
+	width: 7.5in; 
+	overflow-y:auto; 
+	
+}

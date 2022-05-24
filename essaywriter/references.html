@@ -1,0 +1,96 @@
+<meta charset="utf-8">
+<title>Easy Essay Writer</title>
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Special+Elite" >
+<link href="//fonts.googleapis.com/css?family=Alegreya+Sans:900" rel="stylesheet">
+<script src="//code.jquery.com/jquery.min.js"></script>
+<script src="//code.responsivevoice.org/responsivevoice.js"></script>
+<script src="assets/ui.jquery.js"></script>
+<script src="assets/sweetalert.min.js"></script>  
+<script src='assets/pdfmake.min.js'></script>
+<script src='assets/vfs_fonts.js'></script>
+<link rel="stylesheet" type="text/css" href="assets/sweetalert.css">
+<link rel="stylesheet" type="text/css" href="assets/styles.css">
+<script src="assets/references.js"></script>   
+<script src="//cdn.tinymce.com/4/tinymce.min.js"></script>
+  <script type="text/javascript">
+  tinymce.init({
+    selector: '.editor',
+	plugins: "wordcount",
+    menubar: false,
+	browser_spellcheck: true,
+    toolbar: 'undo redo italic bold alignleft aligncenter alignright bullist numlist outdent indent code',
+	setup : function(ed) {
+		ed.on('init', function(ed) {
+		this.getDoc().body.style.fontSize = '12pt';
+		this.getDoc().body.style.fontFamily = 'Georgia';
+		this.getDoc().body.style.lineHeight = '2';
+		});
+}
+  });
+  </script>
+</head>   
+ 
+<body> 
+<div id="header" class="header"> 
+LearningEngineer.org - Easy Essay Writer
+</div><div id="leftmenu" ><br>
+<a onclick='bphelp("helpmenu")'>Click for bibliography help</a><br><br>
+<p>Bibliography</p> 
+<p>Author's name<br>
+    <textarea id="bibname" name="bibname"  rows="1" cols="20"></textarea>  
+  </p>
+</div>
+<div id="container"> 
+<form id="formcont" name="form1" method="post" action="" autocomplete="on">
+<button onclick="store()" type="button">Store</button>
+<button onclick="retrieve()" type="button">Retrieve</button>
+<button onclick="printpdf()" type="button">Print</button>
+<select name="slider2" id="slider2" data-role="slider">
+				<option value="MLA">MLA</option>
+				<option value="APA">APA</option>
+</select>
+<p><select name="authortype" id="authortype" data-role="slider" onselect="atype(this.value)">
+				<option value="human">Human Author</option>
+				<option value="corporate">Corporate Author</option>
+				<option value="gov">Government Author</option>
+  </p> 
+  <p>Article Date<br>
+    <textarea id="date" name="submitdate" rows="1" cols="20"></textarea>
+  </p> 
+  <p>Title of the Article<br>
+    <textarea id="coursename" name="coursename" rows="1" cols="80"></textarea>  
+  </p>
+  <p>Tital of the Journal, Magazine, or Website<br>
+    <textarea id="schoolname" name="schoolname" rows="1" cols="80"></textarea>   
+  </p>
+  <p>Instructor's name<br> 
+    <textarea id="instructorname" name="instructorname" rows="1" cols="40"></textarea> 
+  </p>
+  <p>Essay title<a onclick='bphelp("title")'>Title HELP</a><br>
+    <textarea id="essaytitle" name="essaytitle" rows="1" cols="80"></textarea><br>
+  </p>
+  <p>Thesis statement<a onclick='bphelp("thesis")'>Thesis HELP</a><br>
+    <textarea id="thesis"  name="thesis" rows="3" cols="80"></textarea><br><input onclick='spktxt("thesis")' type='button' value='🔊 Play' />
+  </p> 
+  <p>Introduction<a onclick='bphelp("intro")'>Introduction HELP</a><br> 
+    <textarea id="intro" class="editor" rows="8" cols="80"></textarea><br><input onclick='spktxt("intro")' type='button' value='🔊 Play' />	
+</p>
+  <p id="lstprg">Body paragraph #1<a onclick='bphelp("bp")'>Body paragraph HELP</a><br>
+    <textarea id="body0" class="editor" rows="8" cols="80"></textarea><br><input onclick='spktxt("body0")' type='button' value='🔊 Play' />	
+  </p>
+  <p>Conclusion<a onclick='bphelp("con")'>Conclusion HELP</a><br>
+    <textarea  id="conclusion" class="editor" rows="4" cols="80" ></textarea><br><input onclick='spktxt("conclusion")' type='button' value='🔊 Play' />
+    </p> 
+</p><button onclick="addparagraph()" type="button">Add Paragraph</button>
+<button onclick="store()" type="button">Store</button> 
+<button onclick="retrieve()" type="button">Retrieve</button>
+<button onclick="printpdf()" type="button">Print</button>
+</form> 
+ </div>
+<p>&nbsp;</p>
+ <script>
+
+</script>
+</body>
+
+</html>

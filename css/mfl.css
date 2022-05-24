@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Signika+Negative:wght@300;400;500;600;700&display=swap');
+
+:root{
+	
+	background-color: lightblue; 
+	
+}
+
+body {
+	height: 100vh;
+	width: 100vw; 
+   }
+
+
+
+#header-mfl-id {
+  position: fixed; 
+  top: 0;
+  min-width: 100%;
+  left: 0;
+  font-family: 'Signika Negative', sans-serif;
+  font-size: 2rem;
+  font-weight: 800; 
+  padding-top: 1rem;
+  background-color: antiquewhite;
+  z-index: 2;
+}
+
+.title-mfl-class {
+  text-align: center;
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+#navbar-id {
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400; 
+    font-style: italic;
+    text-align: center;
+}
+
+.row {
+    max-width: 100rem;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+
+.rdiv {
+  max-width: 100rem;
+    margin: 0 auto;
+    margin-top: 1rem;
+    height: 0.1rem; 
+  background-color: black;
+}
+
+.row:first-child {
+  margin-top: 10rem; 
+}
+
+.row::after {
+    content: "";
+    display: table; 
+    clear: both; 
+}
+
+.col-1-of-2{
+  width: calc((100% - 2rem) / 3);
+  margin-right: 2rem; 
+  float: left; 
+  font-family: 'Signika Negative', sans-serif;
+  font-size: 2rem;
+  font-weight: 800; 
+  
+
+}
+
+.col-2-of-2 {
+    width: calc((100% - 2rem) / 2);
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 2rem;
+    font-weight: 400; 
+    float: right; 
+}
+
+.btn, button {
+font-family: 'Signika Negative', sans-serif;
+  font-size: 1rem;
+  font-weight: bolder;
+  padding: .5rem 2rem .5rem 2rem;  
+  text-align: center;
+  border: 0.1rem solid #293500;
+  margin:auto; 
+  text-decoration: none;
+  color: yellow;
+  background-color: black;
+  border-radius: 2rem;
+  box-shadow: 0 0.4rem 1.4rem 0 gray;
+  position:relative; 
+
+ 
+}
+
+.btn:hover, button:hover {
+  cursor: pointer;
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+  color: black;
+  background-color: yellowgreen;
+}
+
+.btn[disabled]:hover, button[disabled]:hover {
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+}
+
+#closePopup {
+  position: fixed;
+  top: 2rem;
+  left: 2rem;  
+}
+
+footer {
+	position: relative;
+  width: 100%;
+	font-size: 1rem; 
+	font-style: italic;
+	text-align: center;
+	color: black; 
+	font-family: 'Signika Negative', sans-serif;
+  margin-top: 5rem;
+	z-index:-1;
+}
+
+.popUp {
+  visibility:hidden;
+  position:fixed;
+  top: 0;
+  left: 0; 
+  height: 100vh; 
+  width: 100vw;
+  background-color: lightblue;
+  z-index: 3;
+
+}
+
+#iframeSource {
+  position: fixed; 
+  height: 75vh;
+	width: calc((100vw - 4rem));
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 0.3rem solid #293500;
+ 
+  margin: 0 auto; 
+}
+
+.blur-all {
+  -webkit-filter: blur(10px);
+  -moz-filter: blur(10px);
+  -o-filter: blur(10px);
+  -ms-filter: blur(10px);
+  filter: blur(10px);
+}

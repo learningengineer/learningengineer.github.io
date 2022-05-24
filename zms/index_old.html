@@ -1,0 +1,390 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Michael Langdon's Class and Tutoring Schedule</title>
+	<style>
+/*************************
+ * GRID SCHEDULE LAYOUT
+ *************************/
+@media screen and (min-width:700px) {
+    .schedule {
+        display: grid;
+        grid-gap: 1em;
+        grid-template-rows:
+            [tracks] auto
+            [time-0800] auto
+            [time-0830] auto
+            [time-0900] auto
+            [time-0930] auto
+            [time-1000] auto
+            [time-1030] auto
+            [time-1100] auto
+            [time-1130] auto
+            [time-1200] auto
+			[time-1230] auto
+			[time-1300] auto
+			[time-1330] auto
+			[time-1400] auto
+			[time-1430] auto
+			[time-1500] auto
+			[time-1530] auto
+			[time-1600] auto
+			[time-1630] auto
+			[time-1700] auto
+			[time-1730] auto
+			[time-1800] auto
+			[time-1830] auto
+			[time-1900] auto
+			[time-1930] auto
+			[time-2000] auto;
+            /* Note 1:
+            Use 24hr time for gridline names for simplicity
+
+            Note 2: Use "auto" instead of "1fr" for a more compact schedule where height of a slot is not proportional to the session length. Implementing a "compact" shortcode attribute might make sense for this!
+            Try 0.5fr for more compact equal rows. I don't quite understand how that works :)
+            */
+        
+        grid-template-columns:
+            [times] 4.5em
+            [track-1-start] 1fr
+            [track-1-end track-2-start] 1fr
+            [track-2-end track-3-start] 1fr
+            [track-3-end track-4-start] 1fr
+			[track-4-end track-5-start] 1fr
+            [track-5-end];
+    }
+}
+
+.time-slot {
+    grid-column: times;
+}
+
+.track-slot {
+    display: none; /* hidden on small screens and browsers without grid support */
+}
+
+@supports( display:grid ) {
+    @media screen and (min-width:600px) {
+        .track-slot {
+            display: block;
+            padding: 5px 5px 5px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            background-color: rgba(255,255,255,.9);
+        }
+    }
+}
+
+/* Small-screen & fallback styles */
+.session {
+    margin-bottom:  1em;
+}
+
+@supports( display:grid ) {
+    @media screen and (min-width: 700px) {
+        .session {
+            margin: 0;
+        }   
+    }
+}
+
+/*************************
+ * VISUAL STYLES
+ * Design-y stuff ot particularly important to the demo
+ *************************/
+body {
+    width: 95%; 
+	margin: 0 auto;
+	margin-left: 20px; 
+    line-height: 1.3;
+}
+
+	
+.session {
+    padding: .5em;
+    border-radius: 2px;
+    box-shadow:
+        rgba(255,255,255,.6) 1px 1px 0,
+        rgba(0,0,0,.3) 4px 4px 0;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+ 	font-weight: 700; 
+}
+
+.session-title,
+.session-time,
+.session-track,
+.session-presenter {
+    display: block;
+}
+
+
+.session-title,
+.time-slot {
+    margin: 0;
+}
+
+.session-title a {
+    color: darkblue;
+    text-decoration-style: dotted;
+	font-size: 1em;
+    
+    &:hover {
+        font-style: italic;
+    }
+    
+    &:focus {
+        outline: 2px dotted rgba(255,255,255,.8);
+    }
+}
+
+.track-slot,
+.time-slot {
+    font-weight: bold;
+    font-size:1em;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; 
+}
+
+.writingstudio{
+    background-color: red;
+    color: black;
+	
+}
+.icw {
+    background-color: yellow;
+    color: black;
+	
+}
+.officehours {
+    background-color: lightgreen;
+    color: black;
+	
+}
+
+.learninglab {
+    background-color: aqua;
+    color: black;
+	
+}
+
+.helpbyappt {
+    background-color: #c35500;
+    color: black;
+	
+}
+
+		
+.commreview {
+	background-color: orange;
+    color: black;
+	
+		}
+
+.track-all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ccc;
+    color: #000;
+    box-shadow: none;
+}
+
+.text {
+    max-width: 750px;
+    font-size: 18px;
+    margin: 0 auto 50px;
+}
+
+.meta {
+    color: #555;
+    font-style: italic;
+}
+
+.meta a {
+    color: #555;
+}
+	
+		
+.schedule-heading {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"; 
+}
+
+
+	
+	</style>
+</head>
+
+<body>
+
+<h2 id="schedule-heading" class="schedule-heading">Michael Langdon's Class and Tutoring Schedule</h2>
+<div class="schedule" aria-labelledby="schedule-heading">
+    
+    <span class="track-slot" aria-hidden="true" style="grid-column: track-1; grid-row: tracks;">Monday</span>
+    <span class="track-slot" aria-hidden="true" style="grid-column: track-2; grid-row: tracks;">Tuesday</span>
+    <span class="track-slot" aria-hidden="true" style="grid-column: track-3; grid-row: tracks;">Wednesday</span>
+    <span class="track-slot" aria-hidden="true" style="grid-column: track-4; grid-row: tracks;">Thursday</span>
+	<span class="track-slot" aria-hidden="true" style="grid-column: track-5; grid-row: tracks;">Friday</span>
+    
+    <h2 class="time-slot" style="grid-row: time-0800;">8:00 am</h2>
+
+    <div class="session officehours session-1 track-1" style="grid-column: track-1; grid-row: time-0800 / time-0830;">
+        <h3 class="session-title"><a href="#">Office Hours</a></h3>
+        <span class="session-time">8:00 - 8:30 am</span>
+        <span class="session-track">Zoom URL:<br><a href="https://blackhawk.zoom.us/j/508106764">https://blackhawk.zoom.us/j/508106764</a></span>
+        <span class="session-presenter">NOTES: </span>
+    </div>
+	<div class="session session-1 helpbyappt track-4" style="grid-column: track-4; grid-row: time-1030 / time-1430;">
+        <h3 class="session-title"><a href="#">Help by Appointment</a></h3>
+        <span class="session-time">10:30am - 2:30 pm</span>
+        <span class="session-track">Zoom URL:<br><a href="https://blackhawk.zoom.us/j/508106764">https://blackhawk.zoom.us/j/508106764</a></span>
+        <span class="session-presenter">NOTES:</span>
+    </div>
+	<div class="session session-19 helpbyappt track-5" style="grid-column: track-5; grid-row: time-1030 / time-1430;">
+        <h3 class="session-title"><a href="#">Help by Appointment</a></h3>
+        <span class="session-time">10:30 am - 2:30 pm</span>
+        <span class="session-track">Zoom URL:<br><a href="https://blackhawk.zoom.us/j/508106764">https://blackhawk.zoom.us/j/508106764</a></span>
+        <span class="session-presenter">NOTES:</span>
+    </div>
+    
+
+    <h2 class="time-slot" style="grid-row: time-0830;">8:30 am</h2>
+	<div class="session session-2 writingstudio track-1" style="grid-column: track-1; grid-row: time-0830 / time-1030;">
+        <h3 class="session-title"><a href="#">Writing Studio</a></h3>
+        <span class="session-time">8:30 - 10:30 am </span>
+        <span class="session-track">Zoom URL:<br><a href="https://blackhawk.zoom.us/j/202753950">https://blackhawk.zoom.us/j/6886304222</a></span>
+        <span class="session-presenter">NOTES:</span>
+    </div>
+    
+    
+    <h2 class="time-slot" style="grid-row: time-0900;">9:00 am</h2>
+    
+
+    <h2 class="time-slot" style="grid-row: time-0930;">9:30 am</h2>
+    <h2 class="time-slot" style="grid-row: time-1000;">10:00 am</h2>
+	 <div class="session session-7 track-2 writingstudio" style="grid-column: track-2; grid-row: time-1000 / time-1200;">
+        <h3 class="session-title"><a href="#">Writing Studio</a></h3>
+        <span class="session-time">10:00 am - Noon</span>
+        <span class="session-track">Zoom URL:<br><a href="https://blackhawk.zoom.us/j/923808159">https://blackhawk.zoom.us/j/923808159</a></span>
+        <span class="session-presenter">NOTES:</span>
+    </div>
+
+    
+    
+    <h2 class="time-slot" style="grid-row: time-1030;">10:30 am</h2>
+	<div class="session session-3 track-1 learninglab" style="grid-column: track-1; grid-row: time-1030 / time-1300;">
+        <h3 class="session-title"><a href="#">Learning Lab Tutoring</a></h3>
+        <span class="session-time">10:30 am - 1:00 pm</span>
+        <span class="session-track">Zoom URL:<br><a href="https://blackhawk.zoom.us/j/508106764">https://blackhawk.zoom.us/j/508106764</a></span>
+        <span class="session-presenter">NOTES:</span>
+    </div>
+    
+    
+
+    
+    
+    
+    <h2 class="time-slot" style="grid-row: time-1100;">11:00 am</h2>
+	 <h2 class="time-slot" style="grid-row: time-1130;">11:30 am</h2>
+	 <h2 class="time-slot" style="grid-row: time-1200;">Noon</h2>
+	<div class="session session-8 track-2 learninglab" style="grid-column: track-2; grid-row: time-1200 / time-1500;">
+        <h3 class="session-title"><a href="#">Learning Lab Tutoring</a></h3>
+        <span class="session-time">Noon - 3:00 pm</span>
+        <span class="session-track">Zoom URL:<br><a href="https://blackhawk.zoom.us/j/508106764">https://blackhawk.zoom.us/j/508106764</a></span>
+        <span class="session-presenter">NOTES:</span>
+    </div>
+	 <h2 class="time-slot" style="grid-row: time-1230;">12:30 pm</h2>
+	<div class="session session-12 track-3 officehours" style="grid-column: track-3; grid-row: time-1230 / time-1300;">
+        <h3 class="session-title"><a href="#">Office Hours</a></h3>
+        <span class="session-time">12:30 - 1:00 pm</span>
+        <span class="session-track">Zoom URL:<br><a href="https://blackhawk.zoom.us/j/508106764">https://blackhawk.zoom.us/j/508106764</a></span>
+        <span class="session-presenter">NOTES:</span>
+    </div>
+	 <h2 class="time-slot" style="grid-row: time-1300;">1:00 pm</h2>
+	<div class="session session-4 track-1 icw " style="grid-column: track-1; grid-row: time-1300 / time-1430;">
+        <h3 class="session-title"><a href="#">Introduction to College Writing</a></h3>
+        <span class="session-time">1:00pm - 2:30pm</span>
+        <span class="session-track">Zoom URL:<br><a href="https://blackhawk.zoom.us/j/202753950">https://blackhawk.zoom.us/j/202753950</a></span>
+        <span class="session-presenter">NOTES:</span>
+    </div>
+	<div class="session session-13 track-3 icw" style="grid-column: track-3; grid-row: time-1300 / time-1430;">
+        <h3 class="session-title"><a href="#">Introduction to College Writing</a></h3>
+        <span class="session-time">1:00pm - 2:30pm</span>
+        <span class="session-track">Zoom URL:<br><a href="https://blackhawk.zoom.us/j/202753950">https://blackhawk.zoom.us/j/202753950</a></span>
+        <span class="session-presenter">NOTES:</span>
+    </div>
+    
+	 <h2 class="time-slot" style="grid-row: time-1330;">1:30 pm</h2>
+	 <h2 class="time-slot" style="grid-row: time-1400;">2:00 pm</h2>
+	 <h2 class="time-slot" style="grid-row: time-1430;">2:30 pm</h2>
+	<div class="session session-5 track-1 commreview" style="grid-column: track-1; grid-row: time-1430 / time-1530;">
+        <h3 class="session-title"><a href="#">Comm Review 3</a></h3>
+        <span class="session-time">2:30pm - 3:30pm</span>
+        <span class="session-track">Zoom URL:<br><a href="https://blackhawk.zoom.us/j/202753950">https://blackhawk.zoom.us/j/202753950</a></span>
+        <span class="session-presenter">NOTES:</span>
+    </div>
+	<div class="session session-14 track-3 commreview" style="grid-column: track-3; grid-row: time-1430 / time-1530;">
+        <h3 class="session-title"><a href="#">Comm Review 3</a></h3>
+        <span class="session-time">2:30pm - 3:30pm</span>
+        <span class="session-track">Zoom URL:<br><a href="https://blackhawk.zoom.us/j/202753950">https://blackhawk.zoom.us/j/202753950</a></span>
+        <span class="session-presenter">NOTES:</span>
+    </div>
+	
+	 <h2 class="time-slot" style="grid-row: time-1500;">3:00 pm</h2>
+	<div class="session session-9 track-2 writingstudio" style="grid-column: track-2; grid-row: time-1500 / time-1700;">
+        <h3 class="session-title"><a href="#">Writing Studio</a></h3>
+        <span class="session-time">3:00 - 5:00 pm</span>
+        <span class="session-track">Zoom URL:<br><a href="https://blackhawk.zoom.us/j/392695051">https://blackhawk.zoom.us/j/392695051</a></span>
+        <span class="session-presenter">NOTES:</span>
+    </div>
+	 <h2 class="time-slot" style="grid-row: time-1530;">3:30 pm</h2>
+	<div class="session session-6 track-1 officehours" style="grid-column: track-1; grid-row: time-1530 / time-1600;">
+        <h3 class="session-title"><a href="#">Office Hours</a></h3>
+        <span class="session-time">3:30 - 4:00pm</span>
+        <span class="session-track">Zoom URL:<br><a href="https://blackhawk.zoom.us/j/508106764">https://blackhawk.zoom.us/j/508106764</a></span>
+        <span class="session-presenter">NOTES:</span>
+    </div>
+	<div class="session session-15 track-3 officehours" style="grid-column: track-3; grid-row: time-1530 / time-1600;">
+        <h3 class="session-title"><a href="#">Office Hours</a></h3>
+        <span class="session-time">3:30 - 4:00pm</span>
+        <span class="session-track">Zoom URL:<br><a href="https://blackhawk.zoom.us/j/508106764">https://blackhawk.zoom.us/j/508106764</a></span>
+        <span class="session-presenter">NOTES:</span>
+    </div>
+	 <h2 class="time-slot" style="grid-row: time-1600;">4:00 pm</h2>
+	<div class="session session-16 track-3 writingstudio" style="grid-column: track-3; grid-row: time-1600 / time-1800;">
+        <h3 class="session-title"><a href="#">Writing Studio</a></h3>
+        <span class="session-time">4:00 - 6:00pm</span>
+        <span class="session-track">Zoom URL:<br><a href="https://blackhawk.zoom.us/j/73026661">https://blackhawk.zoom.us/j/73026661</a></span>
+        <span class="session-presenter">NOTES: </span>
+    </div>
+	 <h2 class="time-slot" style="grid-row: time-1630;">4:30 pm</h2>
+	 <h2 class="time-slot" style="grid-row: time-1700;">5:00 pm</h2>
+	<div class="session session-10 track-2 officehours" style="grid-column: track-2; grid-row: time-1700 / time-1730;">
+        <h3 class="session-title"><a href="#">Office Hours</a></h3>
+        <span class="session-time">5:00 - 5:30 pm</span>
+        <span class="session-track">Zoom URL:<br><a href="https://blackhawk.zoom.us/j/508106764">https://blackhawk.zoom.us/j/508106764</a></span>
+        <span class="session-presenter">NOTES:</span>
+    </div>
+	 <h2 class="time-slot" style="grid-row: time-1730;">5:30 pm</h2>
+	<div class="session session-11 track-2 writingstudio" style="grid-column: track-2; grid-row: time-1730 / time-1930;">
+        <h3 class="session-title"><a href="#">Writing Studio</a></h3>
+        <span class="session-time">5:30 - 7:30 pm</span>
+        <span class="session-track">Zoom URL:<br><a href="https://blackhawk.zoom.us/j/342784936">https://blackhawk.zoom.us/j/342784936</a></span>
+        <span class="session-presenter">NOTES:</span>
+    </div>
+	 <h2 class="time-slot" style="grid-row: time-1800;">6:00 pm</h2>
+	<div class="session session-18 track-3 writingstudio" style="grid-column: track-3; grid-row: time-1800 / time-2000;">
+        <h3 class="session-title"><a href="#">Writing Studio</a></h3>
+        <span class="session-time">6:00 - 8:00pm</span>
+       <span class="session-track">Zoom URL:<br><a href="https://blackhawk.zoom.us/j/107827153">https://blackhawk.zoom.us/j/107827153</a></span>
+        <span class="session-presenter">NOTES:</span>
+    </div>
+	 <h2 class="time-slot" style="grid-row: time-1830;">6:30 pm</h2>
+	<h2 class="time-slot" style="grid-row: time-1900;">7:00 pm</h2>
+	 <h2 class="time-slot" style="grid-row: time-1930;">7:30 pm</h2>
+	 <h2 class="time-slot" style="grid-row: time-2000;">8:00 pm</h2>
+	
+    
+</div>
+</body>
+</html>

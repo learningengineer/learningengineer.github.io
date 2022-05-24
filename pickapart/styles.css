@@ -1,0 +1,218 @@
+/*
+Primary Color:
+7FA917	68812C	527008	B1D850	BCD878
+
+Complementary Color:
+8B1361	692451	5C073E	CA4B9D	CA71AB
+*/
+body {
+	background:#444;
+	font:300%/60px 'Simonetta', Arial, Serif;
+	font-weight: 900;
+	color:#000;
+}
+	#warning {
+		display:none;
+		position:fixed;
+		top:0;
+		left:0;
+		width:100%;
+		height:100%;
+		background:#000;
+		background:rgba( 0, 0, 0, 0.8 );	
+		text-align:center;
+		color:#FFF;
+		font:30px/40px 'Simonetta', Arial, Serif;
+		font-weight: 900;
+		padding-top:25%;
+		z-index:1000;
+	}
+		#warning a {
+			color:#68812C;
+			text-decoration:none;
+		}
+	
+	#header {
+		background:#222;
+		width:100%;
+		top:0;
+		left:0;
+		position:absolute;	
+		font:18px/30px 'Special Elite', Arial, Serif;
+		color:#FFFF00;
+		text-align:center;
+	}
+		#header p {
+			padding:5px 10px;	
+			margin:0;
+		}
+		#header a {
+			text-decoration:none;
+			color:#7FA917;
+			font-weight:400;
+		}
+	#footer {
+		font:14px/30px 'Special Elite', Arial, Serif;
+        width:640px;
+		margin:0px auto;
+		position:relative;
+		padding:0;
+	}
+		#footer a {
+			text-decoration:none;
+			color:#000;
+		}
+    #container {
+		background:url(bg.png) no-repeat top center;
+        width:800px;
+		height:550px;
+		margin:40px auto 0 auto;
+		position:relative;
+		padding:50px 0 0 0;
+    }
+	#models {
+		margin:0 auto;
+		padding:0;
+	}
+	#sent {
+		background:	#1A1A00;
+		border-radius:10px; -moz-border-radius:10px; -webkit-border-radius:10px;
+	    font:300%/40px 'Simonetta', Arial, Serif;
+		font-weight: 900;
+		color:#FFFF00;
+		font-size:75%;
+		cursor:pointer;
+	    width:700;
+	    height:200;
+		margin:0 auto;
+		border:15px solid #1A1A00;
+		box-shadow:0px 2px 10px #000; -moz-box-shadow:0px 2px 10px #000; -webkit-box-shadow:0px 2px 10px #000;
+	}
+	
+	#models li, #letters li {
+		border-radius:4px; -moz-border-radius:4px; -webkit-border-radius:4px;
+		font:18px 'Simonetta', Arial, Serif;
+		font-weight: 900;
+	    list-style:none;
+	    padding:0;
+		margin:1px;
+		width:75px;
+		height:30px;
+		float:left;
+		text-align:center;
+		padding-bottom: 0px;
+		padding-top: 10px;
+		
+	}
+	#letters li {
+		background:#FFF;
+		background:-moz-linear-gradient( #FFF, #AAA );
+		background:-webkit-gradient( linear, left top, left bottom, color-stop( 0, #FFF ), color-stop( 1, #AAA ) );
+		background:-o-linear-gradient(top, #FFF, #AAA);
+		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#FFFFFF');
+		border:1px solid #FFF;
+		box-shadow:0px 2px 10px #000; -moz-box-shadow:0px 2px 10px #000; -webkit-box-shadow:0px 2px 10px #000;
+		position:absolute;
+	}
+	#letters li.draggable {
+		cursor:move;
+	}
+	#models {
+		margin-top:30px;	
+	}
+	#models li {
+		border:3px solid #000;
+		border:3px solid rgba( 0, 0, 0, 0.7 );
+		color:rgba(0, 0, 0, 0);
+		;
+	}
+	#models.hard li {
+		color:rgba( 0, 0, 0, 0 );
+	}
+	#models li.hover {
+		background:#000;
+		background:rgba( 0, 0, 0, 0 );
+		border:3px solid rgba( 255, 255, 0, 0.7 );
+	}
+	#next, #previous {
+		font:300%/60px 'Permanent Marker', Arial, Serif;
+		position:absolute;
+	    text-decoration:none;
+		color:#000;
+		color:rgba( 0, 0, 0, 0.5 );
+		font-size:200%;
+		cursor:pointer;
+		outline:0;
+	}
+	#next {
+	    top:130px;
+	    right:-50px;
+	}
+	#previous {
+	    top:130px;
+	    left:-50px;
+	}
+	#level {
+	    top:0;
+		right:0;
+		position:absolute;
+	    text-decoration:none;
+		color:#000;
+		font:300%/40px 'Simonetta', Arial, Serif;
+		font-weight: 900;
+		color:rgba( 0, 0, 0, 0.7 ) !important;
+		font-size:200%;
+		cursor:pointer;
+		padding:0 5px;
+		}
+		
+	#helplist  {
+		background:#222;
+		width:150;
+		top:475;
+		left:300;
+		position:absolute;	
+		font:18px/30px 'Special Elite', Arial, Serif;
+		color:#FFFF00;
+		text-align:center;
+		padding: 10 10 10 10;
+	}
+	
+	#helplist a {
+			text-decoration:none;
+			color:#FFFFFF;
+			font-weight:400;
+		}
+		
+	#blanket {
+		background-color:#111;
+		opacity: 0.65;
+		*background:none;
+		position:absolute;
+		z-index: 9001;
+		top:0px;
+		left:0px; 
+		width:100%;
+	}
+	
+	#popUpDiv {
+		position:absolute;
+		background-color:000000;
+		width:800px;
+		height:525px;
+		border:5px solid #000;
+		z-index: 9002;
+		font:18px/30px 'Special Elite', Arial, Serif;
+		color:#FFFFFF;
+		text-align:center;
+	}
+	#popUpDiv a {
+			text-decoration:none;
+			background-color:000000;
+			color:#FFFFFF;
+			font-weight:900;
+			padding: 5 5 5 5;
+		}
+	}
+
+	

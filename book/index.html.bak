@@ -1,0 +1,1656 @@
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=windows-1252">
+    <title>Writing Book for Beginners</title>
+    <meta name="keywords" content="Michael Langdon, learningengineer, learning engineer, elegantsolution, learning, education, metacognition, Web usability, user interface design, discount usability engineering, user testing, heuristic evaluation, hypertext, website design, UI, GUI, HCI, CHI, UCD, user-centered design, human-computer interaction">
+    <meta name="description" content="Practice Engineer is devoted to making learning more efficient by utilizing the latest research to improve learning methods.">
+    <link href="book.css" rel="stylesheet" type="text/css">
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+
+crossorigin="anonymous"></script>
+    <script src="//code.responsivevoice.org/responsivevoice.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script type="text/javascript">
+
+	function spktxt(wta){
+		var playStatus = document.getElementById("playBut").innerHTML;
+		var lastFour = playStatus.substr(playStatus.length - 4);
+		if (lastFour === "Play") {
+			responsiveVoice.speak(document.getElementById(wta).textContent);
+			document.getElementById("playBut").innerHTML = "&#128360; Stop";
+		} else {
+			responsiveVoice.cancel();
+			document.getElementById("playBut").innerHTML = "&#128362; Play";
+			document.getElementById("pauseBut").innerHTML = "&#9612;&#9612; Pause";
+		}
+	}
+	      
+
+	function pausespktxt() {
+		var pauseStatus = document.getElementById("pauseBut").innerHTML;
+		var lastFourpause = pauseStatus.substr(pauseStatus.length - 5);
+		if (lastFourpause === "Pause") {
+			responsiveVoice.pause();
+			document.getElementById("pauseBut").innerHTML = "&#128360; Resume";
+		} else {
+			responsiveVoice.resume();
+			document.getElementById("pauseBut").innerHTML = "&#9612;&#9612; Pause";
+		}
+	
+	}
+	
+	function helpAlert(){
+		swal("Text to Speech", "Highlight text in this e-book to have it read to you or click on the play button to the left to have the whole book read to you.");
+	}
+</script> </head>
+  <body id="body1">
+    <h1 style="text-align: center;">The Writing Book for Beginners</h1>
+    <div class="div-buttons"> <a id="playBut" class="playButtons" onclick="spktxt('book')">??
+        Play</a> <a id="pauseBut" class="playButtons" onclick="pausespktxt()">??
+        Pause</a> </div>
+    <div id="help" class="div-help"><a onclick="helpAlert();" class="playButtons"
+
+        href="#help-div">HELP</a></div>
+    <div id="table-of-contents" class="TOC">
+      <ol>
+        <h2 class="TOC">Table of Contents</h2>
+        <li><a href="#chapterOne">Introduction</a></li>
+        <li><a href="#chapterTwo">Words</a></li>
+        <li><a href="#chapterThree">What's Really Important?</a></li>
+        <li><a href="#chapterFour">Picking Topics: Prewriting</a></li>
+        <li><a href="#chapterFive-researching">Researching: Prewriting</a></li>
+        <li><a href="#chapterSix-sources">Sources: Prewriting</a></li>
+        <li><a href="#fakenews">Fake News: Prewriting</a></li>
+        <li><a href="#planning">Planning and Outlining: Prewriting</a></li>
+        <li><a href="#styleguides">Style Guides: APA and MLA</a></li>
+        <li><a href="#drafting">Drafting</a></li>
+        <li><a href="#personallanguage">Personal Language</a></li>
+        <li><a href="#paraphrasing">Paraphrasing</a></li>
+        <li><a href="#introduction">Writing the Introduction</a></li>
+        <li><a href="#bodyparagraphs">Body Paragraphs</a></li>
+        <li><a href="#conclusions">Conclusions</a></li>
+        <li><a href="#exampleessays">Essay Examples</a></li>
+        <li><a href="#bodyparagraphs">Revising</a></li>
+        <li><a href="#bodyparagraphs">Proofreading</a></li>
+        <li><a href="#conventions">Writing Conventions</a></li>
+      </ol>
+    </div>
+    <div id="book">
+      <div id="chapterOne" class="chapts">
+        <h2>Introduction</h2>
+        <p>If you are taking this course, it's because you are not proficient in
+          writing. It's ok. Lots of people have difficulty writing.
+          Seventy-three percent of twelfth graders are not proficient in writing
+          (National Assessment of Educational Progress, 2011), so you can see
+          that you are not alone. However, writing is still the dominant form of
+          communication: it's cheap and effective. Being able to write well is
+          very important to your future professional life. Often times, students
+          don't even realize how important writing is to their profession. Take
+          culinary arts for example; you might not think that writing is that
+          important to a culinary arts student, but think about this. In the UK,
+          the chef Jamie Oliver is second in books sales only to JK Rowling
+          (Harry Potter books) (NewsCore, 2010).</p>
+        <p>Writing is important to your profession because it is a frequent
+          method of communication with customers, co-workers, patients,
+          civilians, etc. Miscommunicating with a customer can be costly if you
+          mistated a quote or misplaced even a comma. For example, Oakhurst
+          Dairy in Maine, lost it's overtime dispute with drivers because of a
+          missing Oxford comma in a state law. You see, it all begins with a
+          list of duties that are exempt from overtime pay; the problem is that
+          the last items in the list�"packing for shipment or
+          distribution"�aren't separated with a comma. The court ruled that
+          these weren't separate items�"packing for shipment, distribution"�,
+          but rather, they they were a two item list grouped together starting
+          with packing. So, the court ruled that it's packing for shipment and
+          packing for distribution, and since drivers don't pack, they aren't
+          exempt from overtime pay. Truck drivers got $5 million in backpay
+          (Gonzalez, 2018). So, the next time you think that this grammar stuff
+          is for eggheads, just remember that the comma is for the blue-collar
+          Jane and Joe Sixpack. But commas aren't the only point of contention.
+        </p>
+        <p> </p>
+        <p>Spelling mistakes can even be more costly. For example, the Yellow
+          Pages changed "Exotic Travel" to "Erotic Travel," and it cost them
+          $10,000,000. NASA lost a $5,000,000 satellite because someone
+          mislabeled the measurements. Writing is the single-most important
+          skill any professional can possess. Writing is a process. The writing
+          process consists of five steps: prewriting, planning, drafting,
+          revising, and proofreading. Expert writers don't follow all these
+          steps in order; expert writers will skip around. In fact, expert
+          writers will revise and proofread while drafting an essay. However,
+          you are probably not an expert writer, so we will be looking at all of
+          these steps in order.</p>
+      </div>
+      <div id="chapterTwo" class="chapts">
+        <h2>Words</h2>
+        <h3>How Language Shapes How You Think</h3>
+        <p>The words you use shape the way you think. So, as you traverse your
+          way through college, your vocabulary will expand, and that expansion
+          will alter the way you perceive the world. For example, experts tend
+          to see the world through their lens of expertise, such as when experts
+          in baseball became confused by the word plate when it wasn't used to
+          refer to home plate. In Australia, an aboriginal girl with eyes
+          closed, knows exactly which direction is north. She knows immediately
+          without hesitation. Ask that same question to a bunch of eggheads at
+          Harvard, and first, there will be a pause, and then, maybe a guess or
+          no answer at all. The aboriginal girl, it is believed, has this gift
+          because of the structure of the language she uses whereby everything
+          is referenced as a direction on the compass because their language is
+          the language of traveling. They do not ask each other how they are
+          doing, they ask each other where they are going and by going, they
+          mean a specific direction. If you are limping, they might ask why your
+          western leg hurts. Or about that new car parked on the north-side of
+          your house. A dental student will no longer see teeth, they will see
+          molars, incisors, and cuspids. A nursing student will no longer simply
+          see the flu, they will see H1N3. Your language will become more
+          precise and more accurate. However, the difficulty lay with figuring
+          out how to relay complex information to the customer without confusing
+          them, using the simplest terms and sentence structure possible without
+          losing anything important. Words are the building blocks of language
+          and writing. However, they are not indivisible. Words can be further
+          broken down into prefixes, roots, and suffixes. Understanding some
+          common word parts can help you when you encounter new words, increase
+          your vocabulary, and help you to become a more proficient and
+          successful writer. Words are to a writer what muscles are to an
+          athlete. They are the raw form of how you shape what you do. The
+          better your words, the better your writing. It's important to know a
+          lot of different words because you have a lot of different people you
+          communicate with. The language you use to talk to a judge in a
+          courtroom will be much different than the language you use with a
+          phone solicitor or someone who just cut you off in traffic. In
+          writing, we call these writing styles. You use one writing style for
+          emails with your boss and one writing style for text messages with
+          your friends. When you're in college trying to get into a profession,
+          it's important to learn the terms, words, and jargon of your field.</p>
+      </div>
+      <div id="exercisesChapterOne" class="chapts">
+        <p> Exercise #1 The language of your profession or current major /
+          program. What profession, major, or program are you trying to get
+          into? Using the Internet find a reliable source that can give you an
+          up-to-date list of the 50 most commonly used terms in your profession.
+        </p>
+      </div>
+      <div id="chapterThree" class="chapts">
+        <h2>What's Really Important</h2>
+        <p>One of the first things beginning writers want to know is what is the
+          most important aspect of writing. What should they focus on first?
+          That's an easy question: facts and evidence. You see, I used to be an
+          editor, and as an editor, I can tell you that it's pretty easy to fix
+          grammar and punctuation that even a conscientious writer might miss,
+          but I can't fix your false or missing facts or evidence. For example,
+          a had a student tell me that the second amendment says that we have
+          the right, "to keep and bear firearms," except that's not what the
+          Constitution says. The Constitution doesn't use the term "firearms"
+          just "Arms." This type of mistake undermines the credibility of the author, and credibility is everything when it comes to writing.  If you're not credible, no one is going to listen to you.  </p>
+        <p>When an article is submitted to a publication like the New Yorker, it
+          goes through an extensive review process. It begins with a "fact
+          checker." This is an editor who reads through the article and checks
+          to see that the statements made in it are accurate and factual. This
+          is an important legal process for publications because of libel and
+          defamation. For example, Gawker was sued for an article entitled, "The
+          Greatest Scam in Tech." This article made a series of accusations
+          against a company called Peep Telephony which you can find here, <a href="https://gizmodo.com/5726071/the-greatest-scam-in-tech"
+
+            target="_blank">https://gizmodo.com/5726071/the-greatest-scam-in-tech</a>.
+          In the article, the author makes quite a few derogatory comments about
+          the Peep Telephony. However, the defamation suit was slapped down
+          because the author had citations to back up his assertions. He used
+          Peep Telephony's own videos and promotional materials. This is the
+          type of thing a fact checker would look at. </p>
+        <p>So, the most important thing in an essay, article, or research paper
+          are facts that can be backed up with credible sources. Had the author
+          of the Gawker article, not provided citations and examples from Peep
+          Telephony, the lawsuit would probably have been affirmed for the
+          plaintiff. You want to use facts supported by evidence because that's
+          what saves you from a slander, defamation, or a libel lawsuit. </p>
+        <p> The second most important thing is to avoid using logical fallacies
+          and personal bias. Logical fallacies and personal biases both involve
+          the writer making errors in logic. In the case of logical fallacies,
+          the three that are most important to avoid are arguing from ignorance,
+          false cause, and anecdotal.</p>
+        <p>Arguing from ignorance means that you're writing about something that
+          you don't really know anything about but think you do. An excellent
+          example of this comes from an essay by a student entitled, "The
+          Benefits of Being of Low Socio-Economic Status." In more simple terms,
+          "It's Good to be Poor." Yes, that's right. This essay argued that the
+          poor have it great. The essay claimed that the poor have everything
+          paid for. If a poor person gets sick and must go to the hospital, it's
+          completely covered. By contrast, middle-class people can have their
+          car and home taken away if they don't pay their bills. This essay had
+          no citations and no references. The information was based on hearsay
+          and gossip. In other words, this essay had no basis in fact or
+          evidence, but the student was still promoting it as true. The other
+          side of arguing from ignorance is the "burden of proof."</p>
+        <p> The Burden of Proof requires that a person who makes an assertion,
+          accusation, or claim must prove those claims with direct and concrete
+          evidence that is obvious. Without evidence, claims are considered
+          false, and taken far enough, making false claims can be fraudulent.
+          For example, the learning program Hooked on Phonics�, which costs
+          approximately $230, settled with the Federal Trade Commission over
+          claims it made in its commercials. Hooked on Phonics� claimed that it
+          could teach anyone to read even those with reading disabilities like
+          Dyslexia yet provided no evidence to support its claims in its
+          commercial or to the FTC. Therefore, Hooked on Phonics� had to remove
+          their commercials from television (Nathans, 2015). </p>
+        <p>Another example involves a group of reactionaries who call themselves
+          the Birthers. They have accused former President Obama of being a
+          Kenyan, not an American, who is also Muslim, not a Christian, even
+          though they present no evidence to support their absurd accusations.
+          In fact, they have filed lawsuits against the former president;
+          however, every single lawsuit has been thrown out by the courts.
+          (Smith, 2009) Birthers harm our democracy by undermining the truth and
+          spreading lies, making it difficult for voters to make informed
+          decisions. To sum up the burden of proof, remember this pointed line
+          from Mayor Bloomberg: "In God we trust, everyone else bring data."</p>
+        <p>In addition to the burden of proof, we have the logically fallacy of
+          false cause. False cause usually occurs when people confuse
+          correlation or coincidence with causation. Just because two events
+          coincide, it does not mean that one is the cause of the other.
+          Correlation is easy to prove, causation is not. For example, one of
+          the most popular topics for false cause is the drop in the murder
+          rate. Some think that the drop was the result of abortion becoming
+          legal (Levitt, 2015). Some think it because environmental lead, mostly
+          from paint and gasoline, has been slowly removed from the environment
+          (Casciani, 2015). And some even think that the murder rate has gone
+          down because more people are surviving being shot due to the fact that
+          level one trauma centers are near where crime occurs (Fields &amp;
+          McWhirter, 2015). The problem here is that policies, which cost money,
+          are made based on the belief that one thing causes another without any
+          evidence that it does thus possibly wasting a lot of time and money. </p>
+        <p> The other problem with false cause is that it has led to wrongheaded
+          policies, such as doctors telling parents not to let their child sleep
+          with the light on for fear it will cause short sightedness: it
+          doesn't. It turned out that children with short-sightedness prefer to
+          sleep with the light on (Smeets, 2012). This undermines the
+          credibility of science. </p>
+        <p> Another example comes from the field of education. Researchers in
+          the 1970s noticed a correlation between self-esteem and good grades.
+          This led some to conclude that if a child has high self-esteem, they
+          will get good grades. However, this turned out to be false. In turns
+          out that students with high grades have high self-esteem because of
+          the accomplishment of having high grades. In fact, the result of the
+          self-esteem movement is that we now have a lot of people who falsely
+          think they are more intelligent than they are, which hurts their
+          future career prospects by allowing them to falsely believe they are
+          competent when they are not (Smeets, 2012).</p>
+        <p> So, proving claims and writing logically are the two most imporant
+          aspects of writing. After those two, organization is second.
+          Organization involves two aspects of writing. Limiting what you're
+          going to write about and then organizing those limited topics. A good
+          rule to follow when writing on a topic is to pick three things about
+          that topic to write about. For example, if you were writing a paper
+          about logical fallacies, I would pick three to write about, probably
+          the most commonly used by companies to sell products and only write
+          about those three. Writing about all of them is a book or a huge
+          website, it's not an essay. </p>
+      </div>
+      <div id="chapterFour" class="chapts">
+        <h2>Picking Topics: Prewriting</h2>
+        <p>Picking topics Picking topics to write about is one of the most
+          difficult aspects of writing. Most writing classes overlook this, but
+          students need it. Here are the rules of picking topics. </p>
+        <ol>
+          <li>Be original</li>
+          <ol type="A">
+            <li>Don't write about guns, abortion, marijuana, drunk driving or
+              any other topic that has been done to death. There is nothing more
+              boring and a bigger waste of the reader's time than you, the
+              writer, rehashing the same old topic because you were too lazy to
+              come up with something original. You can always lets someone else
+              pick your topic for you.</li>
+          </ol>
+          <li>There are all kinds of essay and writing contests where the topic
+            has already been selected. The key here is to find a new way of
+            looking at the topic. An original point of view. For example, there
+            is a contest essay about texting and driving. The instructions
+            state, "The purpose of this scholarship is to help you understand
+            the risks of texting while driving." So remember to emphasize the
+            risks and the outcomes of those risks of texting while driving.</li>
+          <li>Write what you know or what you are willing to learn about.</li>
+          <ol type="A">
+            <li>Take an inventory of your interests and knowledge. What do you
+              know? For example, I know about fixing appliances, cars, bicycles,
+              and computers. I know about cutting down trees and chopping wood.
+              I know a lot about writing, editing, APA style, and science. And,
+              if I don't know something, I am willing to learn about it but not
+              in a superficial half-assed manner that isn't convincing like too
+              many writers do. </li>
+          </ol>
+          <li>The best way to pick a topic is to take something that you're
+            interested in and explore it further. </li>
+          <ol type="A">
+            <li>For example, let's say that you like listening to music, and you
+              use the Pandora music streaming service. You could write about how
+              the artists get paid. Or, you could write about why LP's are
+              making a comeback. Or, what the difference is between analog and
+              digital music.</li>
+            <li>For instance, I am in education and I like music, so I could
+              write about using music to enhance learning and provide examples
+              of this.</li>
+            <ol type="i">
+              <li>School House Rock</li>
+              <li>They Might Be Giants: Science is Real.</li>
+              <li>Pumps Your Blood: Happy Days</li>
+            </ol>
+          </ol>
+        </ol>
+      </div>
+      <div id="chapterFive-researching" class="chapts">
+        <h2>Researching</h2>
+        <p> Researching information for your writing requires work. Too often
+          students skimp on this part, and it shows. In most cases, students
+          have already come up with a thesis that they believe to be true and
+          then find only that information that supports what they already
+          believe to be true. This is called dogma, and it's bad practice. It's
+          ok to start with a thesis; however, if the information and data don't
+          support your thesis, you need to change your thesis and not look for
+          information that agrees with you just because it agrees with you.</p>
+        <h2>How to Research</h2>
+        <p>The easiest way to perform research is with a search engine, usually
+          at Google. However, you will want to perform specialized searches
+          instead of generic searches. For example, instead of typing body
+          cameras into a Google search box, type, site:gov body cameras. It will
+          restrict your search to Government sites like the Department of
+          Justice and the FBI. You could also perform a more an even more
+          specific search by typing in site:fbi.gov body cameras. This search
+          would only search through the FBI's website. You can do the same with
+          any portion of a web domain name. If you're in any field of medicine,
+          searching cdc.gov is a great idea. For business majors, searching
+          bls.gov (Bureau of Labor Statistics) is a great idea or the Small
+          Business Administration at sba.gov.</p>
+        <p>Using Wikipedia, WebMD, and other commercial sites. </p>
+        <p> Don't use Wikipedia, WebMD or most commercial (.com) websites
+          because in most cases they aren't primary sources of information.
+          Wikipedia is secondary source of information. You can use secondary
+          sources when doing research to help you find other sources. For
+          example, in Wikipedia, the Footnotes are a treasure trove of primary
+          source material that you can use. </p>
+        <img src="https://learningengineer.com/filerun/wl/?id=prRk76Up2Ply1bkBZEVgAUdsQYfTARAB"
+
+          alt="Wikipedia Citations for Halifax Disaster">
+        <p>The above image is a screen shot from the Footnotes section of a
+          Wikipedia article on the Halifax Explosion. Take a look at it for a
+          minute. The blue colored text are links to the sources that have been
+          cited in the article. It's best to click on those links and then use
+          those sources rather than Wikipedia.</p>
+        <p>There are also other databases that you can search, such as the
+          Ebscohost or Lexus/Nexus. If you're going to college or have a library
+          close by, both should have some access to one of these databases, and
+          you could search these for information. Your college or library should
+          have instructions on how to use them.</p>
+        <iframe class="video" src="https://www.youtube.com/embed/OvMcFVfHMso" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+
+          allowfullscreen="" height="315" frameborder="0" width="560"></iframe>
+      </div>
+      <div id="chapterSix-sources" class="chapts">
+        <h2>Sources</h2>
+        <p>If you're a student, and you're writing about something other than
+          yourself, you will need sources. You need credible sources because you
+          don't even have a degree, so you aren't an expert enough in much of
+          anything other than yourself. Think of it like this: would a judge
+          consider you an expert witness? You may think that you are, but you
+          aren't. It's a true fact. </p>
+        <p>For example, I once read an essay that claimed we should drug test
+          people on welfare because it would save money and because people in
+          the military are drug tested. The problem is that neither claim is
+          valid. First, drug testing has been tried many times, and it has
+          always been a waste of money (Cunha, 2014). Second, military personnel
+          are employees; they have an employment contract. People who receive
+          welfare are receiving a public good entitled to them by law. They are
+          presumed innocent until proven guilty before they can be denied this
+          public good. In another example, a student claimed that the drinking
+          age in the US has been 21 for hundreds of years. First, states
+          determine their drinking ages, and in the state of Wisconsin, the
+          drinking age was changed to 21 in the 1980s and not hundreds of years
+          ago. How do I know? I was seventeen when the change first occurred. I
+          was a primary witness to the change. </p>
+        <p>There are two types of sources�primary and secondary sources. Primary
+          sources are always more reliable and credible than secondary sources
+          because they are closer to the event. </p>
+        <ol>
+          <li>Primary Sources</li>
+          <ol type="A">
+            <li>US Government Statistics.</li>
+            <li>Not all governments are transparent. US government statistics
+              are open to rigorous scrutiny, which is why they are credible. For
+              example, the unemployment rate is partially determined by survey
+              data. The Bureau of Labor Statistics publishes the exact methods
+              used to generate those statistics, so you could easily replicate
+              them if you wanted to.</li>
+            <li>Controlled Experiments Published in peer reviewed journals</li>
+            <li>The journals Science and Nature are great examples of peer
+              reviewed journals. You can also find peer-reviewed journals in the
+              college's online library. My college uses the Ebsco host, which
+              allows you to filter your searches to peer-reviewed journals only.
+            </li>
+            <li>First hand accounts by eyewitnesses</li>
+            <li>You see these often as interviews recorded by police officers,
+              reporters, journalists, and cameramen. All journalists record
+              interviews. It's a legal thing. </li>
+            <li>News stories reported at the time</li>
+            <li>Trial transcripts </li>
+            <li>Police reports</li>
+            <li> Diaries and journals</li>
+            <li>Documents created at the time like emails. </li>
+          </ol>
+        </ol>
+        <ol>
+          <li>Secondary Sources</li>
+          <ol type="A">
+            <li>Wikipedia</li>
+            <li>WebMD</li>
+            <li>Encyclopedias</li>
+            <li>OWL at Purdue University</li>
+            <li>Most commercial websites.</li>
+          </ol>
+        </ol>
+        <h2 id="fakenews">Fake News</h2>
+        <h3>What is fake news? </h3>
+        <p> Everyone makes mistakes and the news media is no different. Credible
+          publications and broadcast stations print or state what are known as
+          "Corrections." Corrections are notes or statements that correct past
+          stories in previous editions. On the Internet, articles where mistakes
+          have been made are corrected, but a note is placed at the bottom of
+          the page noting the correction and what had been previously reported.
+          This is called honesty. Honesty means credibility. Sometimes people
+          confuse an honest mistake with a vast conspiracy yet provide no
+          evidence of the conspiracy other than to point to a handful of
+          cherry-picked mistakes that undoubtedly support some prior belief. </p>
+        <p> Most fake news comes in the form of phony press releases from
+          businesses or non-profit organizations owned by businesses looking to
+          generate sensationalism or hysteria. One example is the website <a href="americaspower.org">americaspower.org</a>,
+          which represents the American Coalition for Clean Coal Electricity.
+          There is no such thing as clean coal. It produces CO2 and mercury. The
+          mercury from coal is the reason why you should restrict how much fish
+          you eat. (CDC, 2016)</p>
+        <h2>Facts and Evidence</h2>
+        <p>Here is something that a student once wrote in an essay. </p>
+        <p>She claimed that President Trump was a misogynist, weak minded and
+          had a hatred for immigrants. None of her claims could be proven as
+          true. Trump's wives have almost always had a roll [sic] within his
+          company, his family immigrated as well as his current wife and has had
+          to do some extensive damage control for himself over the years.
+          Nonetheless, Hillary Clinton's slanderous ads had no prevail as Trump
+          won the presidency and is currently the president.</p>
+        <p>Let's look at what was stated here.</p>
+        <p>First, the student claims that none of Hillary Clinton's claims could
+          be proven true. This is false. Donald Trump is a misogynist because he
+          was literally caught on a recording stating how he can grope women
+          whenever he wants. He then apologized for what he said. A recording
+          and a confession are plenty of evidence to support the claim.</p>
+        <p>Second, the student claims that there is no evidence that Donald
+          Trump has a hatred for immigrants. This ignores words that have come
+          out of Donald Trump's own mouth. Does he have a hatred for all
+          immigrants? No, just those that allow him to score political points.
+          Let's look at some of the things Donald Trump has said about
+          immigrants.</p>
+        <p>"When Mexico sends its people, they're not sending the best. They're
+          sending people that have lots of problems and they're bringing those
+          problems. They're bringing drugs, they're bringing crime. They're
+          rapists and some, I assume, are good people, but I speak to border
+          guards and they're telling us what we're getting."</p>
+        <p>Donald Trump provides no evidence to support his claims. In fact, his
+          claims have been debunked by credible news outlets like the New York
+          Times, which presents evidence to support its claims (Perez-Pena,
+          2017).</p>
+        <p>In another paper, a student claimed that Western medicine is missing
+          out on "traditional" medicine. The problem is that there is only
+          medicine. Treatments such as chiropractic care, acupuncture, and
+          homeopathy need to be proven to be effective in randomized
+          double-blind clinical trials or they are just more snake oil. You want
+          to be able to support your assertions with facts and evidence and not
+          speculation, hyperbole, or hysteria. If we don't, then we end up with
+          Snake-oil salesmen peddling garbage and false hope. As future
+          professionals, you have a duty to stand up for the truth and not some
+          imaginary truth biased by our false beliefs. </p>
+        <h3>Getting It Wrong</h3>
+        <p>Sometimes writers, scientists, and politicians make mistakes.
+          Sometimes they need to change their mind because they're wrong.
+          Sometimes we must go with the information we have. For example, our
+          understanding of gravity has changed throughout the years. Newton's
+          gravity couldn't explain the path of the planet Mercury around the
+          sun, but Einstein's could. Now Einstein's concept has been put to the
+          test by the Voyager spacecraft, which is so far from earth and any
+          form of gravity that it isn't where it is calculated to be. Therefore,
+          science dictates that when the facts and evidence change so should our
+          decisions. An inability to change your opinion based on the facts and
+          evidence is unprofessional behavior. </p>
+      </div>
+      <div class="chapts">
+        <h2 id="planning">Planning and Outlining</h2>
+        <p> Once you've done your research, you need to start planning your
+          essay. This is important because it's going to save you a lot of time
+          and effort. First, if you did your research correctly, you should have
+          a lot more information than you can ever use. This is where an outline
+          comes in handy. It is my experience that students who use outlines get
+          better grades and waste less time writing. This is because the outline
+          helps you think about what is and isn't important. </p>
+        <p> Essays on broad topics need to be trimmed down because you're
+          writing an essay and not a book. For example, I once read an essay by
+          a student about Israel. The essay was very disorganized. One fact
+          jumped to another unrelated fact. In one paragraph, the student is
+          writing about the Dead Sea and in the next sentence about the Seven
+          Day War. So, I simply started writing an outline, and I told the
+          student to pick three things that they felt were important about
+          Israel�just three. Not everything. </p>
+        <p> An essay outline is very simple. Here is an example.</p>
+        <ol>
+          <li>Introduction</li>
+          <ol type="A">
+            <li>Why is this essay important?</li>
+            <li>Why should the reader read this essay?</li>
+            <li>Why should the reader change their mind about this or that?</li>
+            <li>Thesis statement. What is this essay about? </li>
+          </ol>
+          <li>First topic that follows the forecast statement</li>
+          <ol type="A">
+            <li>First point</li>
+            <li>Second point</li>
+          </ol>
+          <li>Second topic that follows the forecast statement</li>
+          <ol type="A">
+            <li>First point</li>
+            <li>Second point</li>
+          </ol>
+          <li>Third topic that follows the forecast statement</li>
+          <ol type="A">
+            <li>First point</li>
+            <li>Second point</li>
+          </ol>
+          <li>Conclusion.</li>
+          <ol type="A">
+            <li>Restates why this is important. </li>
+          </ol>
+        </ol>
+        The outline helps you to focus your attention and what you think is
+        important for the reader to know. Here are some sample outlines for
+        essays to help you understand how they work. Definition Essay Outline
+        <ol>
+          <li>Introduction</li>
+          <ol type="A">
+            <li>Introduce the reader to professional jargon and lead that into a
+              better understanding of the learning process. </li>
+            <li>Thesis statement: Learning about the split-attention effect will
+              help you become a better student and safer person.</li>
+          </ol>
+          <li>What is the Split-Attention Effect?</li>
+          <ol type="A">
+            <li>Textbook Definition </li>
+            <ol type="i">
+              <li>Instructional split attention occurs when learners are
+                required to split their attention between and mentally integrate
+                several sources of physically or temporally disparate
+                information, where each source of information is essential for
+                understanding the material. Cognitive load is increased by the
+                need to mentally integrate the multiple sources of information.
+                This increase in extraneous cognitive load is likely to have a
+                negative impact on learning compared with conditions where the
+                information has been restructured to eliminate the need to split
+                attention. (Ayres and Sweller)</li>
+            </ol>
+            <li>Paraphrased: Split-attention occurs when the learner has to
+              split their attention because information has been divided by
+              space or time.</li>
+          </ol>
+          <li>Examples to illustrate</li>
+          <ol type="A">
+            <li>Child learning to tie their shoes</li>
+            <li>Math books</li>
+            <li>Personal Narrative about the Split-Attention Effect.</li>
+            <ol type="i">
+              <li>Correspondence Statistics Course</li>
+              <li>I was getting a D</li>
+              <li>Math book as spatially separate explanations</li>
+              <li>Solution</li>
+              <li>Recorded myself reading book and then listened back to the
+                audio.</li>
+              <li>Grade went to an A</li>
+            </ol>
+            <li>Driving while texting is another example</li>
+            <li>Doing anything while driving</li>
+            <li>Taking Notes in Class</li>
+            <ol type="i">
+              <li>Attention splits between listening and writing</li>
+              <li>Solution? Actively listen.</li>
+            </ol>
+            <li>Conclusion</li>
+          </ol>
+        </ol>
+        &nbsp;&nbsp;&nbsp; Logical Fallacy Outline </div>
+      <div class="chapts">
+        <ol>
+          <li>Introduction</li>
+          <ol type="A">
+            <li>Logical Fallacies are very common</li>
+            <li>Politicians name calling </li>
+            <li>Baseball players' rituals </li>
+            <li>Reebok toning shoes </li>
+            <li>Tenure causes harm </li>
+            <li>Logical fallacies cause harm </li>
+            <li>Thesis </li>
+            <ol>
+              <li>Appeal to emotion, burden of proof, and false cause are
+                probably the three most common logical fallacies that cause
+                harm. </li>
+            </ol>
+          </ol>
+          <li>Appeal to emotion </li>
+          <ol type="A">
+            <li>Definition The appeal to emotion is an attempt to sidestep facts
+              and evidence for an appeal to someone's emotions. </li>
+            <li>Examples </li>
+            <ol>
+              <li>Cheerios: Breakfast with Nana </li>
+              <ol>
+                <li>Premise: Since grandma ate Cheerios, eating Cheerios is like
+                  having breakfast with grandma Problem Nana isn't really eating
+                  breakfast with you. Conclusion </li>
+                <li>Consumers need facts and honesty to make good purchasing
+                  decisions </li>
+              </ol>
+            </ol>
+          </ol>
+          <li>Burden of Proof </li>
+          <ol type="A">
+            <li>Definition </li>
+            <ol>
+              <li>This fallacy involves making assertions or accusations that
+                have no basis in fact or evidence. </li>
+            </ol>
+            <li>Example(s) </li>
+            <ol>
+              <li>&nbsp;Hooked on Phonics Claimed that it could teach even the
+                learning disabled to read Problem, no evidence to support the
+                claim. Fined by the FTC Conclusion Save time and money
+                purchasing only products proven to be effective </li>
+              <li>Birthers claim President Obama isn't an American citizen No
+                evidence to support their claim The President's birth
+                certificate has been presented as evidence that he is. Courts
+                have thrown out every lawsuit against the president. </li>
+              <li>Conclusion: "In God we trust, everyone else bring data." </li>
+            </ol>
+          </ol>
+          <li>False Cause.&nbsp;</li>
+          <ol>
+            <li>Definition </li>
+            <ol>
+              <li>False cause usually occurs when people confuse correlation or
+                coincidence with causation. </li>
+            </ol>
+            <li>Examples </li>
+            <ol>
+              <li>Drop in the murder rate </li>
+              <ol>
+                <li>Legalized abortion </li>
+                <li>Removal of environmental lead </li>
+                <li>Gun shot survival rate improves </li>
+              </ol>
+            </ol>
+            <li>Conclusion: money is wasted when people confuse correlation with
+              causation. </li>
+            <li>Example </li>
+            <ol>
+              <li>Night lights cause shortsightedness Wrong: shortsighted people
+                like to sleep with a nightlight on Undermines credibility of
+                science. </li>
+              <li>Self-esteem leads to good grades Wrong: good grades leads to
+                self-esteem Leads to students believing they are smart when they
+                aren't. </li>
+            </ol>
+            <li>Conclusion </li>
+            <li>Logical fallacies mislead and deceive. Protect yourself. </li>
+          </ol>
+        </ol>
+        Logical Fallacy: Cherry Picking Outline </div>
+      <div class="chapts">
+        <ol>
+          <li>Introduction </li>
+          <ol>
+            <li>Definition of what cherry-picking is. </li>
+            <ol>
+              <li>Cherry-picking is the selective use of data, subjects,
+                intervals, and methods to support what someone already believes
+                to be true. </li>
+            </ol>
+            <li>Thesis: Three examples of cherry-picking are "No Excuses"
+              Charter Schools, Vivobarefoot, and PBS Newshour. </li>
+          </ol>
+          <li>No Excuses Charter Schools </li>
+          <ol>
+            <li>No Excuses Charter Schools and charter schools in general use
+              volunteers instead of a random selection students from public
+              schools. The parents of children who go to Charter School are
+              different than random parents because they are actively involved
+              in their child's education and are more likely to be well-educated
+              themselves. (Powers and Mathis) </li>
+          </ol>
+          <li>Vivobarefoot products are the new running shoes that look like a
+            sock and require that the runner hits the ground with the front of
+            their foot rather than the back. They claim that the Vivobarefoot
+            leads to fewer injuries: "Harvard study proves that heel strikers
+            have 2x the rate of injury as forefoot strikers." </li>
+          <ol>
+            <li>The problem is that the study didn't use a random selection of
+              joggers from the general population of joggers, but rather, from
+              52 almost "elite" level runners. Elite runners are more practiced
+              and would thus be expected to have fewer injuries. So, the
+              Vivobarefoot claim only counts for elite runners and not the
+              average runner. </li>
+          </ol>
+          <li>PBS Newshour Story in which PBS cherry-picks data in its
+            assertions against Success Academies. Example: "But our sources,
+            including several public school principals, quite a few former
+            Success Academy parents, and one person inside her organization,
+            charge that is exactly what she does, repeatedly suspend certain
+            kids to push them out. However, none of these critics were willing
+            to publicly confront Moskowitz," according to John Merrow the
+            reporter from the PBSNewshour. (Merrow) </li>
+          <li>Conclusion: see introduction</li>
+        </ol>
+        <h2 id="styleguides">Style Guides</h2>
+        &nbsp;&nbsp;&nbsp; What is a style guide?&nbsp; A style guide consists
+        of the rules of formatting and styling your paper.&nbsp; This includes
+        how a title page is formatted, for example, where the pages are numbered
+        and how a paper is cited.&nbsp; I have used several different styles
+        over the years: Turabian, MLA, APA, and General Motors (Most
+        corporations have their own style guides).&nbsp; Each time I was
+        expected to adapt to the style being used because that�s what will be
+        expected of you in the world of work.&nbsp; As of this writing, I have
+        my students use the style guide used in their program areas.&nbsp; Most
+        style guides have a published book that teaches you about it (<a href="Style%20Guides%09What%20is%20a%20style%20guide?%20%20A%20style%20guide%20consists%20of%20the%20rules%20of%20formatting%20and%20styling%20your%20paper.%20%20This%20includes%20how%20a%20title%20page%20is%20formatted,%20for%20example,%20where%20the%20pages%20are%20numbered%20and%20how%20a%20paper%20is%20cited.%20%20I%20have%20used%20several%20different%20styles%20over%20the%20years:%20Turabian,%20MLA,%20APA,+and+General+Motors+%28Most+corporations+have+their+own+style+guides%29.++Each+time+I+was+expected+to+adapt+to+the+style+being+used+because+that%92s+what+will+be+expected+of+you+in+the+world+of+work.++As+of+this+writing,%20I%20have%20my%20students%20use%20the%20style%20guide%20used%20in%20their%20program%20areas.%20%20Most%20style%20guides%20have%20a%20published%20book%20that%20teaches%20you%20about%20it%20%28https://www.amazon.com/Publication-Manual-American-Psychological-Association/dp/1433805618%29%20or%20you%20can%20simply%20use%20the%20APA%20own%20style%20blog%20at%20http://blog.apastyle.org++which+is+really+the+best+source+because+it+is+a+primary+source+direct+from+the+publisher+of+the+book+and+up-to-date.++Some+teachers+like+to+use+Purdue+University%92s+OWL+%28Online+Writing+Lab%29+as+a+source,%20but%20this%20is%20a%20secondary%20source%20and%20is%20completely%20uncited.%20%20In%20addition,+the+OWL+doesn%92t+have+a+citation+reference+for+a+government+source,+yet+government+sources+like+the+NIH+and+CDC+are+frequently+cited.++">https://www.amazon.com/Publication-Manual-American-Psychological-Association/dp/1433805618</a>)
+        or you can simply use the APAs own style blog at <a href="Style%20Guides%09What%20is%20a%20style%20guide?%20%20A%20style%20guide%20consists%20of%20the%20rules%20of%20formatting%20and%20styling%20your%20paper.%20%20This%20includes%20how%20a%20title%20page%20is%20formatted,%20for%20example,%20where%20the%20pages%20are%20numbered%20and%20how%20a%20paper%20is%20cited.%20%20I%20have%20used%20several%20different%20styles%20over%20the%20years:%20Turabian,%20MLA,%20APA,+and+General+Motors+%28Most+corporations+have+their+own+style+guides%29.++Each+time+I+was+expected+to+adapt+to+the+style+being+used+because+that%92s+what+will+be+expected+of+you+in+the+world+of+work.++As+of+this+writing,%20I%20have%20my%20students%20use%20the%20style%20guide%20used%20in%20their%20program%20areas.%20%20Most%20style%20guides%20have%20a%20published%20book%20that%20teaches%20you%20about%20it%20%28https://www.amazon.com/Publication-Manual-American-Psychological-Association/dp/1433805618%29%20or%20you%20can%20simply%20use%20the%20APA%20own%20style%20blog%20at%20http://blog.apastyle.org++which+is+really+the+best+source+because+it+is+a+primary+source+direct+from+the+publisher+of+the+book+and+up-to-date.++Some+teachers+like+to+use+Purdue+University%92s+OWL+%28Online+Writing+Lab%29+as+a+source,%20but%20this%20is%20a%20secondary%20source%20and%20is%20completely%20uncited.%20%20In%20addition,+the+OWL+doesn%92t+have+a+citation+reference+for+a+government+source,+yet+government+sources+like+the+NIH+and+CDC+are+frequently+cited.++">http://blog.apastyle.org</a>&nbsp;
+        which is really the best source because it is a primary source direct
+        from the publisher of the book and up-to-date.&nbsp; Some teachers like
+        to use Purdue University�s OWL (Online Writing Lab) as a source, but
+        this is a secondary source and is completely uncited.&nbsp; In addition,
+        the OWL doesn�t have a citation reference for a government source, yet
+        government sources like the NIH and CDC are frequently
+        cited.&nbsp;&nbsp;</div>
+      <div class="chapts">&nbsp;&nbsp;&nbsp; Therefore, rather than using a
+        secondary source like the OWL, you should use a primary source, such as
+        the APA Style Blog and the MLA Style Blog.&nbsp; </div>
+      <div class="chapts">
+        <p><a href="https://apastyle.apa.org/blog">APA Style Blog
+            https://apastyle.apa.org/blog</a></p>
+        <p><a href="https://style.mla.org/">MLA Style Blog
+            https://style.mla.org/</a></p>
+      </div>
+      <div id="drafting" class="chapts">
+        <h2><br>
+        </h2>
+        <h2>Drafting</h2>
+        &nbsp;&nbsp;&nbsp; This is the next step in the writing process. In
+        drafting, you take your outline and the information you have gathered,
+        and you write your essay.&nbsp; You want your first draft to be
+        informally written.&nbsp; You want your writing to be readable, and you
+        should write the way you speak.&nbsp; This is what I tell
+        students.&nbsp; Imagine you are sitting next to a friend, now say to
+        them what you are going to write, first.&nbsp; If you can�t say it
+        before you write it, don�t write it. <br>
+        &nbsp;Here are the five simple rules of readable writing.<br>
+        Short words (Video: The Power of Simple Words). <br>
+        https://ed.ted.com/lessons/the-power-of-simple-words</div>
+      <iframe class="video" src="https://www.youtube.com/embed/Dz8E8UOBFJQ" allow="accelerometer; autoplay; 
+      encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" height="315"
+
+        frameborder="0" width="560"></iframe>
+      <div class="chapts"> Short sentences<br>
+        Excerpt from Bukowski�s Ham on Rye<br>
+        <a href="http://www.thebuk.com/Ham_On_Rye.html" target="_blank">http://www.thebuk.com/Ham_On_Rye.html</a>
+        <br>
+        Colbert: I am America and So Can You<br>
+        <a href="https://www.npr.org/books/titles/138281577/i-am-america-and-so-can-you"
+
+          target="_blank">https://www.npr.org/books/titles/138281577/i-am-america-and-so-can-you</a>
+        Active verbs<br>
+      </div>
+      <div class="chapts"><br>
+      </div>
+      <div class="chapts">Action (active) verbs are better than state of being
+        verbs.<br>
+        Replace �is was were are have had has� as best you can with action
+        verbs. </div>
+      <div class="chapts"><br>
+      </div>
+      <div class="chapts">Avoid passive voice unless necessary.<br>
+        When should you use the passive voice?<br>
+        When you want the victim to be the subject of the sentence. <br>
+        Active: Shark attacks surfer.<br>
+        Passive: Surfer was attacked by shark. <br>
+      </div>
+      <div class="chapts"><br>
+      </div>
+      <div class="chapts">Concrete nouns<br>
+        Concrete nouns are nouns that you can touch like, well, concrete.&nbsp;
+        Concrete nouns are better than abstract nouns because they work nicely
+        with our five senses.&nbsp; They are words that are more than just
+        sounds.&nbsp; They create experiences. Read the article at the following
+        link. </div>
+      <div class="chapts"><a href="http://readablewriting.com/g-worries-about-concrete-nouns/">http://readablewriting.com/g-worries-about-concrete-nouns/</a></div>
+      <div class="chapts">If you're having a problem understanding, you can also
+        watch this video.</div>
+      <div class="chapts"><a href="https://www.khanacademy.org/humanities/grammar/parts-of-speech-the-noun/types-of-nouns/v/concrete-and-abstract-nouns">https://www.khanacademy.org/humanities/grammar/parts-of-speech-the-noun/types-of-nouns/v/concrete-and-abstract-nouns</a></div>
+      <div class="chapts">
+        <h2><br>
+        </h2>
+        <h2>Personal language&nbsp; </h2>
+        What does this mean?&nbsp; It means to write the way you speak.&nbsp;
+        Here is an example from Frank Sinatra in a letter he wrote to Mike
+        Royko.&nbsp; Here is the background on the letter.&nbsp; Frank was in
+        Chicago in the late 1970s performing.&nbsp; About two blocks from his
+        hotel where most of the Chicago law enforcement community was apparently
+        hanging out, an elderly woman was mugged violently. A columnist for the
+        Chicago Daily News by the name of Mike Royko blamed Frank Sinatra.&nbsp;
+        <iframe class="video" src="https://docs.google.com/document/d/1kGhhE5FB-aDHyl1oLk5vvCaJ3eZJPTeYYho1rgwOf5s/edit?usp=sharing"
+
+          height="300px" width="80%"></iframe> <br>
+        Now that you have read the Sinatra letter, did you notice how easy it
+        was to read and how concise the language was?&nbsp; Did you notice that
+        Frank doesn�t use any fancy words?&nbsp; Frank Sinatra, a New Jersey
+        son, writes the way he speaks.</div>
+      <div class="chapts"><br>
+      </div>
+      <div id="paraphrasing" class="chapts">
+        <h2>Paraphrasing</h2>
+        &nbsp;&nbsp;&nbsp; Writers use sources for their writing because in most
+        cases, they aren�t experts. Good writers can take complex topics and
+        make them easier for the reader to understand.&nbsp; Therefore, one of
+        the most important tools in your writer�s toolbox is paraphrasing.&nbsp;
+        You will paraphrase most of your sources.&nbsp; You can�t quote
+        everything because that would make you an editor and not a writer.&nbsp;
+        <br>
+        &nbsp;&nbsp;&nbsp; The first step in paraphrasing is reading
+        comprehension.&nbsp; You have to understand what you�re reading, and you
+        have to understand all the concepts involved.&nbsp;&nbsp; This is
+        important because paraphrasing requires you to change everything from a
+        source except the meaning of what is being stated.&nbsp; If you don�t
+        understand your source, your paraphrased sentences will be
+        worthless.&nbsp; Keep the meaning.&nbsp; Change everything else.&nbsp; <br>
+        &nbsp;&nbsp;&nbsp; Here, for example, I have a sentence I copied from
+        the <i>New Yorker</i> article �The Checklist� written by Dr Atul
+        Gawande, �It was sleek and impressive, with a one hundred three-foot
+        wingspan and four engines jutting out from the wings, rather than the
+        usual two.�&nbsp; The first problem with paraphrasing this sentence
+        starts with the word �it.�&nbsp; In order to paraphrase this sentence
+        properly, you need to know what the word �it� is referring to (its
+        antecedent).&nbsp; In this sentence, the word �it� is referring to the
+        Word War II, B17 Bomber which was built by Boeing.&nbsp; <br>
+        The second step in paraphrasing is changing the words with
+        synonyms--different words same meaning.&nbsp; Again, it is important to
+        remember that you have to keep the meaning of the original words and
+        that you have to match same part of speech with same part of
+        speech.&nbsp; You must replace verbs with verbs, adjectives with
+        adjectives, and so on.&nbsp; If you use a different part of speech, the
+        sentence becomes incoherent.&nbsp; For changing the words, I use a
+        thesaurus.&nbsp; MS Word has a built-in thesaurus.&nbsp; If you right
+        click on a word, you get a drop down list, and click on synonyms, which
+        drops out and down to give you a list of possible synonyms.&nbsp; Click
+        on one of the words, and it will replace the word jealousy in your
+        text.&nbsp; <br>
+        From there, you can also open up the thesaurus directly by clicking on
+        thesaurus at the bottom of the list.&nbsp; In Word�s thesaurus, you can
+        see a small (n.) next to the word protectiveness.&nbsp; This means that
+        it is a noun, and you can see that all of the synonyms of jealousy are
+        nouns, so this one would be easy to replace.&nbsp; <br>
+        If you want or need a more extensive thesaurus, you can use the Power
+        Thesaurus at <a href="https://www.powerthesaurus.org/">https://www.powerthesaurus.org/</a>
+        This is the thesaurus I use for two reasons.&nbsp; First, it�s rather
+        easy to use, and second, I don�t always use MS Word for writing and want
+        to use something that is always available.&nbsp; In fact, I used it to
+        help me write this paragraph.&nbsp; Initially, I wrote, �If you want or
+        need a more comprehensive thesaurus...� I then changed �comprehensive�
+        to �extensive.� <br>
+        &nbsp;&nbsp;&nbsp; In our sentence, I am going to highlight all the
+        words I want to find synonyms for. <br>
+        <br>
+        It was <mark>sleek</mark> and <mark>impressive</mark>, with a <mark>one
+          hundred three foot</mark> wingspan and <mark>four engines</mark> <mark>jutting</mark>
+        out from the wings, rather than the <mark>usual two</mark>. <br>
+        <br>
+        Once I completed the changes to the words, I ended up with�<br>
+        <br>
+        The B17 was streamlined and striking, featuring an almost 40 yard
+        wingspan and a quartet of Boeing engines sticking out from the wings as
+        opposed to most planes at that time which only had two. <br>
+        <br>
+        As you can see, certain words were impossible to change, such as
+        wingspan and wings.&nbsp; Some words&nbsp; just can�t be replaced
+        without making the sentence sound incoherent or awkward.<br>
+        &nbsp;&nbsp;&nbsp; When using the Power Thesaurus, you simply search for
+        a synonym.&nbsp; Then, you can click on any of the recommended synonyms
+        to find synonyms of that word.&nbsp; In fact, you can click on any of
+        the words to see yet more synonyms.&nbsp; It�s a good idea to check out
+        the Power Thesaurus and play around with the website to see what it
+        offers. <br>
+        &nbsp;&nbsp;&nbsp; It�s important to be very careful about the words you
+        are using.&nbsp; It�s always better to replace a complex word with a
+        more simple word.&nbsp; In my paraphrased example, I replaced �jutting�
+        with �sticking,� but originally, I wanted to use �extruding,� which I
+        realized wasn�t the best choice for the reader. <br>
+        <br>
+        The third step in paraphrasing is changing the structure of the original
+        sentence.&nbsp; Now, this isn�t always easy, nor is it always
+        necessary.&nbsp; However, you should try it.&nbsp; I first try to flip
+        the sentence around, rearranging any prepositional or participle
+        phrases.&nbsp; Here is what I ended up with.&nbsp; <br>
+        <br>
+        Most planes at this time had only two engines, but the B17, streamlined
+        and striking, featured an almost 60 yard wingspan and a quartet of
+        Boeing engines.<br>
+        &nbsp; <br>
+        As you can see, I took the last part about how most planes had only two
+        engines from the back of the sentence and put it at the front--very
+        simple.&nbsp;&nbsp; From here, I can add an �although� to the beginning
+        of the sentence and get rid of the �but� from the middle.&nbsp; So, now
+        my final sentence ends up as. <br>
+        <br>
+        Although most planes at this time had only two engines, the B17,
+        streamlined and striking, featured an almost 60 yard wingspan and a
+        quartet of Boeing engines.<br>
+        <br>
+        To check my sentence, I do one final thing.&nbsp; I copy and paste it
+        into a Google search to see if the New Yorker article shows up in the
+        first page, and it doesn�t.&nbsp; There are also other plagiarism
+        checkers that you can use, such as Quetext at https://www.quetext.com/,
+        but I have found that Google works quite well, and you don�t have to
+        sign up for it. </div>
+      <div id="introduction" class="chapts">
+        <h1><br>
+        </h1>
+        <h1>Writing the Introduction</h1>
+        <h3>Where do I begin?&nbsp; Writing your introduction.&nbsp; </h3>
+        <h4>Broad to Narrow </h4>
+        <p>Logical fallacies are used by almost everyone.&nbsp; They are easy to
+          use because they require no facts or evidence.&nbsp;&nbsp; They are
+          very often used on Facebook, Twitter, and Youtube by politicians,
+          advertisers, and conspiracy theorists.&nbsp; We kind of expect them
+          from politicians and conspiracy theorists, but we should never see
+          them used in healthcare.&nbsp; Used in healthcare, they can cause you
+          to waste your money, injury, and even death.&nbsp; In healthcare,
+          appeal to emotion, burden of proof, and false cause are probably the
+          three most commonly used logical fallacies.&nbsp; </p>
+        <h4>Narrow to Broad </h4>
+        <p>In the movie, Thank You for Smoking, Aron Eckart�s character turns an
+          argument about which flavor of ice cream, chocolate or vanilla, is
+          better, into an argument about liberty and freedom.&nbsp; This is a
+          strawman fallacy, and it occurs when someone misdirects a debate about
+          one thing, such as which type of ice cream is better into something
+          else.&nbsp; This allows the arguer to avoid having to deal with the
+          actual topic that is being discussed.&nbsp; This is a popular fallacy
+          for politicians to use.&nbsp; </p>
+        <h4>Quotation</h4>
+        <p>According to the professional skeptic Christopher Hitchens, �That
+          which can be asserted without evidence, can be dismissed without
+          evidence.�&nbsp; Mr Hitchens believed that modern society was born on
+          the concept that people need to prove their assertion before we should
+          believe them.&nbsp; This belief is ingrained in our justice system:
+          innocent until proven guilty.&nbsp; And the scientific method whereby
+          controlled experiments prove that which has been asserted or
+          theorized.&nbsp; Burden of proof...<br>
+          Some other authors and scientists who would provide excellent quotes.<br>
+          Michael Shermer<br>
+          Richard Dawkins<br>
+          Sir Arthur Conan Doyle <br>
+          Harry Houdini<br>
+          Albert Einstein<br>
+          Voltaire<br>
+          Socrates&nbsp; </p>
+        <h4>Anecdotal</h4>
+        <p>When I was a child, my parents often told us about Santa Claus who
+          was an old overweight white guy who watched children as they slept and
+          that if we weren�t good we wouldn�t get any presents on
+          Christmas.&nbsp; Of course, eventually children begin to realize that
+          Santa couldn�t possibly fit through the chimney or that he couldn�t
+          possibly deliver presents to every child in the world within 24
+          hours.&nbsp; However, parents</p>
+        <h4>Contrasting Ideas</h4>
+        <p>Currently at Blackhawk Technical College students are required to
+          take a Student Success course.&nbsp; The book from this course offers
+          students a questionnaire that helps them to determine their learning
+          style preference.&nbsp; The problem with this is that learning styles
+          have no basis in science.&nbsp; They are what we call confirmation
+          bias, meaning that they sound like they are a good idea.&nbsp; After I
+          graduate from the school of education, I will only use methods of
+          teaching that are scientifically valid.&nbsp; </p>
+        <h4>Starting with questions</h4>
+        <p>What is a logical fallacy?&nbsp; Logical fallacies are�.&nbsp;&nbsp;
+          <br>
+          Why are logical fallacies important to know?&nbsp; Logical fallacies
+          are important to know because�</p>
+      </div>
+      <div id="bodyparagraphs" class="chapts">
+        <h2>Body Paragraphs</h2>
+        The best way to structure a supporting paragraph is to start with a
+        topic sentence that is much like the thesis statement you read about
+        earlier.&nbsp; The topic sentence should be a single sentence that
+        summarizes or makes a statement about what the paragraph will be
+        presenting.&nbsp; It�s often best to start with a vague topic sentence
+        and then make it more specific after you write your paragraph.&nbsp; For
+        example, let�s say I am going to write about the logical fallacy known
+        as an appeal to emotion.&nbsp; I might start my paragraph with a
+        statement like, �Appeals to emotion are common.�&nbsp; Then, I will
+        start writing.&nbsp; After my topic sentence, I will want to provide a
+        definition of what an appeal to emotion is.&nbsp; Then, I will want to
+        provide a real-world example, such as the Cheerios commercial �Breakfast
+        with Nana.�&nbsp; You don�t want to use a made-up example like those you
+        find at logical fallacy websites because they don�t help the reader
+        apply them in real life.&nbsp; You want to use real examples of appeals
+        to emotion, so that the reader can see the context that they are used
+        in.&nbsp; After you have your example, you�ll want to explain how it is
+        an appeal to emotion.&nbsp; For example, in Breakfast with Nana, a
+        little girl asks her mom if Cheerios was the same back when her mom was
+        a little girl as it is now.&nbsp; The mom responds with a yes, it was
+        the same.&nbsp; To that the little girl replies, �So when we have
+        Cheerios, it�s like we�re having breakfast with Nana.�&nbsp; A tear then
+        forms in Mom�s eye because grandma has obviously passed away.&nbsp;
+        Leveraging the death of a grandparent to sell some cereal is an obvious
+        appeal to emotion.&nbsp; </div>
+      <div class="chapts">&nbsp; <br>
+        Here is a body paragraph on the ad hominem fallacy. </div>
+      <div class="chapts"><br>
+      </div>
+      <div class="chapts">An ad hominem fallacy is often referred to as name
+        calling.&nbsp; This logical fallacy occurs when people attack the person
+        making the argument with irrelevant name calling.&nbsp; For example,
+        claiming that a woman doesn�t know anything about fixing a car because
+        she is a woman, is an ad hominem attack because being a woman has
+        nothing to do with being able to fix a car.&nbsp; These are popular
+        because people often believe the name calling when the person being
+        attacked doesn�t respond to the name calling.&nbsp;&nbsp; However,
+        pointing out that someone is arguing from ignorance is not an ad-hominem
+        attack because ignorance or the lack of knowledge, facts or evidence is
+        relevant to the discussion.&nbsp; </div>
+      <div id="bodyparagraphs" class="chapts">
+        <h2>More Body Paragraphs</h2>
+          <h4>
+            Exampe Paragraphs
+        </h4>
+        <p>
+          There are three different websites that you can learn about grammar and usage from.   The first is called Grammar Girl, which can be found by simply googling the words �grammar girl.�  This is an excellent site that has over 200 podcasts that cover various topics that pertain to the rules of grammar and usage.  You can download the audio or even read the transcripts of the articles.  The second site is Engvid.com, which provides lessons in a video format that are stored on YouTube.  It too is comprehensive and easy to use.  The topics covered are done so in a manner that is simple and easy to understand.  Finally, there is the OWL site (Online Writing Lab) at Purdue University.  This site is beyond comprehensive because it not only covers the basics, but also covers more advanced topics like logic and deductive reasoning in writing.
+        </p>
+      </div>
+      <div id="conclusions" class="chapts">
+        
+        <h2>Conclusions </h2>
+      </div>
+      <div id="exampleessays" class="chapts">
+        <h2>Essays</h2>
+        <h3>Cause and Effect Essay</h3>
+        <p>A tear fell to my dad�s cheek as he sat my family down to explain
+          that he had a rare form of kidney cancer. I had never seen him cry
+          before, and no further explanation was needed to emphasize the
+          enormity of the situation. <br>
+          It was then, at the young age of twelve, that I was first introduced
+          to a urological pathology. Not only did I begin to learn of the
+          kidneys' important role in physiology, but I also gained an immense
+          respect for surgeons: the wild nature of the operative arena and the
+          dangers associated with it. During the operation, my dad's inferior
+          vena cava was inadvertently damaged, necessitating the transfusion of
+          ten units of blood. Despite my age, I was able to take in the gravity
+          of the situation and process the dangers that our patients are exposed
+          to when they go "under the knife." At the same time, I was fascinated
+          with the definitive nature of his surgical intervention: my dad, with
+          the help of his urologists, beat cancer with surgery alone and didn't
+          require adjuvant treatment.<br>
+          &nbsp;&nbsp;&nbsp;&nbsp; I don�t think any child of twelve imagines
+          himself or herself as a career urologist, but life takes unexpected
+          turns.&nbsp; Although my family's experience served to ignite my keen
+          interest in medicine, it was not until recently that my aspirations
+          came full circle. Throughout medical school, I have endeavored to
+          master both preclinical and clinical knowledge and have a true passion
+          for exceeding expectations as an intern�no matter the rotation. During
+          my family medicine and psychiatry rotations, I welcomed the
+          communication and relationships that are fostered, but was often left
+          longing for a conclusive treatment that would bring my patients'
+          illnesses to an end. After being introduced to the operating room
+          during my ob-gyn rotation, I started to strongly consider pursuing a
+          career involving surgical intervention: as the swift nature of our
+          work and the immediate results were a form of gratification that I had
+          not yet experienced. The general surgery clerkship that followed
+          solidified my resolve to become a surgeon and allowed myself time to
+          experience the responsibilities of surgeons from a variety of fields.<br>
+          &nbsp;&nbsp;&nbsp;&nbsp; In a moment of clarity while backpacking in
+          the Rocky Mountains with my younger brother, I was suddenly able to
+          answer the deceivingly difficult question, "What aspects of a
+          profession are most important to me?� It became apparent that a career
+          requiring both proficiency in communication about guarded topics and
+          the expertise of a surgeon would bring me the most satisfaction. I
+          pride myself on my communication skills and look forward to employing
+          them in order to elicit my patients� most sensitive and personal
+          concerns. In addition, it is my belief that playing the violin and
+          guitar since grade school has allowed me to develop a level of fine
+          motor control that will make me a great surgeon. In a perfect
+          amalgamation of my dad's battle with cancer, a desire for career
+          balance and breadth, an interest in men's health, and academics, I
+          decided that becoming a urologist would be the only way to preserve
+          all of the aspects that turned me towards the field of medicine in the
+          first place. <br>
+          &nbsp;Despite being a surgical sub-specialty, the occupation
+          encompasses an extremely diverse array of disease processes and
+          respective treatments. There is an exquisite balance of medical and
+          surgical management that, in my opinion, is unparalleled in other
+          areas of medicine. It follows that urologists perform at the pinnacle
+          of clinical reasoning and at a level of expertise that interposes
+          wonderfully with the high expectations I have for myself.
+          Additionally, I envy the urologist's role in men's health as many men
+          present with genitourinary complaints because they have failed to
+          establish healthy habits. This allows the urologist not only to
+          address the presenting complaint, but also to play a role in
+          preventive medicine and establish the life-long relationships that
+          stem from an intimate continuity of care. <br>
+          Longing for a career that is dually devoted to healthcare as well as
+          academia, which the culture of urology embraces, I have always had a
+          fascination with science and intend to spend my career contributing to
+          urologic research. Furthermore, as an anatomy tutor, I have recognized
+          that I enjoy and have a natural gift for teaching and plan to play an
+          active role in the education of medical students and residents alike
+          after becoming an attending physician.<br>
+          &nbsp;&nbsp;&nbsp; The competition for a urology residency is stiff�a
+          fact that deters many from the field. I see the path as a challenge
+          that I will take pleasure in overcoming. A fear of the unknown and the
+          uncertainty that surrounds the undertaking has only served to motivate
+          me on my endeavor. This attitude was instilled in me at a young age
+          when confronted with my dad's health concerns, and as I ventured to
+          become the first medical doctor in my family. With this perseverance
+          and drive, I aim to exceed expectations and let the long-standing
+          reputation of medicine and academia at [insert program name] mold me
+          into a urologist who will contribute immensely to the field, allowing
+          me to complete the journey that I unknowingly began as I watched my
+          dad cry for the first time ever. <br>
+        </p>
+        <h3>Example Essay on Logical Fallacies</h3>
+        <p>&nbsp;&nbsp;&nbsp; Logical fallacies are all around us.&nbsp; A
+          politician claiming that his opponent can't be trusted because he or
+          she is some kind of socialist or communist undermines the truth and
+          our democratic political system by causing distrust amongst
+          voters.&nbsp; A baseball player using an elaborate ritual because it
+          is what he did the last time he got on base allows him to believe that
+          it isn�t hard work and long hours of practice that makes him a great
+          player, but rather the ritual itself.&nbsp; At times, it may be a
+          fraudulent business enterprise, such as Reebok� toning shoes, which
+          don�t do anything different than regular shoes, that make
+          unsubstantiated claims about its product�s effectiveness that lead
+          consumers to waste their money and time on a product that is
+          useless.&nbsp; And finally, it could be someone claiming to be the
+          victim of some imaginary harm, such as when nine grade school students
+          in California claimed that their future wages that they haven�t earned
+          yet are harmed by teachers having �due process� rights.&nbsp; False
+          claims of harm waste the time and money of the court system, which
+          should be dealing with real harm and not imaginary harm.&nbsp; Logical
+          fallacies are errors in logic that people often make because the truth
+          doesn't fit into their world view.&nbsp; Appeal to emotion, burden of
+          proof, and false cause are probably the three most common logical
+          fallacies that cause harm.<br>
+          Appeal to Emotion<br>
+          &nbsp;&nbsp;&nbsp; Appeal to emotion is one of the most popular
+          logical fallacies.&nbsp; The appeal to emotion is an attempt to
+          sidestep facts and evidence for an appeal to someone�s emotions.&nbsp;
+          Advertisers love appeals to emotions because it hijacks the decision
+          making process when purchasing things like food.&nbsp; For example,
+          Cheerios features a commercial where a young child asks her mom if
+          grandma had Cheerios.&nbsp; The mother responds with a yes, and so the
+          child replies back with the conclusion that when they are eating
+          Cheerios, it is like they are having breakfast with Nanna, and a tear
+          wells up in Mom�s eye.&nbsp; Notice that Cheerios isn�t telling us how
+          good it tastes or how healthy it is, just that it is like eating
+          breakfast with a dead loved one.&nbsp; The logical problem is, of
+          course, that grandma isn't at the breakfast table and Cheerios can't
+          actually raise the dead.&nbsp; Consumers need facts and evidence to
+          make good purchasing decisions and appeals to emotion hinder that
+          decision making process. <br>
+          Burden of Proof<br>
+          &nbsp;&nbsp;&nbsp; The burden of proof is another common logical
+          fallacy.&nbsp; This fallacy involves making assertions or accusations
+          that have no basis in fact or evidence.&nbsp; Taken far enough, making
+          false claims can be fraudulent.&nbsp; For example, the learning
+          program Hooked on Phonics�, which costs approximately $230, settled
+          with the Federal Trade Commission over claims it made in its
+          commercials.&nbsp; Hooked on Phonics� claimed that it could teach
+          anyone to read even those with reading disabilities like Dyslexia, yet
+          provided no evidence to support its claims in its commercial or to the
+          FTC.&nbsp; Therefore, Hooked on Phonics� had to remove their
+          commercials from television. (Nathans)&nbsp; Consumers can save
+          themselves lots of money by only purchasing products that have been
+          proven to be effective through controlled experiments.&nbsp; Another
+          example involves a group of reactionaries who call themselves the
+          Birthers. They have accused President Obama of being a Kenyan, not an
+          American, who is also Muslim, not a Christian, even though they
+          present no evidence to support their absurd accusations.&nbsp; In
+          fact, they have filed lawsuits against the president; however, every
+          single attempt has been thrown out by the courts.&nbsp; (�Barack Obama
+          presidential eligibility litigation�) Birthers harm our democracy by
+          undermining the truth and spreading lies, making it difficult for
+          voters to make informed decisions.&nbsp;&nbsp; To sum up the burden of
+          proof, remember this pointed line from Mayor Bloomberg: �In God we
+          trust, everyone else bring data.�&nbsp; <br>
+          False Cause<br>
+          &nbsp;&nbsp;&nbsp; Finally, we have the logically fallacy of false
+          cause.&nbsp; False cause usually occurs when people confuse
+          correlation or coincidence with causation.&nbsp; Just because two
+          events coincide, it does not mean that one is the cause of the
+          other.&nbsp; Correlation is easy to prove, causation is not.&nbsp; For
+          example, one of the most popular topics for false cause is the drop in
+          the murder rate.&nbsp; Some think that the drop was the result of
+          abortion becoming legal (Levitt).&nbsp; Some think it because
+          environmental lead, mostly from paint and gasoline, has been slowly
+          removed from the environment (Casciani).&nbsp; And some even think
+          that the murder rate has gone down because of the fact that more
+          people are surviving being shot due to the fact that level one trauma
+          centers are near where crime occurs (Fields &amp; McWhirter).&nbsp;
+          The problem here is that policies, which cost money, are made based on
+          the belief that one thing causes another without any evidence that it
+          does thus possibly wasting a lot of time and money.&nbsp; <br>
+          &nbsp;&nbsp;&nbsp; The other problem with false cause is that it has
+          led to wrongheaded policies, such as doctors telling parents not to
+          let their child sleep with the light on for fear it will cause short
+          sightedness: it doesn't.&nbsp; It turned out that children with
+          short-sightedness prefer to sleep with the light on (Smeets).&nbsp;
+          This undermines the credibility of science.&nbsp; <br>
+          &nbsp;&nbsp;&nbsp; Another example comes from the field of
+          education.&nbsp; Researchers in the 1970s notices a correlation
+          between self-esteem and good grades.&nbsp; This led some to conclude
+          that if a child has high self-esteem, they will get good grades.&nbsp;
+          However, this turned out to be false.&nbsp; In turns out that students
+          with high grades have high self-esteem because of the accomplishment
+          of having high grades.&nbsp; In fact, the result of the self-esteem
+          movement is that we now have a lot of people who falsely think they
+          are more intelligent than they are, which hurts their future career
+          prospects by allowing them to falsely believe they are competent when
+          they are not (Smeets).<br>
+          Conclusion<br>
+          &nbsp;&nbsp;&nbsp; To summarize, the burden of proof, false cause, and
+          appeal to emotion are common logical fallacies that are used by people
+          often to mislead or manipulate.&nbsp; Now that you know some of them,
+          you can protect yourself against the snake-oil salesmen of the
+          world.&nbsp; <br>
+          Bibliography<br>
+          <br>
+          General Mills. �Breakfast with Nana - Cheerios TV Commercial.�
+          YouTube. YouTube, n.d. Web. 20 Oct. 2015.
+          &lt;https://www.youtube.com/watch?v=cpma44jkx4e&gt;<br>
+          Casciani, Dominic. �Did Removing Lead from Petrol Spark a Decline in
+          Crime? - BBC News.� BBC News. Web. 22 Oct. 2015.
+          &lt;http://www.bbc.com/news/magazine-27067615&gt;<br>
+          Fields, Gary &amp; McWhirter, Cameron. �In Medical Triumph, Homicides
+          Fall Despite Soaring Gun Violence.� WSJ. Web. 22 Oct. 2015.
+          &lt;http://www.wsj.com/articles/sb10001424127887324712504578131360684277812&gt;<br>
+          Levitt, Stephen. �Abortion And Crime: Who Should You Believe?�
+          Freakonomics RSS. Web. 22 Oct. 2015.
+&lt;http://freakonomics.com/2005/05/15/abortion-and-crime-who-should-you-believe/&gt;<br>
+          Nathans, Aaron. �Hooked On Phonics Settles With FTC on Advertising
+          Claims.� Los Angeles Times. Los Angeles Times, December 15, 1994. Web.
+          20 Oct. 2015.
+&lt;http://articles.latimes.com/1994-12-15/news/mn-9369_1_hooked-on-phonics-program&gt;<br>
+          Smeets, Ionica. "The Danger of Mixing up Causality and Correlation:
+          Ionica Smeets at TEDxDelft." YouTube. TEDx, 5 Nov. 2012. Web. 22 Oct.
+          2015. &lt;https://www.youtube.com/watch?v=8B271L3NtAw&gt;.<br>
+          �Wikipedia.� Wikipedia. Wikimedia Foundation, n.d. Web. 20 Oct. 2015.
+&lt;https://en.wikipedia.org/wiki/barack_obama_presidential_eligibility_litigation&gt;</p>
+        <p>Michael Langdon <br>
+          Michael Langdon <br>
+          Introduction to College Writing <br>
+          1/15/2014 <br>
+          The Split-Attention Effect <br>
+          I am a teacher.&nbsp; How do I know?&nbsp; It says so on my Wisconsin
+          state issued certification.&nbsp; Although I work at a technical
+          college, I have a degree in the science of education, which means I
+          understand the statistics and methods of doing a proper educational
+          study.&nbsp; I am familiar with the language of my profession.&nbsp; I
+          can discuss the merits and problems of scaffolding, grades,
+          metacognition, assessments, and teacher evaluations.&nbsp; However,
+          over the years, I have learned that the most important lessons in
+          education are rarely learned in a classroom.&nbsp; No one explains to
+          you why math is so difficult or why you always seem to miss
+          information when taking notes.&nbsp; However, the split�attention
+          effect explains both.&nbsp; Math is difficult because the explanations
+          found in books are spatially separate from what is being
+          explained.&nbsp; Learning about the split�attention effect will help
+          you become a better <br>
+          student and safer person. <br>
+          &nbsp;&nbsp;&nbsp; What is the spli-t�attention effect?&nbsp;
+          According the Cambridge Handbook of&nbsp;&nbsp;&nbsp; &nbsp;<br>
+          Multimedia Learning, the split�-attention occurs as follows: <br>
+        </p>
+        <blockquote> Instructional split attention occurs when learners are
+          required to split their attention between and mentally integrate
+          several sources of physically or temporally disparate information,
+          where each source of information is essential for understanding the
+          material. Cognitive load is increased by the need to mentally
+          integrate the multiple sources of information. This increase in
+          extraneous cognitive load is likely to have a negative impact on
+          learning compared with conditions where the information has been
+          restructured to eliminate the need to split-attention. (Ayres and
+          Sweller) </blockquote>
+        <br>
+        &nbsp; Quite simply, it refers to what happens when, as a student, you
+        need to combine information from two different sources that are
+        separated by time or space. For instance, when children first learn to
+        tie their shoes, it is common for the parent to demonstrate the process
+        before the child makes an attempt.&nbsp; This is an illustration of
+        temporal or time separation.&nbsp; The child has to remember the entire
+        process before being able to make an attempt.&nbsp; To illustrate a
+        spatial one, we need only look at an <br>
+        ordinary math book.&nbsp; <br>
+        &nbsp;&nbsp;&nbsp; Math books often combine a text based explanation
+        with an equation, chart, or diagram that are separated on the page
+        spatially, which means that the explanation is on one part of the page
+        while the equation or diagram is on another part of the page. <br>
+        &nbsp;&nbsp;&nbsp; Usually, the text appears first with a parenthetical
+        reference to the equation, such as (See Fig. 4-5).&nbsp; <br>
+        I noticed the split�attention effect while I was taking a statistics
+        course from UW Madison via correspondence.&nbsp; I found that as I was
+        using the book, I was jumping back and forth between the explanations
+        and the equations so much so that I really wasn�t understanding what was
+        going on.&nbsp; It wasn�t until I recorded the text and played it back
+        while studying the equation that I really started to understand because
+        I could listen to the explanation while looking at the diagram.&nbsp;
+        They were no <br>
+        longer separated by space.&nbsp; My grade went from a D to an A.&nbsp; <br>
+        &nbsp;&nbsp;&nbsp; However, the split�-attention effect can also be an
+        issue when driving a car. <br>
+        This is why texting and driving is so dangerous.&nbsp; The driver is
+        splitting their attention between driving their car and texting on the
+        phone.&nbsp; Both are separated spatially; you can�t look at two things
+        at the same time.&nbsp; <br>
+        &nbsp;&nbsp;&nbsp; However, this isn�t just confined to texting while
+        driving this would also apply to doing anything other than
+        driving.&nbsp; Prior to cell phones, drivers could be found being
+        distracted by their car stereo, friends, putting on makeup, or even, as
+        I have personally seen, someone reading a book.&nbsp; All require you to
+        split your attention and in so doing make for unsafe driving conditions.
+        <br>
+        &nbsp; Another over�looked example of the split-�attention effect is
+        taking notes. Like many students, you find yourself sitting in class
+        listening to a teacher drone on while you furiously take notes; however,
+        you must split your attention between listening and writing.&nbsp; Every
+        time you write something down, you aren�t listening and so can miss
+        something important.&nbsp; The problem is that you have to read what you
+        write while you are writing, so you can�t be listening.&nbsp; It is
+        better to actively listen <br>
+        to the lecture rather than listen and write. <br>
+        &nbsp;&nbsp;&nbsp; As you can see, the split-�attention effect is a
+        common phenomenon that undermines whatever process you are involved in
+        whether it is taking notes in class, driving a car, or studying from a
+        math book.&nbsp; To compensate, reduce the time or spatial distance
+        between the separate sources of information or simply don�t get involved
+        in splitting your attention.&nbsp; It could save your life.
+        &nbsp;&nbsp;&nbsp; &nbsp;<br>
+        &nbsp;<br>
+        Bibliography <br>
+        Ayres, Paul, and John Sweller. "The Split�Attention Principle in
+        Multimedia Learning." The Cambridge Handbook of Multimedia
+        Learning&nbsp;&nbsp;&nbsp; . Ed. Mayer <br>
+        Richard. New York: Cambridge UP, 2014. 206�07. Print. </div>
+      <div class="chapts"><br>
+      </div>
+      <div class="chapts"><br>
+        <br>
+        <br>
+        Michael F Langdon<br>
+        Primary and Secondary Sources of the Civil War<br>
+        Blackhawk Technical College<br>
+        <br>
+        &nbsp;&nbsp;&nbsp; The Civil War was the most divisive time in American
+        history.&nbsp; It pitted a Constitution that allowed for the enslavement
+        of a whole group of people based on the color of their skin against a
+        Declaration of Independence that listed the self-evident truth that all
+        men are created equal and that they are endowed with certain inalienable
+        rights.&nbsp; If you don�t believe me, you can look at Lincoln�s
+        Gettysburg Address, which was given during the war itself, upon a
+        battlefield where so many had died in that fight.&nbsp; It begins, �Four
+        score and seven years ago our fathers brought forth on this continent, a
+        new nation, conceived in Liberty, and dedicated to the proposition that
+        all men are created equal.&nbsp; Now we are engaged in a great civil
+        war, testing whether that nation, or any nation so conceived and so
+        dedicated, can long endure.�&nbsp; <br>
+        &nbsp;&nbsp;&nbsp; The Gettysburg Address is a primary source of
+        information about the Civil War because it was written during the war by
+        the president at the time.&nbsp; It allows us a glimpse into his thought
+        process, and his view of the war.&nbsp; Primary sources like the Address
+        are much better than secondary sources because they allow us to witness
+        it ourselves rather than have someone explain it to us, and the Civil
+        War has lots of primary source material to draw from.&nbsp; <br>
+        &nbsp;&nbsp;&nbsp; Primary sources, in case you didn�t know, are
+        documents, photographs, videos, letters, and other materials that were
+        made or produced at the time of the event by those directly
+        involved.&nbsp; These sources should be unedited and in as raw a form as
+        possible. <br>
+        &nbsp;&nbsp;&nbsp; The Civil War, for example, was the first war to have
+        photography available to it.&nbsp; One of the most famous photographs
+        was that of runaway slave Mr Oliver Gordon�s scarred back taken in
+        1863.&nbsp; This primary source was physical proof to abolitionists and
+        unionists of the brutality and moral bankruptcy of slavery.&nbsp; It
+        inspired thousands of freed and enslaved African Americans to join the
+        union army.&nbsp; (Matthew Brady Studio, 1863)</div>
+      <img class="slaveback" src="https://npg.si.edu/sites/default/files/teacher_resources_gordon.jpg"
+
+        alt="Oliver Gordons scarred back" title="Oliver Gordons scarred back">
+      <div class="chapts">&nbsp;&nbsp;&nbsp; Another primary source from the
+        Civil War were the thousands and thousands of letters written by
+        soldiers on either side of the war.&nbsp; These letters allow us to look
+        at the everyday struggles and experiences of these soldiers whether they
+        were at Gettysburg, Shiloh, Vicksburg, or the horrors of Georgia�s
+        Andersonville prison.&nbsp; One such letter was written by Riley M
+        Hoskinson of Illinois to his wife in which he describes his
+        experiences.&nbsp; <br>
+        &nbsp;&nbsp;&nbsp; Sept. 17. Still all well here. Negley's Division gone
+        before us towards the enemy. Gen. Thomas Army Corps are also gone in
+        front of us and we (for the first time since in the service) left in the
+        rear. Just at sunrise, boom goes a cannon, its fearful sound
+        reverberating from mountain to mountain. Our men raise one long loud
+        shout of joy. Soon several more followed in quick succession, then all
+        silence for over an hour (Hoskinson, 1863). And, there are thousands of
+        these letters that anyone can read in their original form or
+        transcribed. <br>
+        &nbsp;&nbsp;&nbsp; By contrast, secondary sources use primary sources to
+        create a new document of what happened by editing primary sources
+        together to create a narrative or story about the events that
+        happened.&nbsp; <br>
+        Secondary sources for the Civil War are just as abundant.&nbsp; A simple
+        search at Amazon.com books reveals over 100,000 entries.&nbsp; However,
+        the most famous secondary source of the Civil War is Ken Burn�s The
+        Civil War documentary.&nbsp; At the time it aired, it was falsely
+        believed that Americans didn�t have the attention span to watch a 12
+        hour documentary (Burns, 1990); however, it ended up being the most
+        watched series on PBS ever with 13.9 million viewers on its first
+        night.&nbsp; (Carter, 1990).&nbsp; It featured the thousands of
+        photographs taken during the war and the letters of soldiers sent
+        home.&nbsp; <br>
+        &nbsp;&nbsp;&nbsp; As you can see, primary and secondary sources are
+        very different.&nbsp; Primary sources are raw and unedited but also
+        disconnected from each other and the larger picture; whereby, secondary
+        sources are more connected but lack the pureness of a primary
+        source.&nbsp; <br>
+        <br>
+        Bibliography<br>
+        Burns, Ken. (September 23, 1990) The Civil War. PBS. Ken Burns and
+        Florentine Films. <br>
+        <br>
+        Carter, Bill. (September 25, 1990). 'Civil War' Sets an Audience Record
+        for PBS. The <br>
+        New York Times.&nbsp; Retrieved from <a href="http://www.nytimes.com/1990/09/25/movies/civil-war-sets-an-audience-record-for-pbs.html">http://www.nytimes.com/1990/09/25/movies/
+          <br>civil-war-sets-an-audience-record-for-pbs.html</a><br>
+        <br>
+        Hoskinson, Riley. (October 27, 1863). Riley M. Hoskinson letter to his
+        wife, Martha <br>
+        Hoskinson of Rushville, Illinois, Oct. 27, 1863. Civil War Letters
+        Collection <br>
+        #CVW082. Letter. Retrieved from <a href="http://digitalcollections.lib.washington.edu/cdm/compoundobject/collection/%20civilwar/id/782/rec/1">http://digitalcollections.lib.washington.edu/
+          <br>cdm/compoundobject/collection/ civilwar/id/782/rec/1<br>
+        </a><br>
+        Matthew Brady Studio. (March 1863). Mr Oliver Gordon. National Portrait
+        Gallery. <br>
+        Photograph.&nbsp; Retrieved from <br>
+        <a href="http://npgportraits.si.edu/eMuseumNPG/media/CSC/a2000178c.jpg">http://npgportraits.si.edu/eMuseumNPG/media/CSC/a2000178c.jpg</a></div>
+      <div class="chapts"><br>
+      </div>
+      <div class="chapts"><br>
+        <p></p>
+        <p>Persuasive Essay from John Norland<br>
+          <iframe src="https://johnnorland.com/the-traditional-essay/" style="border:none;"
+
+            height="600px" width="100%"></iframe> <a href="https://johnnorland.com/the-traditional-essay/">https://johnnorland.com/the-traditional-essay/</a></p>
+        <h2><br>
+        </h2>
+        <h2>Writing Conventions</h2>
+        <p>Writing conventions refers to the rules of writing, such as the
+          proper use of grammar, punctuation, and mechanics.&nbsp; These rules
+          are important because they help prevent the reader from being
+          confused.&nbsp; There are also legal and monetary matters to
+          consider.&nbsp; For example, the AT&amp;T Yellow Pages once misspelled
+          the word �exotic,� replacing it with �erotic� in a travel agency
+          advertisement.&nbsp; The lawsuit that followed cost AT&amp;T $10
+          million.&nbsp; In an article by the BBC, they estimate spelling
+          mistakes cost online sellers millions of dollars in lost income each
+          year (Coughlan, 2011) .&nbsp;&nbsp; The problem is that mistakes erode
+          the credibility of the writer and credibility is important to
+          employers and customers.</p>
+        <h3>What is a sentence?</h3>
+        <p>A sentence is a complete thought that contains a subject and a verb,
+          which can be implied.&nbsp; For example, let�s say you ask a
+          rhetorical question like this one from Stephen Colbert�s book,<i> I Am
+            America (And So Can You!)</i>.&nbsp; <br>
+          �Well, like a lot of other dictators, there is one man's opinion I
+          value above all others. Mine.�&nbsp; <br>
+          You will notice that the second sentence contains only one
+          word�mine.&nbsp; In this sentence, both the subject and the verb are
+          implied.&nbsp; The implied subject is �it� and the implied verb is
+          �is.�&nbsp; �It� refers to �one man�s opinion.�&nbsp; So, if you wrote
+          the sentence out completely it would be, �It is mine.�&nbsp; However,
+          in speech, we often just shorten these sentences to save time.&nbsp;
+          Sentences that have implied subjects and verbs can never be the first
+          sentence in a paragraph.&nbsp; You�ll notice that without the
+          information from the previous sentence, the �Mine,� sentence wouldn�t
+          make sense.</p>
+        <h2><span style="font-family: Quattrocento;">The rules of writing.&nbsp;
+            <br>
+          </span></h2>
+        <p>Rule #1: Don't confuse the reader.&nbsp; </p>
+        <p>We have rules for grammar and punctuation to help us achieve our
+          communication goals.&nbsp; Because we want the reader to listen,
+          understand, empathize with what we have to say, it's important that
+          our writing is credible, and credibility comes from applying the rules
+          of writing in a consistent manner.&nbsp; Inconsistent spelling,
+          punctuation, and grammar are a distraction to the reader and get in
+          the way of understanding and credibility.&nbsp; So, always apply what
+          rules you do know, consistently. </p>
+        <p>Rule #2: Look up the word or answer or rule.&nbsp;</p>
+        <p>If you don't know a rule, look it up.&nbsp; It's a slap in the face
+          to the read when writers are too lazy to look something up.&nbsp; If
+          you're not sure, look it up.&nbsp; Cite the source.&nbsp; It adds
+          credibility.&nbsp; </p>
+        <p>Here are some great places to look things up.</p>
+        <p><a href="https://www.merriam-webster.com/">Merriam Webster Dictionary
+            https://www.merriam-webster.com/</a></p>
+        <p><a href="https://apastyle.apa.org/blog">APA Style Blog
+            https://apastyle.apa.org/blog</a></p>
+        <p><a href="https://style.mla.org/">MLA Style Blog
+            https://style.mla.org/</a></p>
+        <p><br>
+        </p>
+        <p>Rule #3: Repeat rules #1 and #2 ad infinitum. </p>
+        <p>Punctuation</p>
+        <div class="chapts" id="references">
+          <h2 id="bibbib">Bibliography</h2>
+          <p>Casciani, Dominic. (2015) Did Removing Lead from Petrol Spark a
+            Decline in Crime? - BBC News [article]. Retrieved from&nbsp;
+            http://www.bbc.com/news/magazine-27067615<br>
+            <br>
+            CBS News. (2015). 30 of Donald Trump's wildest quotes [slideshow].
+            Retrieved from
+            https://www.cbsnews.com/pictures/wild-donald-trump-quotes/9/<br>
+            <br>
+            Coughlan, Sean. (2011). Spelling mistakes 'cost millions' in lost
+            online sales [article].&nbsp; Retrieved from
+            http://www.bbc.com/news/education-14130854<br>
+            <br>
+            Cunha, Darlene. (2014). Why Drug Testing Welfare Recipients Is a
+            Waste of Taxpayer Money [article]. Retrieved from
+            http://time.com/3117361/welfare-recipients-drug-testing/<br>
+            <br>
+            Fensterwald, John. (2016). California high court lets rulings stand
+            on teacher tenure, school funding lawsuits [article]. Retrieved from
+https://edsource.org/2016/state-supreme-court-declines-to-hear-vergara-inadequate-funding-cases/568350<br>
+            <br>
+            Fields, Gary &amp; McWhirter, Cameron. (2015). In Medical Triumph,
+            Homicides Fall Despite Soaring Gun Violence [article]. Retrieved
+            from
+http://www.wsj.com/articles/sb10001424127887324712504578131360684277812<br>
+            <br>
+            Gonzalez, Richard. (2018). Maine dairy drivers settle overtime case
+            that hinged on an absent comma. NPR. Retrieved from
+https://www.npr.org/sections/thetwo-way/2018/02/08/584391391/maine-dairy-drivers-settle-overtime-case-that-hinged-on-an-absent-comma<br>
+            &nbsp;<br>
+            Goldman, Eric. 2012. Citations &amp; Sarcasm: How Gizmodo Got A
+            Defamation Lawsuit SLAPPed Down. TechDirt. Retrieved from
+https://www.techdirt.com/articles/20120813/10440620008/citations-sarcasm-how-gizmodo-got-defamation-lawsuit-slapped-down.shtml<br>
+            <br>
+            Herman, John. 2011. The Greatest Scam in Tech [article]. Retrieved
+            from https://gizmodo.com/5726071/the-greatest-scam-in-tech<br>
+            <br>
+            Levitt, Stephen. (2015). Abortion and Crime: Who Should You Believe?
+            Freakonomics RSS [podcast]. Retrieved from
+            http://freakonomics.com/2005/05/15/<br>
+            abortion-and-crime-who-should-you-believe<br>
+            <br>
+            Nathans, Aaron. (1994). Hooked on Phonics Settles with FTC on
+            Advertising Claims [article].&nbsp; Retrieved from
+            http://articles.latimes.com/1994-12-15/news/mn-9369_1_hooked-on-phonics-program<br>
+            <br>
+            NewsCore. (2010). Celebrity chef Jamie Oliver second only to JK
+            Rowling in UK book charts [article]. Retrieved from
+http://www.news.com.au/entertainment/tv/celebrity-chef-jamie-oliver-second-only-to-jk-rowling-in-uk-book-charts/news-story/55125671ab3b3f957fa3fe6b33e60d5c<br>
+            <br>
+            Perez-Pena, Richard. (2017). Contrary to Trump�s Claims, Immigrants
+            Are Less Likely to Commit Crimes. Retrieved from
+            https://www.nytimes.com/2017/01/26/us/trump-illegal-immigrants-crime.html<br>
+            <br>
+            Rindfleisch, Terry. (2010). Study: Butt-toning shoes don�t deliver
+            as promised [article]. Retrieved from
+http://lacrossetribune.com/lifestyles/health-med-fit/study-butt-toning-shoes-don-t-deliver-as-promised/article_6c7436be-99c3-11df-888e-001cc4c002e0.html<br>
+            <br>
+            Smeets, Ionica [TEDx]. (2013). The Danger of Mixing up Causality and
+            Correlation: Ionica Smeets at TEDxDelft [Youtube video]. Retrieved
+            from https://www.youtube.com/watch?v=8B271L3NtAw<br>
+            <br>
+            Smith, Ben. (2009). Culture of conspiracy: The Birthers [article].
+            Retrieved from
+            http://www.politico.com/story/2009/03/culture-of-conspiracy-the-birthers-019450<br>
+            <br>
+            US Department of Health and Human Services, Centers for Disease
+            Control and Prevention, National Biomonitoring Program. (2016).
+            FactSheet: Mercury. Retrieved from
+            https://www.cdc.gov/biomonitoring/Mercury_FactSheet.html<br>
+          </p>
+        </div>
+        <img src="https://learningengineer.com/filerun/wl/?id=5t1GRDwSkhm9sKPch6ZCN6dpP9GNd71W"
+
+          alt="This image is a graphic of punctuation usage in an artilce in Newsweek magazine.  The most common form of puncuation is the comma.  "
+
+          title="Punctuation By Frequency" height="3rem" width="3rem"> </div>
+    </div>
+    <div class="up"><a href="#table-of-contents">?</a></div>
+    <script> 
+function getSelectionText() {
+    var text = "";
+    if (window.getSelection) {
+        text = window.getSelection().toString();
+    // for Internet Explorer 8 and below. For Blogger, you should use &amp;&amp; instead of &&.
+    } else if (document.selection && document.selection.type != "Control") { 
+        text = document.selection.createRange().text;
+    }
+    return text;
+}
+$(document).ready(function (){ // when the document has completed loading
+	swal("Text to Speech", "Highlight text in this e-book to have it read to you or click on the play button to the left to have the whole book read to you.");
+   $(document).mouseup(function (e){ // attach the mouseup event for all div and pre tags
+      setTimeout(function() { // When clicking on a highlighted area, the value stays highlighted until after the mouseup event, and would therefore stil be captured by getSelection. This micro-timeout solves the issue. 
+         responsiveVoice.cancel(); // stop anything currently being spoken
+         responsiveVoice.speak(getSelectionText()); //speak the text as returned by getSelectionText
+      }, 1);
+   });
+});
+</script>
+  </body>
+</html>

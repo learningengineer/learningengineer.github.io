@@ -1,0 +1,51 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>PracticeEngineer.com - Pick-A-Part</title>
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Permanent+Marker&v2">
+<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Special+Elite" >
+<link href='http://fonts.googleapis.com/css?family=Simonetta:400,900italic' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="styles.css">
+<script src="jquery.js"></script>
+<script src="http://jaysalvat.github.io/buzz/releases/latest/buzz.min.js"></script>
+<script src="//code.responsivevoice.org/responsivevoice.js"></script>
+<script src="global.js"></script>
+<script src="ui.jquery.js"></script>
+<script src="sentencebuilder.js"></script>
+<script src="css-pop.js"></script>
+<script src="../touchpunch.js"></script>
+
+</head>
+
+<body>
+	<div id="header">
+    	<p><a href="http://practiceengineer.com">PracticeEngineer.com</a> - Pick-A-Part of Speech!</p><div id="score">Score = 0 | Remaining questions = 0</div>
+    </div>
+    
+    <div id="container">
+        <div id="sent">Some text here</div>
+        <ul id="models"></ul>
+        <ul id="letters"></ul>
+		<ul id="helplist"><a href="#" onclick="popup('popUpDiv')">click for help</a></ul>
+
+        
+        <a href="#" id="previous"><</a>
+        <a href="#" id="next">></a>
+		
+    </div>
+    <div id="footer">
+    	<p><a href="http://learningengineer.com" title="LearningEngineer.com">&#169; 2014 LearningEngineer.com</a> &mdash; Audio and Illustrations by <a href="http://LearningEngineer.com/" title="LearningEngineer.com">Michael Langdon</a></p>
+    	<a href="#" id="level">hard</a>
+    </div>
+    
+    <div id="warning">
+    	Your browser doesn't support<br>the HTML5 audio element.<br><a href="http://www.google.com/chrome/">Please upgrade!</a>
+    </div>
+	
+	<div id="blanket" style="display:none"></div>
+	<div id="popUpDiv" style="display:none"><a href="#" onclick="popup('popUpDiv')" >click to close</a></div> 
+	
+
+	
+</body>
+</html>

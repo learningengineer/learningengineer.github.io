@@ -1,0 +1,892 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="400"
+   height="600"
+   viewBox="0 0 400 600.00002"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="cttngvrnmnt.svg"
+   inkscape:export-filename="C:\Users\learningpc\Desktop\A citation government.png"
+   inkscape:export-xdpi="70.400002"
+   inkscape:export-ydpi="70.400002">
+  <defs
+     id="defs4">
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter3420">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood3422" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite3424" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="3"
+         result="blur"
+         id="feGaussianBlur3426" />
+      <feOffset
+         dx="6"
+         dy="6"
+         result="offset"
+         id="feOffset3428" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite3430" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter3432">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood3434" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite3436" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="3"
+         result="blur"
+         id="feGaussianBlur3438" />
+      <feOffset
+         dx="6"
+         dy="6"
+         result="offset"
+         id="feOffset3440" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite3442" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter4286">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood4288" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite4290" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="3"
+         result="blur"
+         id="feGaussianBlur4292" />
+      <feOffset
+         dx="6"
+         dy="6"
+         result="offset"
+         id="feOffset4294" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite4296" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter4298">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood4300" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite4302" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="3"
+         result="blur"
+         id="feGaussianBlur4304" />
+      <feOffset
+         dx="6"
+         dy="6"
+         result="offset"
+         id="feOffset4306" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite4308" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter4310">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood4312" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite4314" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="3"
+         result="blur"
+         id="feGaussianBlur4316" />
+      <feOffset
+         dx="6"
+         dy="6"
+         result="offset"
+         id="feOffset4318" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite4320" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter4322">
+      <feFlood
+         flood-opacity="0.498039"
+         flood-color="rgb(0,0,0)"
+         result="flood"
+         id="feFlood4324" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite1"
+         id="feComposite4326" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="3"
+         result="blur"
+         id="feGaussianBlur4328" />
+      <feOffset
+         dx="6"
+         dy="6"
+         result="offset"
+         id="feOffset4330" />
+      <feComposite
+         in="SourceGraphic"
+         in2="offset"
+         operator="over"
+         result="composite2"
+         id="feComposite4332" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4585973"
+     inkscape:cx="223.95272"
+     inkscape:cy="490.22022"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4"
+     inkscape:window-maximized="1"
+     units="px" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-452.36174)">
+    <g
+       id="g4306"
+       transform="matrix(0.52988983,0,0,0.56073962,2.1995406,455.49164)">
+      <rect
+         y="5.2526963e-007"
+         x="0"
+         height="1058.319"
+         width="746.58148"
+         id="rect4304"
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text3336"
+         y="512.16547"
+         x="66.200577"
+         style="font-style:normal;font-weight:normal;font-size:17.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="512.16547"
+           x="66.200577"
+           id="tspan3338"
+           sodipodi:role="line" /></text>
+      <text
+         transform="scale(0.87936841,1.1371798)"
+         sodipodi:linespacing="125%"
+         id="text3360"
+         y="35.610336"
+         x="48.027454"
+         style="font-style:normal;font-weight:normal;font-size:29.27537727px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="35.610336"
+           x="48.027454"
+           id="tspan3362"
+           sodipodi:role="line">Anatomy of a Citation for a Government Publication</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:18.78670502px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="10.264539"
+         y="259.83444"
+         id="text3355"
+         sodipodi:linespacing="125%"
+         transform="scale(0.97152064,1.0293142)"><tspan
+           sodipodi:role="line"
+           id="tspan3357"
+           x="10.264539"
+           y="259.83444"
+           style="fill:#ff0000"><tspan
+   id="tspan3399"
+   style="fill:#000000">U.S. Department of Health and Human Services,</tspan> National Institutes of Health,</tspan><tspan
+           sodipodi:role="line"
+           x="10.264539"
+           y="283.31781"
+           id="tspan3359">           National Heart, Lung, and Blood Institute. (2003). <tspan
+   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic'"
+   id="tspan3363">Managing asthma:</tspan></tspan><tspan
+           sodipodi:role="line"
+           x="10.264539"
+           y="306.80121"
+           id="tspan3365"><tspan
+   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic'"
+   id="tspan3367">           A guide for schools</tspan> (NIH Publication No. 02-2650). Retrieved from</tspan><tspan
+           sodipodi:role="line"
+           x="10.264539"
+           y="330.28458"
+           id="tspan3369">           http://www.nhlbi.hih.gov/prof/asthma/asth_sch.pdf</tspan><tspan
+           sodipodi:role="line"
+           x="10.264539"
+           y="353.76797"
+           id="tspan3371"> </tspan><tspan
+           sodipodi:role="line"
+           x="10.264539"
+           y="377.25134"
+           id="tspan3373" /></text>
+      <text
+         transform="scale(0.97152064,1.0293142)"
+         sodipodi:linespacing="125%"
+         id="text3375"
+         y="392.03796"
+         x="10.264539"
+         style="font-style:normal;font-weight:normal;font-size:18.78670502px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="fill:#000000"
+           y="392.03796"
+           x="10.264539"
+           id="tspan3377"
+           sodipodi:role="line">U.S. Department of Health and Human Services, National Institutes of Health,</tspan><tspan
+           id="tspan3379"
+           y="415.52133"
+           x="10.264539"
+           sodipodi:role="line"><tspan
+   id="tspan3381"
+   style="fill:#ff0000">           National Heart, Lung, and Blood Institute.</tspan> (2003). <tspan
+   id="tspan3383"
+   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic'">Managing asthma:</tspan></tspan><tspan
+           id="tspan3385"
+           y="439.00473"
+           x="10.264539"
+           sodipodi:role="line"><tspan
+   id="tspan3387"
+   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic'">           A guide for schools</tspan> (NIH Publication No. 02-2650). Retrieved from</tspan><tspan
+           id="tspan3389"
+           y="462.4881"
+           x="10.264539"
+           sodipodi:role="line">           http://www.nhlbi.hih.gov/prof/asthma/asth_sch.pdf</tspan><tspan
+           id="tspan3391"
+           y="485.9715"
+           x="10.264539"
+           sodipodi:role="line"> </tspan><tspan
+           id="tspan3393"
+           y="509.45486"
+           x="10.264539"
+           sodipodi:role="line" /></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:18.78670502px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="10.264539"
+         y="524.24152"
+         id="text3405"
+         sodipodi:linespacing="125%"
+         transform="scale(0.97152064,1.0293142)"><tspan
+           sodipodi:role="line"
+           id="tspan3407"
+           x="10.264539"
+           y="524.24152"
+           style="fill:#000000">U.S. Department of Health and Human Services, National Institutes of Health,</tspan><tspan
+           sodipodi:role="line"
+           x="10.264539"
+           y="547.72491"
+           id="tspan3409">           National Heart, Lung, and Blood Institute. (<tspan
+   id="tspan3425"
+   style="fill:#ff0000">2003</tspan>). <tspan
+   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic'"
+   id="tspan3413">Managing asthma:</tspan></tspan><tspan
+           sodipodi:role="line"
+           x="10.264539"
+           y="571.20825"
+           id="tspan3415"><tspan
+   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic'"
+   id="tspan3417">           A guide for schools</tspan> (NIH Publication No. 02-2650). Retrieved from</tspan><tspan
+           sodipodi:role="line"
+           x="10.264539"
+           y="594.69165"
+           id="tspan3419">           http://www.nhlbi.hih.gov/prof/asthma/asth_sch.pdf</tspan><tspan
+           sodipodi:role="line"
+           x="10.264539"
+           y="618.17505"
+           id="tspan3421"> </tspan><tspan
+           sodipodi:role="line"
+           x="10.264539"
+           y="641.65845"
+           id="tspan3423" /></text>
+      <text
+         transform="scale(0.97152064,1.0293142)"
+         sodipodi:linespacing="125%"
+         id="text3431"
+         y="656.44507"
+         x="10.264539"
+         style="font-style:normal;font-weight:normal;font-size:18.78670502px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="fill:#000000"
+           y="656.44507"
+           x="10.264539"
+           id="tspan3433"
+           sodipodi:role="line">U.S. Department of Health and Human Services, National Institutes of Health,</tspan><tspan
+           id="tspan3435"
+           y="679.92847"
+           x="10.264539"
+           sodipodi:role="line">           National Heart, Lung, and Blood Institute. (2003). <tspan
+   id="tspan3439"
+   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';fill:#ff0000">Managing asthma:</tspan></tspan><tspan
+           id="tspan3441"
+           y="703.4118"
+           x="10.264539"
+           sodipodi:role="line"><tspan
+   id="tspan3443"
+   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';fill:#ff0000">           A guide for schools</tspan> (NIH Publication No. 02-2650). Retrieved from</tspan><tspan
+           id="tspan3445"
+           y="726.8952"
+           x="10.264539"
+           sodipodi:role="line">           http://www.nhlbi.hih.gov/prof/asthma/asth_sch.pdf</tspan><tspan
+           id="tspan3447"
+           y="750.3786"
+           x="10.264539"
+           sodipodi:role="line"> </tspan><tspan
+           id="tspan3449"
+           y="773.862"
+           x="10.264539"
+           sodipodi:role="line" /></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:18.78670502px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         x="10.264539"
+         y="788.64856"
+         id="text3451"
+         sodipodi:linespacing="125%"
+         transform="scale(0.97152064,1.0293142)"><tspan
+           sodipodi:role="line"
+           id="tspan3453"
+           x="10.264539"
+           y="788.64856"
+           style="fill:#000000">U.S. Department of Health and Human Services, National Institutes of Health,</tspan><tspan
+           sodipodi:role="line"
+           x="10.264539"
+           y="812.13196"
+           id="tspan3455">           National Heart, Lung, and Blood Institute. (2003). <tspan
+   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';fill:#000000"
+   id="tspan3459">Managing asthma:</tspan></tspan><tspan
+           sodipodi:role="line"
+           x="10.264539"
+           y="835.6153"
+           id="tspan3461"><tspan
+   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic';fill:#000000"
+   id="tspan3463">           A guide for schools</tspan> (<tspan
+   id="tspan3495"
+   style="fill:#ff0000">NIH Publication No. 02-2650</tspan>). Retrieved from</tspan><tspan
+           sodipodi:role="line"
+           x="10.264539"
+           y="859.09869"
+           id="tspan3465">           http://www.nhlbi.hih.gov/prof/asthma/asth_sch.pdf</tspan><tspan
+           sodipodi:role="line"
+           x="10.264539"
+           y="882.58209"
+           id="tspan3467"> </tspan><tspan
+           sodipodi:role="line"
+           x="10.264539"
+           y="906.06549"
+           id="tspan3469" /></text>
+      <text
+         transform="scale(0.97152064,1.0293142)"
+         sodipodi:linespacing="125%"
+         id="text3471"
+         y="920.85211"
+         x="10.264539"
+         style="font-style:normal;font-weight:normal;font-size:18.78670502px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="fill:#000000"
+           y="920.85211"
+           x="10.264539"
+           id="tspan3473"
+           sodipodi:role="line">U.S. Department of Health and Human Services, National Institutes of Health,</tspan><tspan
+           id="tspan3475"
+           y="944.33551"
+           x="10.264539"
+           sodipodi:role="line">           National Heart, Lung, and Blood Institute. (2003). <tspan
+   id="tspan3479"
+   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic'">Managing asthma:</tspan></tspan><tspan
+           id="tspan3481"
+           y="967.81885"
+           x="10.264539"
+           sodipodi:role="line"><tspan
+   id="tspan3483"
+   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic'">           A guide for schools</tspan> (NIH Publication No. 02-2650). <tspan
+   id="tspan3499"
+   style="fill:#ff0000">Retrieved from</tspan></tspan><tspan
+           style="fill:#ff0000"
+           id="tspan3485"
+           y="991.30225"
+           x="10.264539"
+           sodipodi:role="line">           http://www.nhlbi.hih.gov/prof/asthma/asth_sch.pdf</tspan><tspan
+           id="tspan3487"
+           y="1014.7856"
+           x="10.264539"
+           sodipodi:role="line"> </tspan><tspan
+           id="tspan3489"
+           y="1038.269"
+           x="10.264539"
+           sodipodi:role="line" /></text>
+      <text
+         transform="matrix(0.72747888,0,0,1.2375163,-66.171282,-15.108538)"
+         sodipodi:linespacing="125%"
+         id="text3415"
+         y="87.05394"
+         x="135.16321"
+         style="font-style:normal;font-weight:normal;font-size:30.00875854px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter3420)"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:semi-expanded;font-family:Ravie;-inkscape-font-specification:'Ravie Semi-Expanded';fill:#ff0000;stroke:#000000;stroke-opacity:1"
+           y="87.05394"
+           x="135.16321"
+           id="tspan3418"
+           sodipodi:role="line">1. Starts with the department</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:30.00875854px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter3420)"
+         x="135.16321"
+         y="87.05394"
+         id="text3444"
+         sodipodi:linespacing="125%"
+         transform="matrix(0.77129832,0,0,1.207608,66.375253,134.31434)"><tspan
+           sodipodi:role="line"
+           id="tspan3446"
+           x="135.16321"
+           y="87.05394"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:semi-expanded;font-family:Ravie;-inkscape-font-specification:'Ravie Semi-Expanded';fill:#ff0000;stroke:#000000;stroke-opacity:1">2. Moves to the sub-department</tspan></text>
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;filter:url(#filter4310)"
+         id="ellipse4250"
+         cx="720.09467"
+         cy="264.72464"
+         rx="20.698635"
+         ry="18.519833" />
+      <text
+         transform="matrix(0.75696778,0,0,1.2183752,51.986083,271.82106)"
+         sodipodi:linespacing="125%"
+         id="text4252"
+         y="87.05394"
+         x="135.16321"
+         style="font-style:normal;font-weight:normal;font-size:30.00875854px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter3420)"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:semi-expanded;font-family:Ravie;-inkscape-font-specification:'Ravie Semi-Expanded';fill:#ff0000;stroke:#000000;stroke-opacity:1"
+           y="87.05394"
+           x="135.16321"
+           id="tspan4254"
+           sodipodi:role="line">3. Moves to the sub-department</tspan></text>
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path4256"
+         d="M 470.62161,117.65541 522.9129,89.330956"
+         style="fill:#000000;fill-opacity:0.33082353;fill-rule:evenodd;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         sodipodi:nodetypes="cc"
+         style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 713.55823,247.29423 620.95907,111.11899"
+         id="path4264"
+         inkscape:connector-curvature="0" />
+      <g
+         transform="translate(613.33325,102.40378)"
+         style="filter:url(#filter4286)"
+         id="g4280">
+        <rect
+           style="fill:#ffffff;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+           id="rect4278"
+           width="127.46002"
+           height="45.754879"
+           x="-126.37061"
+           y="310.47952" />
+        <text
+           sodipodi:linespacing="125%"
+           id="text4266"
+           y="327.90997"
+           x="-120.92365"
+           style="font-style:normal;font-weight:normal;font-size:17.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             id="tspan4270"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:semi-expanded;font-family:Ravie;-inkscape-font-specification:'Ravie Semi-Expanded'"
+             y="327.90997"
+             x="-120.92365"
+             sodipodi:role="line">ends with</tspan><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:semi-expanded;font-family:Ravie;-inkscape-font-specification:'Ravie Semi-Expanded'"
+             y="349.78497"
+             x="-120.92365"
+             sodipodi:role="line"
+             id="tspan4274">a period</tspan></text>
+      </g>
+      <ellipse
+         ry="18.519833"
+         rx="20.698635"
+         cy="425.95612"
+         cx="464.08521"
+         id="ellipse4276"
+         style="fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;filter:url(#filter4298)" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:30.00875854px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter3420)"
+         x="135.16321"
+         y="87.05394"
+         id="text4334"
+         sodipodi:linespacing="125%"
+         transform="matrix(0.75696778,0,0,1.2183752,7.3206043,406.90689)"><tspan
+           sodipodi:role="line"
+           id="tspan4336"
+           x="135.16321"
+           y="87.05394"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:semi-expanded;font-family:Ravie;-inkscape-font-specification:'Ravie Semi-Expanded';fill:#ff0000;stroke:#000000;stroke-opacity:1">4. Year of publication in parenthesis</tspan></text>
+      <g
+         id="g4338"
+         style="filter:url(#filter4286)"
+         transform="translate(693.94899,237.48961)">
+        <rect
+           y="310.47952"
+           x="-126.37061"
+           height="45.754879"
+           width="127.46002"
+           id="rect4340"
+           style="fill:#ffffff;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:17.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="-120.92365"
+           y="327.90997"
+           id="text4342"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             x="-120.92365"
+             y="327.90997"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:semi-expanded;font-family:Ravie;-inkscape-font-specification:'Ravie Semi-Expanded'"
+             id="tspan4344">ends with</tspan><tspan
+             id="tspan4346"
+             sodipodi:role="line"
+             x="-120.92365"
+             y="349.78497"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:semi-expanded;font-family:Ravie;-inkscape-font-specification:'Ravie Semi-Expanded'">a period</tspan></text>
+      </g>
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;filter:url(#filter4298)"
+         id="ellipse4348"
+         cx="544.70093"
+         cy="561.04193"
+         rx="20.698635"
+         ry="18.519833" />
+      <text
+         transform="matrix(0.75696778,0,0,1.2183752,1.873595,541.99272)"
+         sodipodi:linespacing="125%"
+         id="text4350"
+         y="87.05394"
+         x="135.16321"
+         style="font-style:normal;font-weight:normal;font-size:30.00875854px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter3420)"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:semi-expanded;font-family:Ravie;-inkscape-font-specification:'Ravie Semi-Expanded';fill:#ff0000;stroke:#000000;stroke-opacity:1"
+           y="87.05394"
+           x="135.16321"
+           id="tspan4352"
+           sodipodi:role="line">5. Title of article in italics</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:30.00875854px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter3420)"
+         x="135.16321"
+         y="87.05394"
+         id="text4354"
+         sodipodi:linespacing="125%"
+         transform="matrix(0.75696778,0,0,1.2183752,-82.01035,677.07855)"><tspan
+           sodipodi:role="line"
+           id="tspan4356"
+           x="135.16321"
+           y="87.05394"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:semi-expanded;font-family:Ravie;-inkscape-font-specification:'Ravie Semi-Expanded';fill:#ff0000;stroke:#000000;stroke-opacity:1">6. Publication number identifier if available</tspan></text>
+      <text
+         transform="matrix(0.75696778,0,0,1.2183752,48.717875,817.6114)"
+         sodipodi:linespacing="125%"
+         id="text4358"
+         y="87.05394"
+         x="135.16321"
+         style="font-style:normal;font-weight:normal;font-size:30.00875854px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;filter:url(#filter3420)"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:semi-expanded;font-family:Ravie;-inkscape-font-specification:'Ravie Semi-Expanded';fill:#ff0000;stroke:#000000;stroke-opacity:1"
+           y="87.05394"
+           x="135.16321"
+           id="tspan4360"
+           sodipodi:role="line">7. Web address it came from</tspan></text>
+      <g
+         transform="translate(699.396,534.89632)"
+         style="filter:url(#filter4286)"
+         id="g4362">
+        <rect
+           style="fill:#ffffff;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none"
+           id="rect4364"
+           width="127.46002"
+           height="45.754879"
+           x="-126.37061"
+           y="310.47952" />
+        <text
+           sodipodi:linespacing="125%"
+           id="text4366"
+           y="327.90997"
+           x="-120.92365"
+           style="font-style:normal;font-weight:normal;font-size:17.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             id="tspan4368"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:semi-expanded;font-family:Ravie;-inkscape-font-specification:'Ravie Semi-Expanded'"
+             y="327.90997"
+             x="-120.92365"
+             sodipodi:role="line">ends with</tspan><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:semi-expanded;font-family:Ravie;-inkscape-font-specification:'Ravie Semi-Expanded'"
+             y="349.78497"
+             x="-120.92365"
+             sodipodi:role="line"
+             id="tspan4370">a period</tspan></text>
+      </g>
+      <ellipse
+         ry="18.519833"
+         rx="20.698635"
+         cy="858.44867"
+         cx="550.14795"
+         id="ellipse4372"
+         style="fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;filter:url(#filter4298)" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text9292"
+         y="1037.1106"
+         x="47.933681"
+         style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="1037.1106"
+           x="47.933681"
+           id="tspan9294"
+           sodipodi:role="line" /></text>
+      <text
+         transform="scale(0.97152064,1.0293142)"
+         sodipodi:linespacing="125%"
+         id="text9296"
+         y="126.47901"
+         x="10.264539"
+         style="font-style:normal;font-weight:normal;font-size:18.78670502px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="fill:#ff0000"
+           y="126.47901"
+           x="10.264539"
+           id="tspan9298"
+           sodipodi:role="line">U.S. Department of Health and Human Services<tspan
+   style="fill:#000000"
+   id="tspan9300">, National Institutes of Health,</tspan></tspan><tspan
+           id="tspan9302"
+           y="149.96239"
+           x="10.264539"
+           sodipodi:role="line">           National Heart, Lung, and Blood Institute. (2003). <tspan
+   id="tspan9304"
+   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic'">Managing asthma:</tspan></tspan><tspan
+           id="tspan9306"
+           y="173.44577"
+           x="10.264539"
+           sodipodi:role="line"><tspan
+   id="tspan9308"
+   style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:'sans-serif Italic'">           A guide for schools</tspan> (NIH Publication No. 02-2650). Retrieved from</tspan><tspan
+           id="tspan9310"
+           y="196.92915"
+           x="10.264539"
+           sodipodi:role="line">           http://www.nhlbi.hih.gov/prof/asthma/asth_sch.pdf</tspan><tspan
+           id="tspan9312"
+           y="220.41254"
+           x="10.264539"
+           sodipodi:role="line"> </tspan><tspan
+           id="tspan9314"
+           y="243.89592"
+           x="10.264539"
+           sodipodi:role="line" /></text>
+      <ellipse
+         ry="18.519833"
+         rx="20.698635"
+         cy="692.85956"
+         cx="555.59497"
+         id="ellipse4295"
+         style="fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;filter:url(#filter4298)" />
+      <g
+         transform="translate(677.60797,306.12192)"
+         style="filter:url(#filter4286)"
+         id="g4297">
+        <rect
+           style="fill:#ffffff;stroke:#000000;stroke-width:6.14569807;stroke-miterlimit:4;stroke-dasharray:none"
+           id="rect4299"
+           width="225.53928"
+           height="61.039604"
+           x="-409.63162"
+           y="371.46948" />
+        <text
+           transform="scale(0.82290923,1.2152009)"
+           sodipodi:linespacing="125%"
+           id="text4301"
+           y="326.19562"
+           x="-491.1922"
+           style="font-style:normal;font-weight:normal;font-size:16.47782135px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             id="tspan4321"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:semi-expanded;font-family:Ravie;-inkscape-font-specification:'Ravie Semi-Expanded'"
+             y="326.19562"
+             x="-491.1922"
+             sodipodi:role="line">Capitalize first letter</tspan><tspan
+             id="tspan4335"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:semi-expanded;font-family:Ravie;-inkscape-font-specification:'Ravie Semi-Expanded'"
+             y="346.79291"
+             x="-491.1922"
+             sodipodi:role="line">in title and subtitle.</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text4317"
+           y="322.46292"
+           x="112.20837"
+           style="font-style:normal;font-weight:normal;font-size:15px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             y="322.46292"
+             x="112.20837"
+             id="tspan4319"
+             sodipodi:role="line" /></text>
+      </g>
+      <ellipse
+         style="fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;filter:url(#filter4298)"
+         id="ellipse4337"
+         cx="88.24157"
+         cy="716.82642"
+         rx="20.698635"
+         ry="18.519833" />
+      <g
+         id="g4339"
+         style="filter:url(#filter4286)"
+         transform="matrix(1.3547302,0,0,1.1159386,742.31149,-218.02945)">
+        <rect
+           y="246.20482"
+           x="-160.14207"
+           height="45.754879"
+           width="127.46002"
+           id="rect4341"
+           style="fill:#ffffff;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none" />
+      </g>
+      <text
+         sodipodi:linespacing="125%"
+         id="text4258"
+         y="77.347527"
+         x="530.5387"
+         style="font-style:normal;font-weight:normal;font-size:17.5px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:semi-expanded;font-family:Ravie;-inkscape-font-specification:'Ravie Semi-Expanded'"
+           y="77.347527"
+           x="530.5387"
+           id="tspan4260"
+           sodipodi:role="line">separated by </tspan><tspan
+           id="tspan4262"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:semi-expanded;font-family:Ravie;-inkscape-font-specification:'Ravie Semi-Expanded'"
+           y="99.222527"
+           x="530.5387"
+           sodipodi:role="line">a comma</tspan></text>
+      <ellipse
+         ry="18.519833"
+         rx="20.698635"
+         cy="126.37062"
+         cx="452.10178"
+         id="path3448"
+         style="fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-dasharray:none;filter:url(#filter4322)" />
+      <path
+         style="fill:#000000;fill-opacity:0.33082353;fill-rule:evenodd;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 107.85077,712.46883 266.90345,696.1278"
+         id="path4351"
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cc" />
+      <path
+         sodipodi:nodetypes="cc"
+         inkscape:connector-curvature="0"
+         id="path4353"
+         d="m 493.05505,700.5553 42.67468,-5.36409"
+         style="fill:#000000;fill-opacity:0.33082353;fill-rule:evenodd;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,162 @@
+/*************************
+ * GRID SCHEDULE LAYOUT
+ *************************/
+@media screen and (min-width: 700px) {
+  .schedule {
+    display: grid;
+    grid-gap: 1em;
+    grid-template-rows: [tracks] auto [time-0800] auto [time-0830] auto [time-0900] auto [time-0930] auto [time-1000] auto [time-1030] auto [time-1100] auto [time-1130] auto [time-1200] auto [time-1230] auto [time-1300] auto [time-1330] auto [time-1400] auto [time-1430] auto [time-1500] auto [time-1530] auto [time-1600] auto [time-1630] auto [time-1700] auto [time-1730] auto [time-1800] auto [time-1830] auto [time-1900] auto [time-1930] auto [time-2000] auto;
+            /* Note 1:
+            Use 24hr time for gridline names for simplicity
+
+            Note 2: Use "auto" instead of "1fr" for a more compact schedule where height of a slot is not proportional to the session length. Implementing a "compact" shortcode attribute might make sense for this!
+            Try 0.5fr for more compact equal rows. I don't quite understand how that works :)
+            */
+    grid-template-columns: [times] 4.5em [track-1-start] 1fr [track-1-end track-2-start] 1fr [track-2-end track-3-start] 1fr [track-3-end track-4-start] 1fr [track-4-end track-5-start] 1fr [track-5-end];
+  }
+}
+.time-slot {
+  grid-column: times;
+}
+
+.track-slot {
+  display: none;
+  /* hidden on small screens and browsers without grid support */
+}
+
+@supports (display: grid) {
+  @media screen and (min-width: 700px) {
+    .track-slot {
+      display: block;
+      padding: 5px 5px 5px;
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background-color: rgba(255, 255, 255, 0.9);
+    }
+  }
+}
+/* Small-screen & fallback styles */
+.session {
+  margin-bottom: 1em;
+}
+
+@supports (display: grid) {
+  @media screen and (min-width: 700px) {
+    .session {
+      margin: 0;
+    }
+  }
+}
+/*************************
+ * VISUAL STYLES
+ * Design-y stuff ot particularly important to the demo
+ *************************/
+body {
+  width: 95%;
+  margin: 0 auto;
+  margin-left: 20px;
+  line-height: 1.3;
+}
+
+.session {
+  padding: .5em;
+  border-radius: 2px;
+  box-shadow: rgba(255, 255, 255, 0.6) 1px 1px 0, rgba(0, 0, 0, 0.3) 4px 4px 0;
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+  font-weight: 700;
+}
+
+.session-title,
+.session-time,
+.session-track,
+.session-presenter {
+  display: block;
+}
+
+.session-title,
+.time-slot {
+  margin: 0;
+}
+
+.session-title a {
+  color: darkblue;
+  -webkit-text-decoration-style: dotted;
+          text-decoration-style: dotted;
+  font-size: 1em;
+}
+.session-title a:hover {
+  font-style: italic;
+}
+.session-title a:focus {
+  outline: 2px dotted rgba(255, 255, 255, 0.8);
+}
+
+.track-slot,
+.time-slot {
+  font-weight: bold;
+  font-size: 1em;
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+.writingstudio {
+  background-color: red;
+  color: black;
+}
+
+.icw {
+  background-color: yellow;
+  color: black;
+}
+
+.officehours {
+  background-color: lightgreen;
+  color: black;
+}
+
+.learninglab {
+  background-color: aqua;
+  color: black;
+}
+
+.helpbyappt {
+  background-color: #c35500;
+  color: black;
+}
+
+.commreview {
+  background-color: orange;
+  color: black;
+}
+
+.track-all {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+  background: #ccc;
+  color: #000;
+  box-shadow: none;
+}
+
+.text {
+  max-width: 750px;
+  font-size: 18px;
+  margin: 0 auto 50px;
+}
+
+.meta {
+  color: #555;
+  font-style: italic;
+}
+
+.meta a {
+  color: #555;
+}
+
+.schedule-heading {
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}

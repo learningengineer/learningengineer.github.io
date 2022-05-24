@@ -1,0 +1,146 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Special+Elite&amp;display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quattrocento&amp;display=swap');
+
+body {
+	color: black;
+	font-size: 16pt;
+	font-weight:600;
+	margin: 20;
+	padding: 20;
+	background-color: white;
+	font-family: Quattrocento;
+	line-height: 200%;
+}
+/* ~~ Element/tag selectors ~~ */
+ul, dl, li { /* Due to variations between browsers, it's best practices to zero padding and margin on lists. For consistency, you can either specify the amounts you want here, or on the list items (LI, DT, DD) they contain. Remember that what you do here will cascade to the .nav list unless you write a more specific selector. */
+	padding: 3px;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 0;	 /* removing the top margin gets around an issue where margins can escape from their containing div. The remaining bottom margin will hold it away from any elements that follow. */
+	padding-right: 15px;
+	padding-left: 15px; /* adding the padding to the sides of the elements within the divs, instead of the divs themselves, gets rid of any box model math. A nested div with side padding can also be used as an alternate method. */
+	text-align: left;
+	font-family: 'Special Elite';
+}
+
+
+p {
+	color: #000;
+	font-size: 16pt;
+	font-weight:600;
+	text-indent: 5%;
+	
+}
+
+.div-help {
+	position: fixed;
+	top: 60px;
+	right: 20px;
+	
+}
+
+.chapts { 
+	margin-left: 8rem;
+	margin-right: 8rem;
+	
+}
+
+.TOC {
+	text-align: center;
+  list-style-position: inside;
+  font-size: 1rem; 
+  line-height: 100%;
+}
+
+.up {
+	position: fixed;
+	bottom: 60px;
+	right: 60px;
+	height: 50px;
+	width: 50px;
+	font-family: 'Special Elite';
+	font-size: 52pt;
+}
+.div-buttons {
+	position: fixed;
+	bottom: 16rem;
+	left: 10px;
+	width: 100px;
+}
+
+.playButtons {
+	margin:0 0 10 0;
+	border-radius: 42px 42px 42px 42px;
+	background-color: white;
+	border: 3px solid black;
+text-indent:0;
+	display:inline-block;
+	color:#000000;
+	font-family:Special Elite;
+	font-size:12pt;
+	font-weight:bold;
+	font-style:normal;
+height:35px;
+	line-height:40px;
+width:130px;
+	text-decoration:none;
+	text-align:center;
+}
+.playButtons:hover {
+    color: white;
+    background-color: black;
+    border: 3px solid yellow;
+}
+.playButtons:active {
+	position:relative;
+	top:1px;
+}
+
+.swal-overlay {
+  background-color: rgba(255,255,0, 0.45);
+}
+
+.swal-modal{
+	border: 3px solid black;
+}
+
+.swal-title {
+  margin: 0px;
+  font-size: 32pt;
+  color: black;
+  font-family: Special Elite;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.21);
+  margin-bottom: 28px;
+}
+
+.swal-text {
+  background-color: black;
+  padding: 10px;
+  font-size: 16pt;
+  font-family: Quattrocento;
+  border: 1px solid #F0E1A1;
+  display: block;
+  margin: 22px;
+  text-align: left;
+  color: white;
+}
+
+.swal-button {
+  padding: 7px 19px;
+  border-radius: 2px;
+  background-color: #4962B3;
+  font-size: 12px;
+  border: 1px solid #3e549a;
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.3);
+}
+
+
+.video { display: block; margin: auto; }
+
+.slaveback {
+	height: 70%;
+	float: left;
+	margin: 10 10 10 140;
+}
