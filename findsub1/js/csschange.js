@@ -28,34 +28,7 @@ iptext = iptext.substring(0, 10);
 console.log(iptext);
 
 
-if(iptext === "198.150.76"){
-	correctColor = "lightblue";
-	document.getElementById('pgStyle').setAttribute('href', 'css/btcstyle.css');
-	Swal.fire({
-		title: '<img class="logo-img" src="btclogole.png">', //logo image
-		html: //text in html
-		  'For this quiz, you are to read the passage and then locate the subject or subjects of the sentence by clicking the word or words involved. You must find all of the subjects to get the points. You get three attempts at each passage.  Your score and place are saved when you answer correctly or miss all three attempts. If you close the window, it will save your place. When complete, the window will close itself with your acceptance.',
-		showCloseButton: true,  //sets the close button on the window to true
-		focusConfirm: true, //sets the focus to true
-		confirmButtonText:  //sets the text of the start quiz button
-		  'Start Quiz', //sets the text of the start quiz button
-		confirmButtonAriaLabel: 'Start Quiz' //sets the text of the start quiz button
-	  });
-} else {
-	correctColor = "yellow";
-	document.getElementById('pgStyle').setAttribute('href', 'css/lestyle.css');
-	Swal.fire({
-		title: '<img class="logo-img" src="lelogo.png">', //logo image
-		html: //text in html
-		  'For this quiz, you are to read the passage and then locate the subject or subjects of the sentence by clicking the word or words involved. You must find all of the subjects to get the points. You get three attempts at each passage.  Your score and place are saved when you answer correctly or miss all three attempts. If you close the window, it will save your place. When complete, the window will close itself with your acceptance.',
-		showCloseButton: true,  //sets the close button on the window to true
-		focusConfirm: true, //sets the focus to true
-		confirmButtonText:  //sets the text of the start quiz button
-		  'Start Quiz', //sets the text of the start quiz button
-		confirmButtonAriaLabel: 'Start Quiz' //sets the text of the start quiz button
-	  });
-	
-}
+
 
 
 

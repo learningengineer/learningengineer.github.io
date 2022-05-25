@@ -46,14 +46,7 @@ body {
     max-width: 100rem;
     margin: 0 auto;
     margin-top: 1rem;
-}
-
-.rdiv {
-  max-width: 100rem;
-    margin: 0 auto;
-    margin-top: 1rem;
-    height: 0.1rem; 
-  background-color: black;
+    border-bottom: 0.25rem solid black;
 }
 
 .row:first-child {
@@ -121,6 +114,8 @@ font-family: 'Signika Negative', sans-serif;
   position: fixed;
   top: 2rem;
   left: 2rem;  
+  box-shadow: 0 0.4rem 1.4rem 0 gray;
+  z-index: 3;
 }
 
 footer {
@@ -142,8 +137,9 @@ footer {
   left: 0; 
   height: 100vh; 
   width: 100vw;
-  background-color: lightblue;
+  background-color: gray;
   z-index: 3;
+
 
 }
 
@@ -155,14 +151,7 @@ footer {
   top: 50%;
   transform: translate(-50%, -50%);
   border: 0.3rem solid #293500;
- 
+  box-shadow: 0 1.4rem 1.4rem 0 black;
   margin: 0 auto; 
 }
 
-.blur-all {
-  -webkit-filter: blur(10px);
-  -moz-filter: blur(10px);
-  -o-filter: blur(10px);
-  -ms-filter: blur(10px);
-  filter: blur(10px);
-}

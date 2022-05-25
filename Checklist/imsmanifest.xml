@@ -1,0 +1,90 @@
+<?xml version="1.0" standalone="no" ?>
+<manifest identifier="pipwerksSCORMWrapper_SCORM2004" version="2004" xmlns="http://www.imsglobal.org/xsd/imscp_v1p1"
+	xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_v1p3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:lom="http://ltsc.ieee.org/xsd/LOM" xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 imscp_v1p1.xsd
+                        http://www.adlnet.org/xsd/adlcp_v1p3 adlcp_v1p3.xsd 
+                        http://ltsc.ieee.org/xsd/LOM lom.xsd">
+	<metadata>
+		<schema>ADL SCORM</schema>
+		<schemaversion>CAM 1.3</schemaversion>
+		<lom xmlns="http://ltsc.ieee.org/xsd/LOM">
+			<general>
+				<identifier>
+					<catalog>Education</catalog>
+					<entry>Writing Checklist for Revision</entry>
+				</identifier>
+				<title>
+					<string language="en-US">Writing Checklist for Revision</string>
+				</title>
+				<language>en</language>
+				<description>
+					<string language="en-US"><p>This activity will help you determine if your essay needs to be revised.</p>
+<p>For this activity to work properly, you must:</p>
+<p>1. Use Google Chrome</p>
+<p>2. Turn off any ad-blocker or make an exception for blackhawk.edu</p></string>
+				</description>
+				<keyword>
+					<string language="en-US">learning</string>
+				</keyword>
+			</general>
+			<lifeCycle>
+				<version>
+					<string language="en-US">2004</string>
+				</version>
+				<status>
+					<source>LOMv1.0</source>
+					<value>final</value>
+				</status>
+			</lifeCycle>
+			<metaMetadata>
+				<metadataSchema>LOMv1.0</metadataSchema>
+				<metadataSchema>SCORM_CAM_v1.3</metadataSchema>
+			</metaMetadata>
+			<technical>
+				<format>text/html</format>
+			</technical>
+			<rights>
+				<cost>
+					<source>LOMv1.0</source>
+					<value>no</value>
+				</cost>
+				<copyrightAndOtherRestrictions>
+					<source>LOMv1.0</source>
+					<value>yes</value>
+				</copyrightAndOtherRestrictions>
+			</rights>
+			<classification>
+				<purpose>
+					<source>LOMv1.0</source>
+					<value>educational objective</value>
+				</purpose>
+				<description>
+					<string language="en-US"><p>This activity will help you to learn to identify the subject of a sentence.</p>
+<p>For this activity to work properly, you must:</p>
+<p>1. Use Google Chrome</p>
+<p>2. Turn off any ad-blocker or make an exception for blackhawk.edu</p></string>
+				</description>
+				<keyword>
+					<string language="en-US">learning</string>
+				</keyword>
+			</classification>
+		</lom>
+	</metadata>
+	<organizations default="learningengineer">
+		<organization identifier="Blackhawk Technical College">
+			<title>Writing Checklist for Revision</title>
+			<item identifier="pip20" identifierref="pipRef20" isvisible="true">
+				<title>Writing Checklist for Revision</title>
+			</item>
+		</organization>
+	</organizations>
+	<resources>
+		<resource identifier="pipRef20" type="webcontent" adlcp:scormType="sco" href="index.html">
+			<file href="index.html" />
+			<file href="logole.png" />
+			<file href="js/SCORM_API_wrapper.js" />
+			<file href="js/index.js" />
+			<file href="css/style.css" />
+		</resource>
+	</resources>
+</manifest>
