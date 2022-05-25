@@ -47,6 +47,8 @@ body {
     margin: 0 auto;
     margin-top: 1rem;
     border-bottom: 0.25rem solid black;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .row:first-child {
@@ -73,7 +75,7 @@ body {
 .col-2-of-2 {
     width: calc((100% - 2rem) / 2);
     font-family: 'Signika Negative', sans-serif;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 400; 
     float: right; 
 }
@@ -114,8 +116,6 @@ font-family: 'Signika Negative', sans-serif;
   position: fixed;
   top: 2rem;
   left: 2rem;  
-  box-shadow: 0 0.4rem 1.4rem 0 gray;
-  z-index: 3;
 }
 
 footer {
