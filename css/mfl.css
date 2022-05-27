@@ -155,3 +155,6 @@ footer {
   margin: 0 auto; 
 }
 
+.link {
+  visibility: hidden;
+}
