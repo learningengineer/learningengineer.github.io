@@ -27,7 +27,7 @@ $( document ).ready(function() {
 
     }
     
-      $.getJSON('https://learningengineer.com/cloud/json/portfolio.json', function (data) {  //This gets the question, answer, explanation data from the json file and dumbps it into the items variable. 
+      $.getJSON('js/portfolio.json', function (data) {  //This gets the question, answer, explanation data from the json file and dumbps it into the items variable. 
         items = data; 
         let portentries = items.length
         loadEntries();  //invokes the newQuestion function. 
