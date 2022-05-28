@@ -1,35 +1,13 @@
 
-
-
-
-
-
 $( document ).ready(function() {
-   /* $('.btn').click(function() {
-          let newSource =  $(this).attr("data");
-          console.log(newSource);
-          $("#iframeSource").attr("src", newSource);
-          $(".popUp").css('visibility', 'visible');
-
-      });*/
-
-
 
       $("#closePopup").click(function() {
         $(".popUp").css('visibility', 'hidden');
         $("#iframeSource").attr("src", "");
       });
-
-      function thisfunction() {
-      
-        $("#iframeSource").attr("src", "learningengineer.com");
-        $(".popUp").css('visibility', 'visible');
-
-    }
     
       $.getJSON('js/portfolio.json', function (data) {  //This gets the question, answer, explanation data from the json file and dumbps it into the items variable. 
         items = data; 
-        let portentries = items.length
         loadEntries();  //invokes the newQuestion function. 
      });
 
@@ -52,9 +30,4 @@ $( document ).ready(function() {
 
     })
 
-
-
-
-
-    
-});
+  });
