@@ -1,15 +1,19 @@
 
 $( document ).ready(function() {
 
-      $("#closePopup").click(function() {
-        $(".popUp").css('visibility', 'hidden');
-        $("#iframeSource").attr("src", "");
-      });
-    
-      $.getJSON('js/portfolio.json', function (data) {  //This gets the question, answer, explanation data from the json file and dumbps it into the items variable. 
+    let items = "";
+   
+
+     $.getJSON('js/portfolio.json', function (data) {  //This gets the question, answer, explanation data from the json file and dumbps it into the items variable. 
         items = data; 
         loadEntries();  //invokes the newQuestion function. 
      });
+
+
+   $("#closePopup").click(function() {
+    $(".popUp").css('visibility', 'hidden');
+    $("#iframeSource").attr("src", "");
+    });
 
 
 

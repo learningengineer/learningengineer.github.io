@@ -58,7 +58,7 @@ body {
 
 .col-1-of-2{
   width: calc((100% - 2rem) / 3);
-  margin-right: 2rem; 
+  margin-right: 1.5rem; 
   float: left; 
   font-size: 2rem;
   font-weight: 800; 
@@ -68,7 +68,7 @@ body {
 
 .col-2-of-2 {
     width: calc((100% - 2rem) / 2);
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 400; 
     float: right; 
 }
