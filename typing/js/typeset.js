@@ -27,9 +27,16 @@ $(function(){
 		var docCode = String($("#enter-type-id-textarea").val());
 		docCode = docCode.replace(/\n/g, pauseTime);
 		console.log(docCode);
+		var contentType = String($("#switch").prop("checked"));
+		if (contentType === "true"){
+			contentType = "text";
+		} else {
+			contentType = "html"
+		}
+		console.log(contentType);
 			$("#typed").typed({
 				strings: [docCode],
-				contentType: 'text',
+				contentType: contentType,
 				typeSpeed: typeSpeedTime,
 				loop: false,
 				loopCount: false,

@@ -25,16 +25,34 @@
 	</div>
 
 	<div class="enter-type"><button id="typeNow">Submit</button>
-	<div class="side-bar" id="side-bar-id"><label id="pause-label" for="time-pause">
+	<div class="side-bar" id="side-bar-id">
+		<div class="settings-items"><label id="pause-label" for="time-pause">
             Pause between lines 
             <input type="number" name="time-pause" id="pause"
                 min="0.1" max="30" step="0.1" value="1"> in seconds.
-        </label>
-		<label id="typespeed-label" for="typespeed">
-            Type speed
+        </label></div>
+		<div class="settings-items"><label id="typespeed-label" for="typespeed">
+            Type speed in milliseconds:
+            <input type="number" name="typespeed" id="typespeed-id"
+                min="10" max="10000" step="10" value="100">
+        </label></div> 
+		<div class="settings-items"><label id="delaystart-label" for="delaystart">
+            Delay start in milliseconds:
+            <input type="number" name="delaystart" id="delaystart-id"
+                min="10" max="10000" step="100" value="100">
+        </label></div> 
+		<div class="settings-items"><label id="typespeed-label" for="typespeed">
+            T
             <input type="number" name="typespeed" id="typespeed-id"
                 min="10" max="3000" step="10" value="100">
+        </label></div> 
+		<div class="settings-items">
+			<input type="checkbox" id="switch"
+                    class="checkbox" value="text" checked />
+        <label for="switch" class="toggle"><br><br>
+             <p>html&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;text&nbsp;</p>
         </label>
+		</div>
 	</div>
 	<textarea id="enter-type-id-textarea"></textarea></div>
 </body>
