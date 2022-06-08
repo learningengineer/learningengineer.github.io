@@ -10,9 +10,11 @@
 	
 	<script src="js/buzz.min.js" type="text/javascript"></script>
 	<script src="js/type.js" type="text/javascript"></script>
-	<link href="css/txtanmt.css" rel="stylesheet" />
+	<link href="css/txtanmt.css" rel="stylesheet" /> 
 
-	<link href='https://fonts.googleapis.com/css?family=Special+Elite' rel='stylesheet' type='text/css'>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;500&display=swap" rel="stylesheet">
 	
 	
 </head>
@@ -22,75 +24,20 @@
 	<div class="typed-type"><span id="typed" style="white-space:pre"></span>
 	</div>
 
-
+	<div class="enter-type"><button id="typeNow">Submit</button>
+	<div class="side-bar" id="side-bar-id"><label id="pause-label" for="time-pause">
+            Pause between lines 
+            <input type="number" name="time-pause" id="pause"
+                min="0.1" max="30" step="0.1" value="1"> in seconds.
+        </label>
+		<label id="typespeed-label" for="typespeed">
+            Type speed
+            <input type="number" name="typespeed" id="typespeed-id"
+                min="10" max="3000" step="10" value="100">
+        </label>
+	</div>
+	<textarea id="enter-type-id-textarea"></textarea></div>
 </body>
-<script>
-	$(function(){
-		let mySound = new buzz.sound("assets/keyboard.mp3", {
-			preload: true,
-			autoplay: true,
-			loop: true
-		});
-		//mySound.load(); //loads the mp3 file
-		//mySound.loop().play(); //plays and loops the file
-
-		let ndRtrnSnd = new buzz.sound("assets/carriagereturn.mp3"); //sound of the carriage return
-		ndRtrnSnd.load(); //loads the sound of the carriage return
-
-		let muteSwitch = true
-
-		$( '#typers' ).click( function() { //mutes the sound if you click on the page
-			mySound.toggleMute();
-			ndRtrnSnd.toggleMute();
-		
-	});
-
-		 //Below is the code for the typing.  See the type.js website for a more detailed explanation.
-		$("#typed").typed({
-			strings: ["Coding our html for our portfolio^1000\n<!doctype html>^1000\n<html lang=\"en\">^1000\n<head>^1000\n<meta charset=\"utf-8\">^1000 \nBuzz.js can be found at <a href='http://buzz.jaysalvat.com/'>http://buzz.jaysalvat.com/</a>.^1000 \nIn order to get the typing effect, you must use my modified type.js file.^1000 \nIt can be found at <a href='type.js'>http://mikes4bikes.ml/type.js</a> ^1000 \nThe CSS file can be found at <a href='txtanmt.css'>http://mikes4bikes.ml/txtanmt.css</a>.^1000 \nThe CSS file is what gives it that typed paper look.^1000 \nRight click on this page and then click on the^1000 \n<i>View page source</i> menu item.^1000\n \nIt doesn't require a lot of coding."],
-			contentType: 'text',
-			typeSpeed: 100,
-            loop: false,
-            loopCount: false,
-			callback: function(){
-				mySound.stop(); //stops the typewriter when it encounters a carat.
-				ndRtrnSnd.play();  //plays the carriage return
-			},
-			restartPlay: function() {
-			    ndRtrnSnd.stop(); //stops the carriage return
-				mySound.play(); //begins typing again
-			},
-			resetCallback: function() {
-				mySound.stop();  //stops everything when complete
-				ndRtrnSnd.stop(); //stops everything when complete
-			}
-
-		});
-});
-
-
-  function shift(){
-		mySound.play();
-  }
-
-  function terminalHeight(){
-      var termHeight = $(".terminal-height");
-      var value = termHeight.text();
-      value = parseInt(value);
-      setTimeout(function(){
-		  if (value > 40){
-              value = value-1;
-              this.txtValue = value.toString();
-              termHeight.text(this.txtValue);
-              self.terminalHeight();
-
-          }
-          else{
-			  alert('stop');
-              clearTimeout();
-          }
-      }, 40);
-  }
-	</script>
+<script src="js/typeset.js" type="text/javascript"></script>
 
 </html>
