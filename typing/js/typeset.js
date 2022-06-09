@@ -11,11 +11,11 @@ $(function(){
 		loop: false
 	}); 
 
-	$( '#typers' ).dblclick( function() { //mutes the sound if you click on the page
+	/*$( '#typers' ).dblclick( function() { //mutes the sound if you click on the page
 		mySound.toggleMute();
 		ndRtrnSnd.toggleMute();
 	
-	});
+	});*/
 
 	$( '#typeNow' ).click( function() { //mutes the sound if you click on the page
 		$(".enter-type").css("visibility","hidden");
@@ -27,17 +27,15 @@ $(function(){
 		var docCode = String($("#enter-type-id-textarea").val());
 		docCode = docCode.replace(/\n/g, pauseTime);
 		console.log(docCode);
-		var contentType = String($("#switch").prop("checked"));
-		if (contentType === "true"){
-			contentType = "text";
-		} else {
-			contentType = "html"
-		}
+		var contentType = String($("#switch").val());
 		console.log(contentType);
+		var deStart = Number($("#delaystart-id").val());
+		console.log(deStart);
 			$("#typed").typed({
 				strings: [docCode],
 				contentType: contentType,
 				typeSpeed: typeSpeedTime,
+				startDelay: deStart,
 				loop: false,
 				loopCount: false,
 				callback: function(){

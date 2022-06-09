@@ -41,17 +41,13 @@
             <input type="number" name="delaystart" id="delaystart-id"
                 min="10" max="10000" step="100" value="100">
         </label></div> 
-		<div class="settings-items"><label id="typespeed-label" for="typespeed">
-            T
-            <input type="number" name="typespeed" id="typespeed-id"
-                min="10" max="3000" step="10" value="100">
-        </label></div> 
+		
 		<div class="settings-items">
-			<input type="checkbox" id="switch"
-                    class="checkbox" value="text" checked />
-        <label for="switch" class="toggle"><br><br>
-             <p>html&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;text&nbsp;</p>
-        </label>
+			<label for="contentType">Content type:</label>
+			<select name="contentType" id="switch" >
+			  <option value="html">html</option>
+			  <option value="text">text</option>
+			</select>
 		</div>
 	</div>
 	<textarea id="enter-type-id-textarea"></textarea></div>
