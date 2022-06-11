@@ -1,21 +1,41 @@
 $(function(){
-	let mySound = new buzz.sound("assets/keyboard.mp3", {
-		preload: true,
-		autoplay: false,
-		loop: true
+	let mySound;
+	let ndRtrnSnd;
+	
+
+	$("#theme-style").change(function() {
+		let pgStyleValue = String($("#theme-style").val());
+		console.log(pgStyleValue);
+		$("#pgStyle").attr("href", pgStyleValue);
+		if (pgStyleValue === "css/papertyper.css") {
+			var kysound = "assets/typewriter.mp3";
+			var carsound = "assets/typewritercarriagereturn.mp3"
+		} else {
+			var kysound = "assets/keyboard.mp3";
+			var carsound = "assets/carriagereturn.mp3"
+		};
+		console.log(kysound);
+		mySound = new buzz.sound(kysound, {
+			preload: true,
+			autoplay: false,
+			loop: true
+		});
+		console.log(mySound);
+		console.log(carsound);
+		ndRtrnSnd = new buzz.sound(carsound, {
+			preload: true,
+			autoplay: false,
+			loop: false
+		}); 
+		console.log(ndRtrnSnd);
 	});
 
-	let ndRtrnSnd = new buzz.sound("assets/carriagereturn.mp3", {
-		preload: true,
-		autoplay: false,
-		loop: false
-	}); 
 
-	/*$( '#typers' ).dblclick( function() { //mutes the sound if you click on the page
+	$( '#typers' ).dblclick( function() { //mutes the sound if you click on the page
 		mySound.toggleMute();
 		ndRtrnSnd.toggleMute();
 	
-	});*/
+	});
 
 	$( '#typeNow' ).click( function() { //mutes the sound if you click on the page
 		$(".enter-type").css("visibility","hidden");

@@ -4,10 +4,13 @@ $( document ).ready(function() {
     let items = "";
    
 
-     $.getJSON('js/portfolio.json', function (data) {  //This gets the question, answer, explanation data from the json file and dumbps it into the items variable. 
+     $.getJSON('js/portfolio.json', function (data) {  
         items = data; 
         items.forEach((element, index) => {
-          $( "#portgrid" ).append('<div class="row"><div class="col-1-of-2">' + items[index].title + '<br> <button class="btn" data="'  + items[index].link + '">Click here to see it</button></div><div class="col-2-of-2">' + items[index].explanation + '</div></div>' );
+          $( "#portgrid" ).append('<div class="row"><div class="col-1-of-2">' + items[index].title + 
+          '<br> <button class="btn" data="'  + items[index].link + '">Click here to see it</button>
+          </div><div class="col-2-of-2">' + 
+          items[index].explanation + '</div></div>' );
         });
      });
 

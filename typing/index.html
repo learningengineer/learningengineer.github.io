@@ -10,7 +10,7 @@
 	
 	<script src="js/buzz.min.js" type="text/javascript"></script>
 	<script src="js/type.js" type="text/javascript"></script>
-	<link href="css/txtanmt.css" rel="stylesheet" /> 
+	<link id="pgStyle" href="css/console.css" rel="stylesheet" /> 
 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -49,8 +49,19 @@
 			  <option value="text">text</option>
 			</select>
 		</div>
+		<div class="settings-items">
+			<label for="themeType">Style type:</label><br>
+			<select name="themeType" id="theme-style" >
+			  <option value="css/console.css">Computer Console</option>
+			  <option value="css/papertyper.css">Typewriter</option>
+			</select>
+		</div>
+
+
+
+
 	</div>
-	<textarea id="enter-type-id-textarea"></textarea></div>
+	<textarea id="enter-type-id-textarea" placeholder="Paste or type text here." wrap="hard"></textarea></div>
 </body>
 <script src="js/typeset.js" type="text/javascript"></script>
 

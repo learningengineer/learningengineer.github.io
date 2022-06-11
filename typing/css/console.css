@@ -1,0 +1,181 @@
+
+* {
+  padding: 0;
+  margin: 0; }
+
+body {
+
+}
+
+a {
+  text-decoration: none;
+  color: #666; }
+  a:hover {
+    color: #999; }
+
+p {
+  line-height: 2em;
+  margin: 0 0 20px; }
+
+.typed-type {
+  margin: 0 auto 20px;
+  padding: 20px;
+  font-family: "Source Code Pro", sans-serif;
+  font-size: 1.5em;
+  border-radius: 10px;
+  height: 100vh;
+  width: 100vw;
+  text-shadow: 0 2px 3px rgba(255, 255, 255, 0.3), 0 -1px 2px rgba(0, 0, 0, 0.2);
+  color: #ffffff;
+  visibility: hidden;
+  background-color: black;
+  overflow: auto; }
+
+  #enter-type {
+    visibility:visible;
+    position:fixed;
+    top: 0;
+    left: 0; 
+    height: 100vh; 
+    width: 100vw;
+    background-color: gray;
+    z-index: 3;
+  }
+
+  textarea {
+    position: fixed; 
+  height: 75vh;
+	width: calc((80vw - 4rem));
+  left: 60%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 0.3rem solid #293500;
+  box-shadow: 0 1.4rem 1.4rem 0 black;
+  margin: 0 auto; 
+  font-size: 1.5rem; 
+  background-color: black;
+  color: white; 
+  }
+
+.typed-cursor {
+  opacity: 0; 
+  font-weight: 700;
+  padding: 5px;
+  -webkit-animation: blink 0.7s infinite;
+  -moz-animation: blink 0.7s infinite;
+  -ms-animation: blink 0.7s infinite;
+  -o-animation: blink 0.7s infinite;
+  animation: blink 0.7s infinite; }
+
+  button {
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 1rem;
+    font-weight: bolder;
+    padding: .5rem 2rem .5rem 2rem;  
+    text-align: center;
+    border: 0.1rem solid #293500;
+    margin:auto; 
+    text-decoration: none;
+    color: yellow;
+    background-color: black;
+    border-radius: 2rem;
+    box-shadow: 0 0.4rem 1.4rem 0 gray;
+    position: fixed;
+    top: 0.5rem;
+    left: 0.5rem;
+  }
+  
+  button:hover {
+    cursor: pointer;
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+    color: black;
+    background-color: yellowgreen;
+  }
+
+  .side-bar {
+    position: fixed;
+    height: 75vh;
+	  width: calc((20vw - 4rem));
+    left: 1%;
+    top: 10%;
+    background-color: lightblue; 
+    padding: 0.5rem 1rem 0.5rem 1rem; 
+    border: 0.3rem solid #293500;
+  box-shadow: 0 1.4rem 1.4rem 0 black;
+  margin: 0 auto; 
+  font-size: 1rem;
+    font-family: 'Signika Negative', sans-serif;
+  }
+
+  .settings-items {
+    padding-bottom: 1rem; 
+  }
+  
+  
+    #pause, #delaystart-id, #delaystart-label{
+      font-size: 1rem;
+      font-family: 'Signika Negative', sans-serif;
+    }
+  
+    #typespeed-id {
+      font-size: 1rem;
+      font-family: 'Signika Negative', sans-serif;
+    } 
+  
+   #switch, #theme-style {
+     width: 8rem;
+     height: 2rem;
+     font-size: 1rem;
+     font-family: 'Signika Negative', sans-serif;
+   }
+
+
+
+@-keyframes blink {
+  0% {
+    opacity: 0; }
+
+  50% {
+    opacity: 0; }
+
+  100% {
+    opacity: 0; } }
+@-webkit-keyframes blink {
+  0% {
+    opacity: 0; }
+
+  50% {
+    opacity: 0; }
+
+  100% {
+    opacity: 0; } }
+@-moz-keyframes blink {
+  0% {
+    opacity: 0; }
+
+  50% {
+    opacity: 0; }
+
+  100% {
+    opacity: 0; } }
+@-ms-keyframes blink {
+  0% {
+    opacity: 0; }
+
+  50% {
+    opacity: 0; }
+
+  100% {
+    opacity: 0; } }
+@-o-keyframes blink {
+  0% {
+    opacity: 0; }
+
+  50% {
+    opacity: 0; }
+
+  100% {
+    opacity: 0; } }
+
+    
