@@ -4,6 +4,10 @@ $(function(){
 	
 
 	$("#theme-style").change(function() {
+		checkTheme();
+	});
+
+	function checkTheme(){
 		let pgStyleValue = String($("#theme-style").val());
 		console.log(pgStyleValue);
 		$("#pgStyle").attr("href", pgStyleValue);
@@ -28,7 +32,7 @@ $(function(){
 			loop: false
 		}); 
 		console.log(ndRtrnSnd);
-	});
+	}
 
 
 	$( '#typers' ).dblclick( function() { //mutes the sound if you click on the page
@@ -38,6 +42,7 @@ $(function(){
 	});
 
 	$( '#typeNow' ).click( function() { //mutes the sound if you click on the page
+		checkTheme();
 		$(".enter-type").css("visibility","hidden");
 		$(".typed-type ").css("visibility","visible");
 		var pauseTime = "^" + String($("#pause").val() * 1000) + "\n";
