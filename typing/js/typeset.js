@@ -34,14 +34,22 @@ $(function(){
 		console.log(ndRtrnSnd);
 	}
 
+	$('#enter-type-id-textarea').on('paste', function(e){
+		$(this).val().replace(/\n\r?/g, '\n');	
 
-	$( '#typers' ).dblclick( function() { //mutes the sound if you click on the page
+	});
+
+
+
+
+	/*$( '#typers' ).dblclick( function() { //mutes the sound if you click on the page
+
 		mySound.toggleMute();
 		ndRtrnSnd.toggleMute();
 	
-	});
+	});*/
 
-	$( '#typeNow' ).click( function() { //mutes the sound if you click on the page
+	$( '#typeNow' ).click( function() { 
 		checkTheme();
 		$(".enter-type").css("visibility","hidden");
 		$(".typed-type ").css("visibility","visible");

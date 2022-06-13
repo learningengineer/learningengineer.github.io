@@ -29,7 +29,8 @@ p {
   color: #ffffff;
   visibility: hidden;
   background-color: black;
-  overflow: auto; }
+  white-space: pre-wrap;
+  }
 
   #enter-type {
     visibility:visible;
@@ -66,7 +67,8 @@ p {
   -moz-animation: blink 0.7s infinite;
   -ms-animation: blink 0.7s infinite;
   -o-animation: blink 0.7s infinite;
-  animation: blink 0.7s infinite; }
+  animation: blink 0.7s infinite; 
+}
 
   button {
     font-family: 'Signika Negative', sans-serif;

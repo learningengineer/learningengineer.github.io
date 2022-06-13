@@ -33,7 +33,7 @@ p {
   color: black;
   visibility: hidden;
   background-image: url("../assets/White_paper.jpg");
-  overflow: auto; }
+  white-space: pre-wrap; }
 
   #enter-type {
     visibility:visible;
