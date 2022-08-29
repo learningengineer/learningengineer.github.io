@@ -20,6 +20,8 @@ $( document ).ready(function() {
         window.open(newSource, '_blank').focus();
       } else if (newSource === "https://learningengineer.com") {
         window.open(newSource, '_blank').focus();
+      } else if (newSource === "https://www.youtube.com/c/LearningEngineercom"){
+        window.open(newSource, '_blank').focus();
       } else {
         $("#iframeSource").attr("src", newSource);
         $(".popUp").css('visibility', 'visible');
