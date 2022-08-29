@@ -14,8 +14,17 @@ $( document ).ready(function() {
 
     $(document).on('click','.btn',function(){
       let newSource =  $(this).attr("data");
-      $("#iframeSource").attr("src", newSource);
-      $(".popUp").css('visibility', 'visible');
+      if (newSource === "https://canvas.instructure.com/login/canvas") {
+        window.open(newSource, '_blank').focus();
+      } else if (newSource === "https://learningengineer.com/lrnr/") {
+        window.open(newSource, '_blank').focus();
+      } else if (newSource === "https://learningengineer.com") {
+        window.open(newSource, '_blank').focus();
+      } else {
+        $("#iframeSource").attr("src", newSource);
+        $(".popUp").css('visibility', 'visible');
+      }
+      
     })
 
     $("#closePopup").click(function() {
