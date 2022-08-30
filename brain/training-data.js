@@ -241,7 +241,34 @@ const trainingData = [
 		input: "After the snow falls, school will open again.",
 		output: { compsent: 1}
 	},{
-		input: "Before the snow falls.",
+		input: "Going nowhere.",
+		output: { incompsent: 1}
+	},{
+		input: "an incomplete sentence.",
+		output: { incompsent: 1}
+	},{
+		input: "This is going nowhere.",
+		output: { compsent: 1}
+	},{
+		input: "This is not an incomplete sentence.",
+		output: { compsent: 1}
+	},{
+		input: "You should go somewhere before the rain starts.",
+		output: { compsent: 1}
+	},{
+		input: "Do you know the fastest way to work?",
+		output: { compsent: 1}
+	},{
+		input: "That guy is a total jerk.",
+		output: { incompsent: 1}
+	},{
+		input: "That guy jerks everyone around like he's a somebody when he's really a nobody.",
+		output: { compsent: 1}
+	},{
+		input: "Before the snow falls and after the rain starts but two days later than before.",
+		output: { incompsent: 1}
+	},{
+		input: "Trump lost the election.",
 		output: { incompsent: 1}
 	}
 ];
