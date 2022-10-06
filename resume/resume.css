@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap&family=Special+Elite');
+
+* {
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box; 
+}
+
+:root {
+  --fg: #008D02; 
+  --bg: white; 
+  --accents: blue; 
+  --bt: black; 
+  --sc: black; 
+  --fntsec:  'Secular One', sans-serif;
+  --fntgeorgia: 'Georgia', serif; 
+    
+
+}
+
+:root:has(.theme > [value = "Light"]:checked) {
+  --fg: black;
+  --bg: white;
+  --bt: rgb(67, 62, 62);
+  --sc: black;  
+  --fntsec: 'Secular One', sans-serif; 
+  --fntgeorgia: 'Georgia', serif; 
+}
+
+:root:has(.theme > [value = "Dark"]:checked) {
+  --fg: white;
+  --bg: black;
+  --bt: lightgray; 
+  --sc: yellow; 
+  --fntsec: 'Secular One', sans-serif; 
+  --fntgeorgia: 'Georgia', serif; 
+
+}
+
+:root:has(.theme > [value = "LearningEngineer"]:checked) {
+  --fg: yellow;
+  --bg: black;
+  --bt: lightyellow; 
+  --sc: yellow; 
+  --fntsec:  'Secular One', sans-serif; 
+  --fntgeorgia: 'Special Elite', serif; 
+
+}
+
+:root:has(.theme > [value = "paper"]:checked) {
+  --fg: black;
+  --bg: url("https://www.publicdomainpictures.net/pictures/60000/velka/old-paper-texture-background.jpg");
+  --bt: rgb(47, 45, 45); 
+  --sc: black;
+  --fntsec: 'Special Elite', serif;
+  --fntgeorgia: 'Special Elite', serif; 
+
+
+}
+
+
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+}
+
+.container {
+  display: flex; 
+  flex-direction: column;
+  margin: 30px; 
+}
+
+.name {
+  font-family: var(--fntgeorgia); 
+  margin: 0 auto; 
+  letter-spacing: 1px;
+  text-transform: uppercase; 
+  font-size: 70px; 
+  display: flex; 
+  flex-direction: row; 
+  justify-content: center; 
+
+}
+
+.item {
+  padding: 0px 20px 0px 20px; 
+}
+
+.firstname {
+    color: var(--fg);
+}
+
+
+.lastname {
+  color: var(--fg);
+    font-weight: 900; 
+}
+
+#tagline  {
+  font-size: 30px;
+  letter-spacing: 3px;
+  margin: 0 auto; 
+  text-align: center;  
+}
+
+#info {
+  font-size: 14px;
+  font-family: var(--fntsec); 
+  font-weight: 600; 
+  display: flex; 
+  flex-direction: row; 
+  justify-content: center; 
+}
+
+.additem {
+  padding: 0px 10px 10px 10px; 
+}
+
+.heading1 {
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 700;
+  color:  var(--fg);;
+  padding-top: 20px; 
+  display: flex; 
+  flex-direction: row; 
+  font-family: var(--fntgeorgia);
+}
+
+.heading1:hover > .sndicn { text-shadow: 0rem 0rem 1rem var(--sc),  0rem 0rem 1rem var(--sc),  0rem 0rem 1rem var(--sc); }
+
+.txt {
+  font-size: 18px; 
+  font-family: var(--fntsec);
+  color: var(--bt);
+  
+}
+
+a {
+  color:  var(--fg);
+}
+
+li {
+  font-family: var(--fntsec);
+  font-size: 14pt; 
+  padding: 5px 40px 0px 0px;
+  color: var(--bt); 
+}
+
+.twocolumns {
+  padding-top: 10px; 
+  display: flex; 
+  flex-direction: row; 
+  justify-content: space-around;  
+}
+
+.sublist {
+  padding-left: 70px; 
+  list-style-type: circle;
+  
+}
+
+.themepicker {
+  position:fixed;
+  left: 20px; 
+  top: 20px;
+  width: 150px; 
+  height: 50px; 
+  background: var(--bg); 
+  color:  var(--fg); 
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12pt; 
+}
+
