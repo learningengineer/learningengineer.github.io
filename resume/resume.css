@@ -7,53 +7,53 @@
 }
 
 :root {
-  --fg: #008D02; 
-  --bg: white; 
+  --fntcolor: #008D02; 
+  --bkgrnd: white; 
   --accents: blue; 
-  --bt: black; 
-  --sc: black; 
-  --fntsec:  'Secular One', sans-serif;
-  --fntgeorgia: 'Georgia', serif; 
+  --fntcolor2: black; 
+  --sndicon: black; 
+  --fntprimary:  'Secular One', sans-serif;
+  --fntsecondary: 'Georgia', serif; 
     
 
 }
 
 :root:has(.theme > [value = "Light"]:checked) {
-  --fg: black;
-  --bg: white;
-  --bt: rgb(67, 62, 62);
-  --sc: black;  
-  --fntsec: 'Secular One', sans-serif; 
-  --fntgeorgia: 'Georgia', serif; 
+  --fntcolor: black;
+  --bkgrnd: white;
+  --fntcolor2: rgb(67, 62, 62);
+  --sndicon: black;  
+  --fntprimary: 'Secular One', sans-serif; 
+  --fntsecondary: 'Georgia', serif; 
 }
 
 :root:has(.theme > [value = "Dark"]:checked) {
-  --fg: white;
-  --bg: black;
-  --bt: lightgray; 
-  --sc: yellow; 
-  --fntsec: 'Secular One', sans-serif; 
-  --fntgeorgia: 'Georgia', serif; 
+  --fntcolor: white;
+  --bkgrnd: black;
+  --fntcolor2: lightgray; 
+  --sndicon: yellow; 
+  --fntprimary: 'Secular One', sans-serif; 
+  --fntsecondary: 'Georgia', serif; 
 
 }
 
 :root:has(.theme > [value = "LearningEngineer"]:checked) {
-  --fg: yellow;
-  --bg: black;
-  --bt: lightyellow; 
-  --sc: yellow; 
-  --fntsec:  'Secular One', sans-serif; 
-  --fntgeorgia: 'Special Elite', serif; 
+  --fntcolor: yellow;
+  --bkgrnd: black;
+  --fntcolor2: lightyellow; 
+  --sndicon: yellow; 
+  --fntprimary:  'Secular One', sans-serif; 
+  --fntsecondary: 'Special Elite', serif; 
 
 }
 
 :root:has(.theme > [value = "paper"]:checked) {
-  --fg: black;
-  --bg: url("https://www.publicdomainpictures.net/pictures/60000/velka/old-paper-texture-background.jpg");
-  --bt: rgb(47, 45, 45); 
-  --sc: black;
-  --fntsec: 'Special Elite', serif;
-  --fntgeorgia: 'Special Elite', serif; 
+  --fntcolor: black;
+  --bkgrnd: url("https://www.publicdomainpictures.net/pictures/60000/velka/old-paper-texture-background.jpg");
+  --fntcolor2: rgb(47, 45, 45); 
+  --sndicon: black;
+  --fntprimary: 'Special Elite', serif;
+  --fntsecondary: 'Special Elite', serif; 
 
 
 }
@@ -61,8 +61,8 @@
 
 
 body {
-  background: var(--bg);
-  color: var(--fg);
+  background: var(--bkgrnd);
+  color: var(--fntcolor);
 }
 
 .container {
@@ -72,7 +72,7 @@ body {
 }
 
 .name {
-  font-family: var(--fntgeorgia); 
+  font-family: var(--fntsecondary); 
   margin: 0 auto; 
   letter-spacing: 1px;
   text-transform: uppercase; 
@@ -88,12 +88,12 @@ body {
 }
 
 .firstname {
-    color: var(--fg);
+    color: var(--fntcolor);
 }
 
 
 .lastname {
-  color: var(--fg);
+  color: var(--fntcolor);
     font-weight: 900; 
 }
 
@@ -106,14 +106,14 @@ body {
 
 #info {
   font-size: 14px;
-  font-family: var(--fntsec); 
+  font-family: var(--fntprimary); 
   font-weight: 600; 
   display: flex; 
   flex-direction: row; 
   justify-content: center; 
 }
 
-.additem {
+.infoitem {
   padding: 0px 10px 10px 10px; 
 }
 
@@ -121,31 +121,31 @@ body {
   text-transform: uppercase;
   font-size: 22px;
   font-weight: 700;
-  color:  var(--fg);;
+  color:  var(--fntcolor);;
   padding-top: 20px; 
   display: flex; 
   flex-direction: row; 
-  font-family: var(--fntgeorgia);
+  font-family: var(--fntsecondary);
 }
 
-.heading1:hover > .sndicn { text-shadow: 0rem 0rem 1rem var(--sc),  0rem 0rem 1rem var(--sc),  0rem 0rem 1rem var(--sc); }
+.heading1:hover > .sndicn { text-shadow: 0rem 0rem 1rem var(--sndicon),  0rem 0rem 1rem var(--sndicon),  0rem 0rem 1rem var(--sndicon); }
 
 .txt {
   font-size: 18px; 
-  font-family: var(--fntsec);
-  color: var(--bt);
+  font-family: var(--fntprimary);
+  color: var(--fntcolor2);
   
 }
 
 a {
-  color:  var(--fg);
+  color:  var(--fntcolor);
 }
 
 li {
-  font-family: var(--fntsec);
+  font-family: var(--fntprimary);
   font-size: 14pt; 
   padding: 5px 40px 0px 0px;
-  color: var(--bt); 
+  color: var(--fntcolor2); 
 }
 
 .twocolumns {
@@ -167,8 +167,8 @@ li {
   top: 20px;
   width: 150px; 
   height: 50px; 
-  background: var(--bg); 
-  color:  var(--fg); 
+  background: var(--bkgrnd); 
+  color:  var(--fntcolor); 
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   font-size: 12pt; 
 }
