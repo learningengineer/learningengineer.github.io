@@ -7,43 +7,53 @@
 }
 
 :root {
-  --fntcolor: #008D02; 
-  --bkgrnd: white; 
-  --accents: blue; 
-  --fntcolor2: black; 
-  --sndicon: black; 
-  --fntprimary:  'Secular One', sans-serif;
-  --fntsecondary: 'Georgia', serif; 
-    
-
+  --fntcolor: yellow;
+  --headerfntcolor: rgb(60, 62, 0); 
+  --bkgrnd: black;
+  --fntcolor2: lightyellow; 
+  --sndicon: yellow; 
+  --fntprimary:  'Secular One', sans-serif; 
+  --fntsecondary: 'Special Elite', serif; 
+  --bkgrndgrad:  linear-gradient(to right bottom, rgba(136, 137, 135, 0.8), rgba(29, 31, 31, 0.8)), url(typekeyboard.png);
+  --headerbttmcolor:  0 0 8px 8px black inset;
 }
 
 :root:has(.theme > [value = "Light"]:checked) {
   --fntcolor: black;
+  --headerfntcolor: rgb(255, 255, 255); ; 
   --bkgrnd: white;
   --fntcolor2: rgb(67, 62, 62);
   --sndicon: black;  
   --fntprimary: 'Secular One', sans-serif; 
   --fntsecondary: 'Georgia', serif; 
+  --bkgrndgrad:  linear-gradient(to right bottom, rgba(136, 137, 135, 0.8), rgba(29, 31, 31, 0.8)), url(typekeyboard.png);
+  --headerbttmcolor:  0 0 8px 8px white inset;
 }
 
 :root:has(.theme > [value = "Dark"]:checked) {
   --fntcolor: white;
   --bkgrnd: black;
   --fntcolor2: lightgray; 
-  --sndicon: yellow; 
+  --headerfntcolor: black; 
+  --sndicon: white; 
   --fntprimary: 'Secular One', sans-serif; 
   --fntsecondary: 'Georgia', serif; 
+  --bkgrndgrad:  linear-gradient(to right bottom, rgba(136, 137, 135, 0.8), rgba(29, 31, 31, 0.8)), url(typekeyboard.png);
+  --headerbttmcolor:  0 0 8px 8px black inset;
 
 }
 
-:root:has(.theme > [value = "LearningEngineer"]:checked) {
-  --fntcolor: yellow;
-  --bkgrnd: black;
-  --fntcolor2: lightyellow; 
-  --sndicon: yellow; 
-  --fntprimary:  'Secular One', sans-serif; 
-  --fntsecondary: 'Special Elite', serif; 
+:root:has(.theme > [value = "Green"]:checked) {
+  --fntcolor: #2f6a30; 
+  --headerfntcolor: #07ff0b; 
+  --bkgrnd: white; 
+  --accents: blue; 
+  --fntcolor2: black; 
+  --sndicon: black; 
+  --fntprimary:  'Secular One', sans-serif;
+  --fntsecondary: 'Georgia', serif; 
+  --bkgrndgrad:  linear-gradient(to right bottom, rgba(100, 100, 100, 0.8), rgba(225, 225, 225, 0.8)), url(typekeyboard.png);
+  --headerbttmcolor:  0 0 8px 8px white inset;
 
 }
 
@@ -51,10 +61,12 @@
   --fntcolor: black;
   --bkgrnd: url("https://www.publicdomainpictures.net/pictures/60000/velka/old-paper-texture-background.jpg");
   --fntcolor2: rgb(47, 45, 45); 
+  --headerfntcolor: #eae4cc; 
   --sndicon: black;
   --fntprimary: 'Special Elite', serif;
   --fntsecondary: 'Special Elite', serif; 
-
+  --bkgrndgrad:  linear-gradient(to right bottom, rgba(136, 137, 135, 0.8), rgba(29, 31, 31, 0.8)), url(typekeyboard.png);
+  --headerbttmcolor:  0 0 8px 8px #eae4cc inset;
 
 }
 
@@ -67,34 +79,56 @@ body {
 
 .container {
   display: flex; 
-  flex-direction: column;
-  margin: 30px; 
+  flex-direction: column; 
+  float: inline-start;
 }
 
-.name {
-  font-family: var(--fntsecondary); 
-  margin: 0 auto; 
-  letter-spacing: 1px;
-  text-transform: uppercase; 
-  font-size: 70px; 
+.header {
   display: flex; 
-  flex-direction: row; 
-  justify-content: center; 
-
+  flex-direction: column; 
+  background-image: var(--bkgrndgrad);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  z-index: -1;
+  box-shadow: var(--headerbttmcolor);
+  height: 35vh; 
+  width: 103vw; 
+  margin-left: -1rem; 
+  margin-top: -1rem; 
+  color: var(--headerfntcolor);
+  text-shadow: 0rem 0rem 1rem var(--sndicon),  0rem 0rem 1rem var(--sndicon),  0rem 0rem 1rem var(--sndicon);
 }
+
+
 
 .item {
   padding: 0px 20px 0px 20px; 
 }
 
-.firstname {
-    color: var(--fntcolor);
+.name {
+  padding-top: 2rem; 
+  font-family: var(--fntsecondary); 
+  font-size: 4rem;
+  margin: 0 auto; 
+  letter-spacing: 1px;
+  text-transform: uppercase; 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center; 
 }
 
 
-.lastname {
-  color: var(--fntcolor);
-    font-weight: 900; 
+.motto {
+  font-family: var(--fntsecondary); 
+  margin: 0 auto; 
+  letter-spacing: 0.65rem;
+  text-transform: lowercase; 
+  font-size: 2rem;
+    font-weight: 300; 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center; 
 }
 
 #tagline  {
@@ -163,13 +197,21 @@ li {
 
 .themepicker {
   position:fixed;
-  left: 20px; 
-  top: 20px;
-  width: 150px; 
-  height: 50px; 
+  left: 5px; 
+  top: 5px;
+  width: 170px; 
+  height: 70px; 
   background: var(--bkgrnd); 
   color:  var(--fntcolor); 
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   font-size: 12pt; 
+  text-align: center;
+  border-radius: 0.4rem;
+  padding-top: 10px;
+  opacity: 0.5;
 }
 
+
+.themepicker:hover {
+  opacity: 1;
+}
