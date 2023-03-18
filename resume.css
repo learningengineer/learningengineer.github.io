@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap&family=Special+Elite');
+
+* {
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box; 
+}
+
+:root {
+  --fntcolor: #008D02; 
+  --bkgrnd: white; 
+  --accents: blue; 
+  --fntcolor2: black; 
+  --sndicon: black; 
+  --fntprimary:  'Secular One', sans-serif;
+  --fntsecondary: 'Georgia', serif; 
+    
+
+}
+
+:root:has(.theme > [value = "Light"]:checked) {
+  --fntcolor: black;
+  --bkgrnd: white;
+  --fntcolor2: rgb(67, 62, 62);
+  --sndicon: black;  
+  --fntprimary: 'Secular One', sans-serif; 
+  --fntsecondary: 'Georgia', serif; 
+}
+
+:root:has(.theme > [value = "Dark"]:checked) {
+  --fntcolor: white;
+  --bkgrnd: black;
+  --fntcolor2: lightgray; 
+  --sndicon: yellow; 
+  --fntprimary: 'Secular One', sans-serif; 
+  --fntsecondary: 'Georgia', serif; 
+
+}
+
+:root:has(.theme > [value = "LearningEngineer"]:checked) {
+  --fntcolor: yellow;
+  --bkgrnd: black;
+  --fntcolor2: lightyellow; 
+  --sndicon: yellow; 
+  --fntprimary:  'Secular One', sans-serif; 
+  --fntsecondary: 'Special Elite', serif; 
+
+}
+
+:root:has(.theme > [value = "paper"]:checked) {
+  --fntcolor: black;
+  --bkgrnd: url("https://www.publicdomainpictures.net/pictures/60000/velka/old-paper-texture-background.jpg");
+  --fntcolor2: rgb(47, 45, 45); 
+  --sndicon: black;
+  --fntprimary: 'Special Elite', serif;
+  --fntsecondary: 'Special Elite', serif; 
+
+
+}
+
+
+
+body {
+  background: var(--bkgrnd);
+  color: var(--fntcolor);
+}
+
+.container {
+  display: flex; 
+  flex-direction: column;
+  margin: 30px; 
+}
+
+.name {
+  font-family: var(--fntsecondary); 
+  margin: 0 auto; 
+  letter-spacing: 1px;
+  text-transform: uppercase; 
+  font-size: 70px; 
+  display: flex; 
+  flex-direction: row; 
+  justify-content: center; 
+
+}
+
+.item {
+  padding: 0px 20px 0px 20px; 
+}
+
+.firstname {
+    color: var(--fntcolor);
+}
+
+
+.lastname {
+  color: var(--fntcolor);
+    font-weight: 900; 
+}
+
+#tagline  {
+  font-size: 30px;
+  letter-spacing: 3px;
+  margin: 0 auto; 
+  text-align: center;  
+}
+
+#info {
+  font-size: 14px;
+  font-family: var(--fntprimary); 
+  font-weight: 600; 
+  display: flex; 
+  flex-direction: row; 
+  justify-content: center; 
+}
+
+.infoitem {
+  padding: 0px 10px 10px 10px; 
+}
+
+.heading1 {
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 700;
+  color:  var(--fntcolor);;
+  padding-top: 20px; 
+  display: flex; 
+  flex-direction: row; 
+  font-family: var(--fntsecondary);
+}
+
+.heading1:hover > .sndicn { text-shadow: 0rem 0rem 1rem var(--sndicon),  0rem 0rem 1rem var(--sndicon),  0rem 0rem 1rem var(--sndicon); }
+
+.txt {
+  font-size: 18px; 
+  font-family: var(--fntprimary);
+  color: var(--fntcolor2);
+  
+}
+
+a {
+  color:  var(--fntcolor);
+}
+
+li {
+  font-family: var(--fntprimary);
+  font-size: 14pt; 
+  padding: 5px 40px 0px 0px;
+  color: var(--fntcolor2); 
+}
+
+.twocolumns {
+  padding-top: 10px; 
+  display: flex; 
+  flex-direction: row; 
+  justify-content: space-around;  
+}
+
+.sublist {
+  padding-left: 70px; 
+  list-style-type: circle;
+  
+}
+
+.themepicker {
+  position:fixed;
+  left: 20px; 
+  top: 20px;
+  width: 150px; 
+  height: 50px; 
+  background: var(--bkgrnd); 
+  color:  var(--fntcolor); 
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12pt; 
+}
+
