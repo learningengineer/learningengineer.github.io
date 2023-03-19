@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap&family=Special+Elite');
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 * {
   margin: 0; 
   padding: 0; 
@@ -8,7 +10,7 @@
 
 :root {
   --fntcolor: yellow;
-  --headerfntcolor: rgb(60, 62, 0); 
+  --headerfntcolor: black; 
   --bkgrnd: black;
   --fntcolor2: lightyellow; 
   --sndicon: yellow; 
@@ -36,8 +38,8 @@
   --fntcolor2: lightgray; 
   --headerfntcolor: black; 
   --sndicon: white; 
-  --fntprimary: 'Secular One', sans-serif; 
-  --fntsecondary: 'Georgia', serif; 
+  --fntprimary: 'Roboto', serif; 
+  --fntsecondary: 'Verdana', serif;  
   --bkgrndgrad:  linear-gradient(to right bottom, rgba(136, 137, 135, 0.8), rgba(29, 31, 31, 0.8)), url(typekeyboard.png);
   --headerbttmcolor:  0 0 8px 8px black inset;
 
@@ -112,6 +114,7 @@ body {
   font-size: 4rem;
   margin: 0 auto; 
   letter-spacing: 1px;
+  font-weight: 900; 
   text-transform: uppercase; 
     display: flex; 
     flex-direction: row; 
@@ -199,16 +202,16 @@ li {
   position:fixed;
   left: 5px; 
   top: 5px;
-  width: 170px; 
+  width: 140px; 
   height: 70px; 
   background: var(--bkgrnd); 
   color:  var(--fntcolor); 
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 12pt; 
+  font-family:"Roboto", serif;
+  font-size: 10pt; 
   text-align: center;
   border-radius: 0.4rem;
   padding-top: 10px;
-  opacity: 0.5;
+  opacity: 0.3;
 }
 
 
