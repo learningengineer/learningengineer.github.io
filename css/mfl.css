@@ -35,24 +35,7 @@ nav {
     text-align: center;
 }
 
-.row {
-    max-width: 90vw;
-    margin: 0 auto;
-    margin-top: 1rem;
-    border-bottom: 0.25rem solid black;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-}
 
-.row:first-child {
-  margin-top: 7rem; 
-}
-
-.row::after {
-    content: "";
-    display: table; 
-    clear: both; 
-}
 
 .col-1-of-2{
   width: calc((100% - 2rem) / 3);
