@@ -235,6 +235,7 @@ li {
   border-radius: 0.4rem;
   padding-top: 10px;
   opacity: 0.3;
+  z-index: 3; 
 }
 
 
