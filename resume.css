@@ -97,6 +97,7 @@ body {
   background-size: cover;
   background-position: top;
   box-shadow: var(--headerbttmcolor);
+  z-index: 10; 
   height: 35vh; 
   width: 103vw; 
   margin-left: -1rem; 
