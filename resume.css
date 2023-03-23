@@ -92,16 +92,17 @@ body {
 .header {
   position:fixed;
   left: 0px; 
-  top: 50px;
+  top: 0px;
   background-image: var(--bkgrndgrad);
   background-size: cover;
   background-position: top;
   box-shadow: var(--headerbttmcolor);
-  z-index: 10; 
+  z-index: 2; 
   height: 35vh; 
   width: 103vw; 
   margin-left: -1rem; 
   margin-top: -1rem; 
+  padding-top: 2rem; 
   color: var(--headerfntcolor);
   text-shadow: 0rem 0rem 1rem var(--sndicon),  0rem 0rem 1rem var(--sndicon),  0rem 0rem 1rem var(--sndicon);
 }
