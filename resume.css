@@ -90,12 +90,12 @@ body {
 }
 
 .header {
-  display: flex; 
-  flex-direction: column; 
+  position:fixed;
+  left: 0px; 
+  top: 50px;
   background-image: var(--bkgrndgrad);
   background-size: cover;
   background-position: top;
-  position: relative;
   z-index: -1;
   box-shadow: var(--headerbttmcolor);
   height: 35vh; 
