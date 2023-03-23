@@ -96,7 +96,6 @@ body {
   background-image: var(--bkgrndgrad);
   background-size: cover;
   background-position: top;
-  z-index: -1;
   box-shadow: var(--headerbttmcolor);
   height: 35vh; 
   width: 103vw; 
