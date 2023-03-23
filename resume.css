@@ -18,6 +18,7 @@
   --fntsecondary: 'Special Elite', serif; 
   --bkgrndgrad:  linear-gradient(to right bottom, rgba(136, 137, 135, 0.8), rgba(29, 31, 31, 0.8)), url(typekeyboard.png);
   --headerbttmcolor:  0 0 8px 8px black inset;
+  --linedivcolor: yellow; 
 }
 
 :root:has(.theme > [value = "Light"]:checked) {
@@ -30,6 +31,7 @@
   --fntsecondary: 'Georgia', serif; 
   --bkgrndgrad:  linear-gradient(to right bottom, rgba(136, 137, 135, 0.8), rgba(29, 31, 31, 0.8)), url(typekeyboard.png);
   --headerbttmcolor:  0 0 8px 8px white inset;
+  --linedivcolor: black; 
 }
 
 :root:has(.theme > [value = "Dark"]:checked) {
@@ -42,7 +44,7 @@
   --fntsecondary: 'Verdana', serif;  
   --bkgrndgrad:  linear-gradient(to right bottom, rgba(136, 137, 135, 0.8), rgba(29, 31, 31, 0.8)), url(typekeyboard.png);
   --headerbttmcolor:  0 0 8px 8px black inset;
-
+    --linedivcolor: white; 
 }
 
 :root:has(.theme > [value = "Green"]:checked) {
@@ -56,6 +58,7 @@
   --fntsecondary: 'Georgia', serif; 
   --bkgrndgrad:  linear-gradient(to right bottom, rgba(100, 100, 100, 0.8), rgba(225, 225, 225, 0.8)), url(typekeyboard.png);
   --headerbttmcolor:  0 0 8px 8px white inset;
+  --linedivcolor: green: 
 
 }
 
@@ -69,6 +72,7 @@
   --fntsecondary: 'Special Elite', serif; 
   --bkgrndgrad:  linear-gradient(to right bottom, rgba(136, 137, 135, 0.8), rgba(29, 31, 31, 0.8)), url(typekeyboard.png);
   --headerbttmcolor:  0 0 8px 8px #eae4cc inset;
+  --linedivcolor: brown;  
 
 }
 
