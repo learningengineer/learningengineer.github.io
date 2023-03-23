@@ -106,7 +106,25 @@ body {
   text-shadow: 0rem 0rem 1rem var(--sndicon),  0rem 0rem 1rem var(--sndicon),  0rem 0rem 1rem var(--sndicon);
 }
 
+.row {
+    max-width: 90vw;
+    margin: 0 auto;
+    margin-top: 1rem;
+    border-bottom: 0.25rem solid black;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: var(--linedivcolor); 
+}
 
+.row:first-child {
+  margin-top: 7rem; 
+}
+
+.row::after {
+    content: "";
+    display: table; 
+    clear: both; 
+}
 
 .item {
   padding: 0px 20px 0px 20px; 
