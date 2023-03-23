@@ -11,15 +11,7 @@ body {
 
 
 
-header {
-  position: fixed; 
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  padding-top: 1rem;
-  background-color: antiquewhite;
-  z-index: 2;
-}
+
 
 .title-mfl-class {
     text-align: center;
