@@ -58,7 +58,7 @@
   --fntsecondary: 'Georgia', serif; 
   --bkgrndgrad:  linear-gradient(to right bottom, rgba(100, 100, 100, 0.8), rgba(225, 225, 225, 0.8)), url(typekeyboard.png);
   --headerbttmcolor:  0 0 8px 8px white inset;
-  --linedivcolor: green: 
+  --linedivcolor: green;
 
 }
 
@@ -87,6 +87,7 @@ body {
   display: flex; 
   flex-direction: column; 
   float: inline-start;
+  margin: 15rem 0 0 5rem; 
 }
 
 .header {
@@ -98,7 +99,7 @@ body {
   background-position: top;
   box-shadow: var(--headerbttmcolor);
   z-index: 2; 
-  height: 35vh; 
+  height: 27vh; 
   width: 103vw; 
   margin-left: -1rem; 
   margin-top: -1rem; 
@@ -109,12 +110,12 @@ body {
 
 .row {
     max-width: 90vw;
+    color: ;
     margin: 0 auto;
     margin-top: 1rem;
-    border-bottom: 0.25rem solid black;
+    border-bottom: 0.25rem solid var(--linedivcolor);
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: var(--linedivcolor); 
 }
 
 .row:first-child {
