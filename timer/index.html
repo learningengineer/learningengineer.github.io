@@ -1,0 +1,94 @@
+<!doctype html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8">
+
+<title>Countdown Timer</title>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<link rel="stylesheet" href="styles.css">
+
+</head>
+
+
+
+<body>
+
+	<header>
+
+		<h1>Countdown Timer</h1>
+
+	</header>
+
+	<div class="firstcol">
+
+		<div class="inButField">
+
+			<label for="cntDownTimeSecs">Seconds:</label><input type="number" id="cntDownTimeSecs" class="cntDownTime" value="10" >
+
+			<button id="strtButSecs" class="cntDownTimeBut" >Start seconds</button>
+
+			<label for="cntDownTimeMin">Minutes:</label><input type="number" id="cntDownTimeMin" class="cntDownTime" value="10" >
+
+			<button id="strtButMin" class="cntDownTimeBut" >Start minutes</button>
+
+			<label for="intervalNumberIn">Intervals:</label><input type="number" id="intervalNumberIn" class="cntDownTime" value="10" ><br><br> 
+
+		</div>
+
+		
+
+		<div id="butCol">
+
+			<button class="quicksetTime" id="strtBut1200" >20 minutes</button>
+
+			<button class="quicksetTime" id="strtBut800" >15 minutes</button>
+
+			<button class="quicksetTime" id="strtBut600" >10 minutes</button>
+
+			<button class="quicksetTime" id="strtBut300" >5 minutes</button>
+
+			<button class="quicksetTime" id="strtBut180" >3 minutes</button>
+
+			<button class="quicksetTime" id="strtBut120" >2 minutes</button>
+
+			<button class="quicksetTime" class="quicksetTime" id="strtBut90" >90 seconds</button>
+
+			<button class="quicksetTime" class="quicksetTime" id="strtBut60" >60 seconds</button>
+
+			<button class="quicksetTime" id="strtBut45" >45 seconds</button>
+
+			<button class="quicksetTime" id="strtBut30" >30 seconds</button>
+
+			<button class="quicksetTime" id="strtBut20" >20 seconds</button>
+
+			<button class="quicksetTime" id="strtBut10" >10 seconds</button>
+
+			<button class="quicksetTime" id="strtBut5">5 seconds</button>
+
+		</div>
+
+	</div>
+
+	<input type="number" id="countdownInt" class="cntDownInterval" value="10">
+
+	<div id="countdown" class="cntDownTimer">10</div>
+
+	<progress value="0"  id="progressBar" class="progbar"></progress>
+
+	
+
+	
+
+	<script src="cntdwn.js"></script>
+
+</body>
+
+</html>
+
+
+
